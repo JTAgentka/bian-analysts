@@ -1,0 +1,42 @@
+{
+  "division": "Customer and Distribution",
+  "domain": "Partner Management",
+  "capability": {
+    "name": "Sub Custodian Agreement",
+    "definition": "This Service Domain establishes and maintains the terms governing sub custodian relationship",
+    "role": "Maintain sub custodian agreement terms and track and report on sub custodian activity. Note the lead custodian role may engage a sub custodian for handling international securities outside its jurisdiction",
+    "example": "The contractual terms are referenced during the settlement procedure for a securities trade where the sub custodian holds the associated documentation",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/SubCustodianAgreement/12.0.0",
+    "key_features": [
+      {
+        "name": "Establish appropriate contractual terms with agency",
+        "description": "Enables establish appropriate contractual terms with agency to support this service domain establishes and maintains the terms governing sub custodian relationship",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Maintain and update contractual terms as necessary",
+        "description": "Enables maintain and update contractual terms as necessary to support this service domain establishes and maintains the terms governing sub custodian relationship",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Review proposed work/assignments for compliance with agreed terms",
+        "description": "Enables review proposed work/assignments for compliance with agreed terms to support this service domain establishes and maintains the terms governing sub custodian relationship",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

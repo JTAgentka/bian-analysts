@@ -1,0 +1,35 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Payment Management",
+  "capability": {
+    "name": "Disbursement",
+    "definition": "This service domain handles the disbursement of funds to newly established loans/facilities as necessary",
+    "role": "This service domain handles the disbursement of funds typically for different loan facilities. Though typically a rather simple service it is modeled as a discrete service center as many banks handle disbursements from a specialist unit",
+    "example": "A disbursement is processed at the closing of a new loan",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/Disbursement/12.0.0",
+    "key_features": [
+      {
+        "name": "Handle disbursements for new loans",
+        "description": "Enables handle disbursements for new loans to support this service domain handles the disbursement of funds to newly established loans/facilities as necessary",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Report on disbursement activity/status",
+        "description": "Enables report on disbursement activity/status to support this service domain handles the disbursement of funds to newly established loans/facilities as necessary",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

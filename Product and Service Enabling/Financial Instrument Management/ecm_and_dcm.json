@@ -1,0 +1,42 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Financial Instrument Management",
+  "capability": {
+    "name": "Ecm And Dcm",
+    "definition": "Supports the specification, pricing and issuance of equity and debt (bond) primary capital market products for corporate financing services",
+    "role": "The service domain provides fulfillment services for the issuance of primary market equity and debt capital market instruments for corporate customers. It supports both private and public (IPO) placements and covers the specification, pricing and placement activities associated with issuance. (it does not include secondary market trading of the instrument)",
+    "example": "A corporate customer raises capital through issuing corporate debt in the private capital markets",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/ECMAndDCM/12.0.0",
+    "key_features": [
+      {
+        "name": "Determining and specifying the equity/debt instrument",
+        "description": "Enables determining and specifying the equity/debt instrument to support supports the specification, pricing and issuance of equity and debt (bond) primary capital market products for corporate financing services",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Prospectus and pricing",
+        "description": "Enables prospectus and pricing to support supports the specification, pricing and issuance of equity and debt (bond) primary capital market products for corporate financing services",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Road show and placement",
+        "description": "Enables road show and placement to support supports the specification, pricing and issuance of equity and debt (bond) primary capital market products for corporate financing services",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

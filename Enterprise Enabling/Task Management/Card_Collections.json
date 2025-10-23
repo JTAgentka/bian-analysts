@@ -1,0 +1,42 @@
+{
+  "division": "Enterprise Enabling",
+  "domain": "Task Management",
+  "capability": {
+    "name": "Card Collections",
+    "definition": "This service domain administers the recovery of outstanding amounts from cancelled card accounts through internal or external collection agencies. This may involve negotiating payment terms and/or interest write-downs.",
+    "role": "The card collection process relates to the determination and execution of the optimal strategy to ensure the collection of unsecured distressed card debt, which may include aggressive collection efforts, renegotiation of payments terms in order to improve customer commitment to make the payment, or to take any applicable legal actions against the customer.",
+    "example": "A card account is canceled when the age of outstanding balance exceeds policy limits (normally 90 days) or when delinquency management and dunning efforts are determined to be unsuccessful at eliciting payment. The account is then assigned to an internal Collections department or an external Collection Agency for making aggressive attempts at securing the payment of the outstandings.",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CardCollections/12.0.0",
+    "key_features": [
+      {
+        "name": "Card collection case classification and assignment",
+        "description": "Enables card collection case classification and assignment to support this service domain administers the recovery of outstanding amounts from cancelled card accounts through internal or external collection agencies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Collection payment terms and processing",
+        "description": "Enables collection payment terms and processing to support this service domain administers the recovery of outstanding amounts from cancelled card accounts through internal or external collection agencies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Collection processing resolution/conclusion",
+        "description": "Enables collection processing resolution/conclusion to support this service domain administers the recovery of outstanding amounts from cancelled card accounts through internal or external collection agencies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Order Management",
+  "capability": {
+    "name": "Program Trading",
+    "definition": "This Service Domain supports a program trading capability where the trading decisions are made based on predefined/programmed rules and policies. Manual oversight and monitoring capabilities are supported as appropriate",
+    "role": "Program trading covers a broad range of market trading activities, where the trading rules policies driving the trading decisions are automated, likely with some level of human monitoring/oversight as appropriate. This generic Service Domain is intended to support any form of program trading. In practice a bank may find it necessary to 'clone and specialize' the service domain to support different type of program trading it may employ as necessary.",
+    "example": "A bank operates a program trading facility to rebalance some of its managed customer investment portfolios",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/ProgramTrading/12.0.0",
+    "key_features": [
+      {
+        "name": "Support the set-up and maintenance of a portfolio of traded securities",
+        "description": "Enables support the set-up and maintenance of a portfolio of traded securities to support this service domain supports a program trading capability where the trading decisions are made based on predefined/programmed rules and policies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Support the definition and update of automated trading rules and policies",
+        "description": "Enables support the definition and update of automated trading rules and policies to support this service domain supports a program trading capability where the trading decisions are made based on predefined/programmed rules and policies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Support the capture and tracking of market information to trigger trading",
+        "description": "Enables support the capture and tracking of market information to trigger trading to support this service domain supports a program trading capability where the trading decisions are made based on predefined/programmed rules and policies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Support manual oversight and monitoring of automated trading activity",
+        "description": "Enables support manual oversight and monitoring of automated trading activity to support this service domain supports a program trading capability where the trading decisions are made based on predefined/programmed rules and policies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Support the automated execution of market trades",
+        "description": "Enables support the automated execution of market trades to support this service domain supports a program trading capability where the trading decisions are made based on predefined/programmed rules and policies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

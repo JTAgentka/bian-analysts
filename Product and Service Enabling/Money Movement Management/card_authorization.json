@@ -1,0 +1,49 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Money Movement Management",
+  "capability": {
+    "name": "Card Authorization",
+    "definition": "This service domain is responsible for the real time card authorization decisions for credit/charge cards.",
+    "role": "The proposed card transaction is requested by a merchant and routed through the Acquirer and Card Network to the Issuer. The authorization decision is automated and can be extremely complex. Transactions may be passed for manual checks by on-line service representatives for out of pattern purchases. Note that authorized transaction amounts may vary from the actual final amount (e.g. pre authorized hotel/car hire and charged meals excluding tips) and in cases there will be no financial transaction for an authorized transaction if the customer chooses to pay using a different card/cash. While this function is primarily performed by the Issuer, Acquirers and Card Networks may perform Stand-in Authorization and forward the results to the Issuer for recording.",
+    "example": "A credit card customer makes a large purchase, the card authorization triggers a verbal check of the customer details for security and the authorization is given",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CardAuthorization/12.0.0",
+    "key_features": [
+      {
+        "name": "Card device verification checks",
+        "description": "Enables card device verification checks to support this service domain is responsible for the real time card authorization decisions for credit/charge cards",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Card member identity verification",
+        "description": "Enables card member identity verification to support this service domain is responsible for the real time card authorization decisions for credit/charge cards",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Credit checks",
+        "description": "Enables credit checks to support this service domain is responsible for the real time card authorization decisions for credit/charge cards",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Fraud detection checks",
+        "description": "Enables fraud detection checks to support this service domain is responsible for the real time card authorization decisions for credit/charge cards",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

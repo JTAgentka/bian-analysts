@@ -1,0 +1,20 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Product Management",
+  "capability": {
+    "name": "Atm Network Management",
+    "definition": "",
+    "role": "Configure the allocation of products and services across the ATM network and oversee ATM access registration & controls",
+    "example": "A new set of standalone ATM's is installed at an airport and configured with limited services to ensure high availability for cash dispensing",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

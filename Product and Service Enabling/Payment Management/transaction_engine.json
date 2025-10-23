@@ -1,0 +1,49 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Payment Management",
+  "capability": {
+    "name": "Transaction Engine",
+    "definition": "Orchestrate a schedule of payment transaction and reporting activities for the fulfillment of certain long term instruments or structured facilities",
+    "role": "The Service Domain provides a utility/background operational support service to orchestrate a schedule of payment transaction and reporting activities for the fulfillment of certain long term instruments or structured facilities. The Service Domain maintains a link to the associated fulfillment Service Domain and the applicable product instance for reporting and processing issues that may arise.",
+    "example": "The mortgage fulfillment Service Domain delegates repayment processing to the Transaction Engine for its active mortgage product instances",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/TransactionEngine/12.0.0",
+    "key_features": [
+      {
+        "name": "Establish the processing schedule for a product instance",
+        "description": "Enables establish the processing schedule for a product instance to support orchestrate a schedule of payment transaction and reporting activities for the fulfillment of certain long term instruments or structured facilities",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Process transaction and reporting tasks as necessary",
+        "description": "Enables process transaction and reporting tasks as necessary to support orchestrate a schedule of payment transaction and reporting activities for the fulfillment of certain long term instruments or structured facilities",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Escalate issues to the product fulfillment Service Domain as necessary",
+        "description": "Enables escalate issues to the product fulfillment service domain as necessary to support orchestrate a schedule of payment transaction and reporting activities for the fulfillment of certain long term instruments or structured facilities",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Report on transaction fulfillment activity",
+        "description": "Enables report on transaction fulfillment activity to support orchestrate a schedule of payment transaction and reporting activities for the fulfillment of certain long term instruments or structured facilities",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

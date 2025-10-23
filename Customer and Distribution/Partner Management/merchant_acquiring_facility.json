@@ -1,0 +1,56 @@
+{
+  "division": "Customer and Distribution",
+  "domain": "Partner Management",
+  "capability": {
+    "name": "Merchant Acquiring Facility",
+    "definition": "This service domain orchestrates the activities related to Merchant fulfillment, Merchant Account maintenance, Merchant transactional activities and settlement, including the billing of merchant fees and charges.",
+    "role": "This service domain is the primary service domain for handling the Merchant Account and the specific terms and conditions for the merchant. It includes opening the Merchant account, performing the required setup for card acceptance, such as assigning POS terminals, maintaining the accounts payable balances for the merchant, performing periodic settlement, and handling fees and charges. When Merchants submit card payment transactions, the Acquiring Bank is responsible for paying the Merchants in accordance with the terms of the Merchant agreement, which specify when the merchant should be paid and the amount that is withheld from the payment as merchant discount or service fees.",
+    "example": "The Acquiring Bank signs up Merchants for accepting Card Payments and opens Merchant Accounts for them.",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/MerchantAcquiringFacility/12.0.0",
+    "key_features": [
+      {
+        "name": "Merchant facility set-up and maintenance",
+        "description": "Enables merchant facility set-up and maintenance to support this service domain orchestrates the activities related to merchant fulfillment, merchant account maintenance, merchant transactional activities and settlement, including the billing of merchant fees and charges",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Merchant POS assignment/registration",
+        "description": "Enables merchant pos assignment/registration to support this service domain orchestrates the activities related to merchant fulfillment, merchant account maintenance, merchant transactional activities and settlement, including the billing of merchant fees and charges",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Merchant chargeback processing",
+        "description": "Enables merchant chargeback processing to support this service domain orchestrates the activities related to merchant fulfillment, merchant account maintenance, merchant transactional activities and settlement, including the billing of merchant fees and charges",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Merchant clearing and settlement",
+        "description": "Enables merchant clearing and settlement to support this service domain orchestrates the activities related to merchant fulfillment, merchant account maintenance, merchant transactional activities and settlement, including the billing of merchant fees and charges",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Merchant discount and fee processing",
+        "description": "Enables merchant discount and fee processing to support this service domain orchestrates the activities related to merchant fulfillment, merchant account maintenance, merchant transactional activities and settlement, including the billing of merchant fees and charges",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "division": "Enterprise Enabling",
+  "domain": "Task Management",
+  "capability": {
+    "name": "Card Case",
+    "definition": "This service domain handles the processing of a customer card case, typically a disputed charge",
+    "role": "Capture, track, resolve and report on card related transactional disputes, handling all the dispute resolution messages between the Issuer, the Card Network and the Acquirer.",
+    "example": "A card holder reports a payment dispute to the contact center and a case is initiated. The account is credited and documentation requested from the merchant. The case is finally judged when the documents are available for review and all interested parties are notified of the resolution",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CardCase/12.0.0",
+    "key_features": [
+      {
+        "name": "Consolidation of transaction details",
+        "description": "Enables consolidation of transaction details to support this service domain handles the processing of a customer card case, typically a disputed charge",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Chargeback processing",
+        "description": "Enables chargeback processing to support this service domain handles the processing of a customer card case, typically a disputed charge",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Case decisioning and arbitration",
+        "description": "Enables case decisioning and arbitration to support this service domain handles the processing of a customer card case, typically a disputed charge",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Case resolution",
+        "description": "Enables case resolution to support this service domain handles the processing of a customer card case, typically a disputed charge",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

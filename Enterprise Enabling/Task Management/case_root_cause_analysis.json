@@ -1,0 +1,42 @@
+{
+  "division": "Enterprise Enabling",
+  "domain": "Task Management",
+  "capability": {
+    "name": "Case Root Cause Analysis",
+    "definition": "Root cause analysis business function reviews case reports to identify possible improvements to eliminate/mitigate servicing issues",
+    "role": "Analyze customer servicing case resolution records for root cause insights. Analysis can be focused for more specific analysis including: problematic product and service features that can be refined; possible operational weaknesses that might require improved training/guidelines; and, to detect possible credit/fraud patterns",
+    "example": "Contact center case resolution records are reviewed to identify recurring issues that can be resolved with improved servicing representative training and guidelines",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CaseRootCauseAnalysis/12.0.0",
+    "key_features": [
+      {
+        "name": "Product and service feature related issue analysis",
+        "description": "Enables product and service feature related issue analysis to support root cause analysis business function reviews case reports to identify possible improvements to eliminate/mitigate servicing issues",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Servicing and operational performance issue analysis",
+        "description": "Enables servicing and operational performance issue analysis to support root cause analysis business function reviews case reports to identify possible improvements to eliminate/mitigate servicing issues",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Credit and fraudulent behavior analysis",
+        "description": "Enables credit and fraudulent behavior analysis to support root cause analysis business function reviews case reports to identify possible improvements to eliminate/mitigate servicing issues",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

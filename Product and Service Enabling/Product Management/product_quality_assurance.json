@@ -1,0 +1,20 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Product Management",
+  "capability": {
+    "name": "Product Quality Assurance",
+    "definition": "",
+    "role": "",
+    "example": "",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Agreement Management",
+  "capability": {
+    "name": "Merchandising Loan",
+    "definition": "Fulfillment of loan product used in the purchase of a larger merchandise item such as a car or boat. The purchased item is typically treated as collateral for the loan",
+    "role": "The service domain handles loan fulfillment intended for the purchase of a larger merchandise item such as a car or boat. The item is usually administered as collateral for the loan and the origination and subsequent processing of the loan can include coordination with the merchant for some elements of fulfillment.",
+    "example": "A boat retailer coordinates with a bank to offer merchandising loans to bank customers wanting to buy a boat",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/MerchandisingLoan/12.0.0",
+    "key_features": [
+      {
+        "name": "Facility maintenance - fees, interest, reporting",
+        "description": "Enables facility maintenance - fees, interest, reporting to support fulfillment of loan product used in the purchase of a larger merchandise item such as a car or boat",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Payments and withdrawals, liens and sweeps",
+        "description": "Enables payments and withdrawals, liens and sweeps to support fulfillment of loan product used in the purchase of a larger merchandise item such as a car or boat",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Collateral tracking and oversight",
+        "description": "Enables collateral tracking and oversight to support fulfillment of loan product used in the purchase of a larger merchandise item such as a car or boat",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Risk Management",
+  "capability": {
+    "name": "Business Risk Models",
+    "definition": "This capability focuses on developing and maintaining comprehensive business risk models that assess commercial and business exposures across various failure scenarios to support risk mitigation strategies.",
+    "role": "Develop and maintain models that assess commercial/business exposures",
+    "example": "Financial engineers develop and deploy a collection of business risk models that can run against different failure scenarios to assess exposure and determine mitigation needs",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Commercial exposure assessment",
+        "description": "Enables commercial exposure assessment to support this capability focuses on developing and maintaining comprehensive business risk models that assess commercial and business exposures across various failure scenarios to support risk mitigation strategies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Business risk modeling",
+        "description": "Enables business risk modeling to support this capability focuses on developing and maintaining comprehensive business risk models that assess commercial and business exposures across various failure scenarios to support risk mitigation strategies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Failure scenario analysis",
+        "description": "Enables failure scenario analysis to support this capability focuses on developing and maintaining comprehensive business risk models that assess commercial and business exposures across various failure scenarios to support risk mitigation strategies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Risk exposure evaluation",
+        "description": "Enables risk exposure evaluation to support this capability focuses on developing and maintaining comprehensive business risk models that assess commercial and business exposures across various failure scenarios to support risk mitigation strategies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Mitigation needs determination",
+        "description": "Enables mitigation needs determination to support this capability focuses on developing and maintaining comprehensive business risk models that assess commercial and business exposures across various failure scenarios to support risk mitigation strategies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Individual and portfolio analytics",
+        "description": "Enables individual and portfolio analytics to support this capability focuses on developing and maintaining comprehensive business risk models that assess commercial and business exposures across various failure scenarios to support risk mitigation strategies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Performance analysis and trending",
+        "description": "Enables performance analysis and trending to support this capability focuses on developing and maintaining comprehensive business risk models that assess commercial and business exposures across various failure scenarios to support risk mitigation strategies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

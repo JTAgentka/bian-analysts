@@ -1,0 +1,42 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Product Management",
+  "capability": {
+    "name": "Sales Product",
+    "definition": "A representation of a product as sold to a customer, covering the operational fulfillment requirements",
+    "role": "A sales product defines specific constraints and terms that augment the features of the base product it 'wraps'. It is used to support customization or core products to address specific market needs and opportunities with more narrowly targeted products",
+    "example": "A bank packages its Current Account product with features suited to students as part of a prospect campaign",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Link to core/underlying product instance",
+        "description": "Enables link to core/underlying product instance to support a representation of a product as sold to a customer, covering the operational fulfillment requirements",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Support specific product constraints/processing terms",
+        "description": "Enables support specific product constraints/processing terms to support a representation of a product as sold to a customer, covering the operational fulfillment requirements",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Enable/link to additional service features",
+        "description": "Enables enable/link to additional service features to support a representation of a product as sold to a customer, covering the operational fulfillment requirements",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

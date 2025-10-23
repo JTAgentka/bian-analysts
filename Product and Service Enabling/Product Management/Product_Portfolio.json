@@ -1,0 +1,49 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Product Management",
+  "capability": {
+    "name": "Product Portfolio",
+    "definition": "Maintain a portfolio of analytical views of the product portfolio to support product profitability and performance analysis",
+    "role": "Maintain a portfolio of view of the bank's products with key product performance data and consolidated activity details to support profitability and performance analysis across the product portfolio",
+    "example": "Business development review product performance in order to target product design, marketing, sales, pricing and delivery priorities",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Consolidate product performance data",
+        "description": "Enables consolidate product performance data to support maintain a portfolio of analytical views of the product portfolio to support product profitability and performance analysis",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Obtain comparative market research on competitor product activity/profitability",
+        "description": "Enables obtain comparative market research on competitor product activity/profitability to support maintain a portfolio of analytical views of the product portfolio to support product profitability and performance analysis",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Conduct analysis of product performance",
+        "description": "Enables conduct analysis of product performance to support maintain a portfolio of analytical views of the product portfolio to support product profitability and performance analysis",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Propose initiatives to improve product profitability/performance",
+        "description": "Enables propose initiatives to improve product profitability/performance to support maintain a portfolio of analytical views of the product portfolio to support product profitability and performance analysis",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

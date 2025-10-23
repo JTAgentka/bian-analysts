@@ -1,0 +1,42 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Issued Device Management",
+  "capability": {
+    "name": "Issued Device Tracking",
+    "definition": "This service domain handles operational access to issued device tracking services. Services report on the status of devices such as cards, fobs, etc. that have been issued to customers. Service notifications include fraud warnings/alerts and device cancellation.",
+    "role": "This service domain tracks and reports on the state (e.g. suspended, flagged for possible fraud, cancelled) for all issued devices. This covers credit/debit cards and can include other identification devices such as keychain fobs and virtual authentication devices such as electronic signatures, passwords and keys. It may use an external service provider to obtain notifications and is responsible for providing notifications to external services when the bank detects problems with its own issued devices",
+    "example": "A tracking service notifies the bank that one of its issued authentication devices has been detected in a fraudulent transaction. The bank suspends the device and initiates a fraud case to diagnose and resolve the situation",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/IssuedDeviceTracking/12.0.0",
+    "key_features": [
+      {
+        "name": "Operate the interface to the issued device tracking service",
+        "description": "Enables operate the interface to the issued device tracking service to support this service domain handles operational access to issued device tracking services",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Provide issued device updates/alerts for bank detected issues",
+        "description": "Enables provide issued device updates/alerts for bank detected issues to support this service domain handles operational access to issued device tracking services",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Retrieve and apply issued device updates/alerts from the service",
+        "description": "Enables retrieve and apply issued device updates/alerts from the service to support this service domain handles operational access to issued device tracking services",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

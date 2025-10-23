@@ -1,0 +1,42 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Agreement Management",
+  "capability": {
+    "name": "Sales Product Agreement",
+    "definition": "This service domain maintains a structured legal agreement defining the contractual terms and conditions for an in-force product for a customer. It is subordinate to the customer's master agreement that is maintained by the Customer Agreement service domain",
+    "role": "The Sales Product Agreement service domain captures and maintains the legal terms and conditions in force for a sold product. The product specific terms and conditions are subordinate to the terms of the customer master agreement that is maintained by the Customer Agreement service domain. The product contractual terms and conditions influence product and service fulfillment for example by defining applicable fees/rates/penalties and selected features/options. Note that there can be other product configuration features that are not contractually binding - these features are maintained in the associated product/service fulfillment service domain directly",
+    "example": "An established customer completes the application process for a new lending product and a new sales product agreement is established",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/SalesProductAgreement/12.0.0",
+    "key_features": [
+      {
+        "name": "Set-up and maintain the customer sales product agreement",
+        "description": "Enables set-up and maintain the customer sales product agreement to support this service domain maintains a structured legal agreement defining the contractual terms and conditions for an in-force product for a customer",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Ensure legal, regulatory and corporate considerations are covered",
+        "description": "Enables ensure legal, regulatory and corporate considerations are covered to support this service domain maintains a structured legal agreement defining the contractual terms and conditions for an in-force product for a customer",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Determine if proposed actions are covered by the agreement",
+        "description": "Enables determine if proposed actions are covered by the agreement to support this service domain maintains a structured legal agreement defining the contractual terms and conditions for an in-force product for a customer",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

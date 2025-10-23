@@ -1,0 +1,42 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Agreement Management",
+  "capability": {
+    "name": "Reward Points Awards And Redemption",
+    "definition": "Handle the allocation and redemption of rewards points for customer transaction activity",
+    "role": "This service domain handles the allocation and redemption of rewards points for customer transaction activity. In order to determine the reward point transaction and apply associated costs the service domain will access reward point arrangement agreements with the customers, merchants and related rewards programs. Note that the interactions between reward programs can be quite complex when 3rd party reward programs are integrated with the bank's own reward programs",
+    "example": "A customer redeems bank reward points in order to finance a purchase with a bank associated vendor for air travel. The financial transaction engages the service domain in order to determine redemption requirements and associated payment requirements",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/RewardPointsAwardsAndRedemption/12.0.0",
+    "key_features": [
+      {
+        "name": "Financial transaction evaluation (price to agreements)",
+        "description": "Enables financial transaction evaluation (price to agreements) to support handle the allocation and redemption of rewards points for customer transaction activity",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Reward point redemption transaction",
+        "description": "Enables reward point redemption transaction to support handle the allocation and redemption of rewards points for customer transaction activity",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Associated cash payment initiation",
+        "description": "Enables associated cash payment initiation to support handle the allocation and redemption of rewards points for customer transaction activity",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

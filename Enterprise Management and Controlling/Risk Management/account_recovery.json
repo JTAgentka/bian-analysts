@@ -1,0 +1,49 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Risk Management",
+  "capability": {
+    "name": "Account Recovery",
+    "definition": "This service domain handles the restructuring of a distressed account (loan) after standard recovery procedures have been exhausted",
+    "role": "Handles the recovery of distressed accounts that have exceeded standard late/payment handling but have not yet been fully written off and passed to collections. The restructuring can involve partial write downs and leveraging any tax or other program of assistance that can be applied. The situation is managed until the account is recovered or a decision made to pass the account over to collections",
+    "example": "A non-performing customer account is handed over for recovery after the normal relationship management efforts have failed. Additional authority is provided to renegotiate/structure the account to enable the customer to attempt recovery. This restructuring can result in write downs that need to be booked appropriately",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Account status assessment",
+        "description": "Enables account status assessment to support this service domain handles the restructuring of a distressed account (loan) after standard recovery procedures have been exhausted",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Account recovery planning",
+        "description": "Enables account recovery planning to support this service domain handles the restructuring of a distressed account (loan) after standard recovery procedures have been exhausted",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Customer agreement/negotiation",
+        "description": "Enables customer agreement/negotiation to support this service domain handles the restructuring of a distressed account (loan) after standard recovery procedures have been exhausted",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Account terms amendment/restructuring",
+        "description": "Enables account terms amendment/restructuring to support this service domain handles the restructuring of a distressed account (loan) after standard recovery procedures have been exhausted",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

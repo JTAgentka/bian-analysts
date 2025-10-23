@@ -1,0 +1,49 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Fraud Incident Management",
+  "capability": {
+    "name": "Fraud Resolution",
+    "definition": "This service domain sets up and processes a fraud case resulting from fraud behavior that has been detected during production processing",
+    "role": "Setup and update Fraud Case and handle investigation and resolution steps, which may involve initiating containment actions, obtaining documentation, performing forensic investigation and actions, determining liability, initiating resolution actions such as reversals and financial adjustments, subscribing and publishing to Consortia, determining root cause and initiating corrective/preventive actions. The Fraud Case may be opened by Product/Channel Facility, Fraud Diagnosis or by Customer Case.",
+    "example": "A pattern of possible fraud is highlighted in transaction records that is researched and evidence of fraud discovered. Prosecution/resolution activity is initiated",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/FraudResolution/12.0.0",
+    "key_features": [
+      {
+        "name": "Setup fraud resolution case",
+        "description": "Enables setup fraud resolution case to support this service domain sets up and processes a fraud case resulting from fraud behavior that has been detected during production processing",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Obtain documentation and evaluate",
+        "description": "Enables obtain documentation and evaluate to support this service domain sets up and processes a fraud case resulting from fraud behavior that has been detected during production processing",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Determine and assign liability",
+        "description": "Enables determine and assign liability to support this service domain sets up and processes a fraud case resulting from fraud behavior that has been detected during production processing",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Define and initiate resolution activities",
+        "description": "Enables define and initiate resolution activities to support this service domain sets up and processes a fraud case resulting from fraud behavior that has been detected during production processing",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

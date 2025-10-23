@@ -1,0 +1,42 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Fraud Incident Management",
+  "capability": {
+    "name": "Fraud Model",
+    "definition": "This service domain handles the design and maintenance of a portfolio of fraud models used across all production activity to detect potential fraud on the part of customers, merchants and other involved parties",
+    "role": "Analyze history of transactions and fraud cases to discern fraud patterns and develop Rule sets, Decision Trees, and Machine Learning/Predictive models to identify out of pattern transactions or events and their fraud risk score. Support the use of these models and rules in different production contexts and refine the models in response to new and changing patterns",
+    "example": "A customer \"fraudulent card use' algorithm is updated to take account of additional transaction utilization data that is available",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/FraudModel/12.0.0",
+    "key_features": [
+      {
+        "name": "Determine desired type/coverage for fraud analysis",
+        "description": "Enables determine desired type/coverage for fraud analysis to support this service domain handles the design and maintenance of a portfolio of fraud models used across all production activity to detect potential fraud on the part of customers, merchants and other involved parties",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Source, define and develop fraud models",
+        "description": "Enables source, define and develop fraud models to support this service domain handles the design and maintenance of a portfolio of fraud models used across all production activity to detect potential fraud on the part of customers, merchants and other involved parties",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Publish, process feedback and refine/tune models",
+        "description": "Enables publish, process feedback and refine/tune models to support this service domain handles the design and maintenance of a portfolio of fraud models used across all production activity to detect potential fraud on the part of customers, merchants and other involved parties",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

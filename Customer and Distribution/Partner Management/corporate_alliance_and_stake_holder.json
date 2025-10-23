@@ -1,0 +1,56 @@
+{
+  "division": "Customer and Distribution",
+  "domain": "Partner Management",
+  "capability": {
+    "name": "Corporate Alliance And Stake Holder",
+    "definition": "This capability manages key alliance and stakeholder relationships by defining tasks needed to develop and maintain contact while ensuring relevant information is shared appropriately to support strategic corporate partnerships.",
+    "role": "Manage key alliance and stake holder relationship - define tasks needed to develop and maintain contact and ensure relevant information is shared as appropriate",
+    "example": "Corporate strategy is communicated and aligned with a product alliance partner",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Alliance relationship management",
+        "description": "Enables alliance relationship management to support this capability manages key alliance and stakeholder relationships by defining tasks needed to develop and maintain contact while ensuring relevant information is shared appropriately to support strategic corporate partnerships",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Stakeholder relationship management",
+        "description": "Enables stakeholder relationship management to support this capability manages key alliance and stakeholder relationships by defining tasks needed to develop and maintain contact while ensuring relevant information is shared appropriately to support strategic corporate partnerships",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Information sharing coordination",
+        "description": "Enables information sharing coordination to support this capability manages key alliance and stakeholder relationships by defining tasks needed to develop and maintain contact while ensuring relevant information is shared appropriately to support strategic corporate partnerships",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Contact development and maintenance",
+        "description": "Enables contact development and maintenance to support this capability manages key alliance and stakeholder relationships by defining tasks needed to develop and maintain contact while ensuring relevant information is shared appropriately to support strategic corporate partnerships",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Strategic partnership alignment",
+        "description": "Enables strategic partnership alignment to support this capability manages key alliance and stakeholder relationships by defining tasks needed to develop and maintain contact while ensuring relevant information is shared appropriately to support strategic corporate partnerships",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

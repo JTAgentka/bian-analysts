@@ -1,0 +1,49 @@
+{
+  "division": "Customer and Distribution",
+  "domain": "Partner Management",
+  "capability": {
+    "name": "Interbank Relationship Management",
+    "definition": "Manage the bank's relationship with other banks, covering any specific agreements that may be in place and overseeing operational issues.",
+    "role": "This function handles managed interbank relationships. There are a range of relationship considerations that may apply between banks covering trading arrangements, joint ventures, clearing and settlement arrangements etc. The Interbank Relationship Management function acts as a relationship planning and coordination point to facilitate interbank interactions",
+    "example": "A partner bank is contacted to review a major project opportunity. The interbank relationship management function is used to coordinate contacts for a joint venture marketing opportunity between the banks",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/InterbankRelationshipManagement/12.0.0",
+    "key_features": [
+      {
+        "name": "Develop the bank relationship plan/targets",
+        "description": "Enables develop the bank relationship plan/targets to support manage the bank's relationship with other banks, covering any specific agreements that may be in place and overseeing operational issues",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Liaise/advise bank representatives and develop the relationship",
+        "description": "Enables liaise/advise bank representatives and develop the relationship to support manage the bank's relationship with other banks, covering any specific agreements that may be in place and overseeing operational issues",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Identify and develop mutually beneficial initiatives with the bank",
+        "description": "Enables identify and develop mutually beneficial initiatives with the bank to support manage the bank's relationship with other banks, covering any specific agreements that may be in place and overseeing operational issues",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Troubleshoot production issues that arise involving the bank",
+        "description": "Enables troubleshoot production issues that arise involving the bank to support manage the bank's relationship with other banks, covering any specific agreements that may be in place and overseeing operational issues",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

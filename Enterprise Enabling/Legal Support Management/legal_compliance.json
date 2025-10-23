@@ -1,0 +1,20 @@
+{
+  "division": "Enterprise Enabling",
+  "domain": "Legal Support Management",
+  "capability": {
+    "name": "Legal Compliance",
+    "definition": "",
+    "role": "",
+    "example": "",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

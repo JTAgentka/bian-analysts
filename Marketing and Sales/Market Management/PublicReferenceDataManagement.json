@@ -1,0 +1,42 @@
+{
+  "division": "Marketing and Sales",
+  "domain": "Market Management",
+  "capability": {
+    "name": "Publicreferencedatamanagement",
+    "definition": "Provide structured access to standard 'global' reference data and definitions associated with market activity such as currency, country and segment identifiers.",
+    "role": "This service domain maintains and provides structured access to standard 'global' reference data and definitions associated with market activity such as currency, country and segment identifiers. These values will typically be externally sourced using market information feeds and distributed using whatever is the appropriate mechanism within the bank",
+    "example": "The international ISO standard definitions are maintained and applied across production systems of the bank",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/PublicReferenceDataManagement/12.0.0",
+    "key_features": [
+      {
+        "name": "Identify global data standards and sources",
+        "description": "Enables identify global data standards and sources to support provide structured access to standard 'global' reference data and definitions associated with market activity such as currency, country and segment identifiers",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Arrange for access to external reference data sources",
+        "description": "Enables arrange for access to external reference data sources to support provide structured access to standard 'global' reference data and definitions associated with market activity such as currency, country and segment identifiers",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Import and disseminate public/global reference data",
+        "description": "Enables import and disseminate public/global reference data to support provide structured access to standard 'global' reference data and definitions associated with market activity such as currency, country and segment identifiers",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Policy Management",
+  "capability": {
+    "name": "Regulatory Reporting",
+    "definition": "This service domain administers and orchestrates the tasks required to meet the bank's regulatory reporting obligations",
+    "role": "The service domain handles the bank's regulatory reporting obligations. This includes the consolidation and presentation of information in regulatory reports and disclosures and handling the response to regulatory requests for information as part of ongoing regulator relations. It also handles the scheduled consolidation, formatting and delivery of the range of compliance reports including 'on-line' trade reporting and after the event transaction analysis reporting",
+    "example": "Trading activity is reported to the exchange to comply with regulatory reporting requirements",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/RegulatoryReporting/12.0.0",
+    "key_features": [
+      {
+        "name": "Consolidate regulatory reporting materials and assemble reports",
+        "description": "Enables consolidate regulatory reporting materials and assemble reports to support this service domain administers and orchestrates the tasks required to meet the bank's regulatory reporting obligations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Delivery scheduled and ad-hoc reports to regulators",
+        "description": "Enables delivery scheduled and ad-hoc reports to regulators to support this service domain administers and orchestrates the tasks required to meet the bank's regulatory reporting obligations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Handle regulator's reporting requests and responses",
+        "description": "Enables handle regulator's reporting requests and responses to support this service domain administers and orchestrates the tasks required to meet the bank's regulatory reporting obligations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Oversee on-line/production transaction regulatory reporting",
+        "description": "Enables oversee on-line/production transaction regulatory reporting to support this service domain administers and orchestrates the tasks required to meet the bank's regulatory reporting obligations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

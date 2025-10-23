@@ -1,0 +1,42 @@
+{
+  "division": "Customer and Distribution",
+  "domain": "Customer Management",
+  "capability": {
+    "name": "Customer Behavior Models",
+    "definition": "This service domain handles the design and maintenance of a portfolio of customer behavior models that might be used in all aspects of customer relationship development, sales, servicing and product fulfillment",
+    "role": "This service domain handles the development, maintenance and continual assessment and refinement of the collection of customer behavior models that are deployed across the bank. This includes more general analyses for sales, operational behavior, relationship development and specific behaviors such as credit and fraud detection. Customer can cover consumer, corporate and merchant behavior for some behavioral models/scanners",
+    "example": "A customer 'propensity to buy model' algorithm is updated to take account of additional transaction utilization data that is available",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CustomerBehaviorModels/12.0.0",
+    "key_features": [
+      {
+        "name": "Determine desired type/coverage for behavior analysis",
+        "description": "Enables determine desired type/coverage for behavior analysis to support this service domain handles the design and maintenance of a portfolio of customer behavior models that might be used in all aspects of customer relationship development, sales, servicing and product fulfillment",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Source, define and develop behavior models",
+        "description": "Enables source, define and develop behavior models to support this service domain handles the design and maintenance of a portfolio of customer behavior models that might be used in all aspects of customer relationship development, sales, servicing and product fulfillment",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Publish, process feedback and refine/tune models",
+        "description": "Enables publish, process feedback and refine/tune models to support this service domain handles the design and maintenance of a portfolio of customer behavior models that might be used in all aspects of customer relationship development, sales, servicing and product fulfillment",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

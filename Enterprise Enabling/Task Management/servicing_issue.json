@@ -1,0 +1,49 @@
+{
+  "division": "Enterprise Enabling",
+  "domain": "Task Management",
+  "capability": {
+    "name": "Servicing Issue",
+    "definition": "This Service Domain handles production customer servicing issues detected in the customer servicing environment",
+    "role": "Capture, track, resolve and report on the more general customer servicing issues that may arise in the servicing center. Note that this does not include the handling of specific customer cases (such as a payment dispute). Servicing issues typically requiring some kind of follow-up by the contact service representative (CSR), production support services or their management",
+    "example": "A servicing representative notes that the guidelines for a particular product are confusing and result in frequent customer enquiries. The apparent shortfall is raised to management for review",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/ServicingIssue/12.0.0",
+    "key_features": [
+      {
+        "name": "Capture servicing issue details and impact",
+        "description": "Enables capture servicing issue details and impact to support this service domain handles production customer servicing issues detected in the customer servicing environment",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Analyze root cause of the issue",
+        "description": "Enables analyze root cause of the issue to support this service domain handles production customer servicing issues detected in the customer servicing environment",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Determine remedial actions to resolve issue",
+        "description": "Enables determine remedial actions to resolve issue to support this service domain handles production customer servicing issues detected in the customer servicing environment",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Propose procedural and systems amendments to mitigate cause",
+        "description": "Enables propose procedural and systems amendments to mitigate cause to support this service domain handles production customer servicing issues detected in the customer servicing environment",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

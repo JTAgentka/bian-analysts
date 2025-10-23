@@ -1,0 +1,49 @@
+{
+  "division": "Customer and Distribution",
+  "domain": "Customer Management",
+  "capability": {
+    "name": "Customer Portfolio",
+    "definition": "Maintain a portfolio of analytical views of the customer base to support customer segment profitability and performance analysis",
+    "role": "Maintain a portfolio of view of the customer base with key customer data and consolidated activity details to support profitability and performance analysis across many possible customer segment dimensions",
+    "example": "Business development review customer segment performance in order to target customer relationship management priorities",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CustomerPortfolio/12.0.0",
+    "key_features": [
+      {
+        "name": "Consolidate customer relationship performance data",
+        "description": "Enables consolidate customer relationship performance data to support maintain a portfolio of analytical views of the customer base to support customer segment profitability and performance analysis",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Obtain comparative market research on customer relationship profitability",
+        "description": "Enables obtain comparative market research on customer relationship profitability to support maintain a portfolio of analytical views of the customer base to support customer segment profitability and performance analysis",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Conduct analysis of customer segment performance",
+        "description": "Enables conduct analysis of customer segment performance to support maintain a portfolio of analytical views of the customer base to support customer segment profitability and performance analysis",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Propose initiatives to improve customer segment performance",
+        "description": "Enables propose initiatives to improve customer segment performance to support maintain a portfolio of analytical views of the customer base to support customer segment profitability and performance analysis",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

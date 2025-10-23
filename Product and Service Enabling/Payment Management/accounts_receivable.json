@@ -1,0 +1,56 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Payment Management",
+  "capability": {
+    "name": "Accounts Receivable",
+    "definition": "This service domain handles accounts receivable for invoices issue by the bank to customers and partners. It includes follow-up and resolution activity for delayed/missed payments",
+    "role": "Manage the tracking, chasing and receipt of scheduled payments against issued invoices. For the significant majority accounts are likely to be settled in compliance with established arrangements. For late payment the Service Domain includes actions to negotiate with the customer and handle defaulted payments",
+    "example": "A product business unit submits an invoice to a customer for services rendered that requires customer payment from an account not managed by the bank.",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/AccountsReceivable/12.0.0",
+    "key_features": [
+      {
+        "name": "Account assessment",
+        "description": "Enables account assessment to support this service domain handles accounts receivable for invoices issue by the bank to customers and partners",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Account owner contact",
+        "description": "Enables account owner contact to support this service domain handles accounts receivable for invoices issue by the bank to customers and partners",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Account payment processing",
+        "description": "Enables account payment processing to support this service domain handles accounts receivable for invoices issue by the bank to customers and partners",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Account writedown or recovery initiation",
+        "description": "Enables account writedown or recovery initiation to support this service domain handles accounts receivable for invoices issue by the bank to customers and partners",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Delinquent account resolution (re-instated or passed to collections)",
+        "description": "Enables delinquent account resolution (re-instated or passed to collections) to support this service domain handles accounts receivable for invoices issue by the bank to customers and partners",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

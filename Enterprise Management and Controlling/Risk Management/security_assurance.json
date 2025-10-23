@@ -1,0 +1,70 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Risk Management",
+  "capability": {
+    "name": "Security Assurance",
+    "definition": "Security Assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate. It maintains a portfolio of security checks and performs targeted assurance testing across multiple threat categories.",
+    "role": "Maintain and apply a portfolio of security assurance checks, target selective assurance tests to ensure security countermeasures are in place and appropriate",
+    "example": "A security check of a new product operation is performed considering multiple threat categories",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Portfolio of security assurance checks",
+        "description": "Enables portfolio of security assurance checks to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Selective assurance testing",
+        "description": "Enables selective assurance testing to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Security countermeasure validation",
+        "description": "Enables security countermeasure validation to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Multiple threat category assessment",
+        "description": "Enables multiple threat category assessment to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Security compliance assessment analytics",
+        "description": "Enables security compliance assessment analytics to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Individual analytics including accumulators, activity analysis, performance analysis, and trends & events",
+        "description": "Enables individual analytics including accumulators, activity analysis, performance analysis, and trends & events to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Portfolio analytics for activity, make-up, and performance analysis",
+        "description": "Enables portfolio analytics for activity, make-up, and performance analysis to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

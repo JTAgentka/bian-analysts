@@ -1,0 +1,42 @@
+{
+  "division": "Customer and Distribution",
+  "domain": "Channel Management",
+  "capability": {
+    "name": "Advanced Voice Services Management",
+    "definition": "Oversee the configuration and operation of the voice channel facilities",
+    "role": "Handles the oversight and configuration of the PBX (telephony/voice) access channel. This includes assessing capacity, performance, scheduling maintenance and updates to the channel configuration. Also determining allowed access and usage and troubleshooting major production problems",
+    "example": "Management review and define the reconfiguration requirements for the voice channel based on capacity/volume projections",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN3/AdvancedVoiceServicesManagement/12.0.0",
+    "key_features": [
+      {
+        "name": "Determine the required voice channel platform configuration",
+        "description": "Enables determine the required voice channel platform configuration to support oversee the configuration and operation of the voice channel facilities",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Oversee platform upgrades and maintenance",
+        "description": "Enables oversee platform upgrades and maintenance to support oversee the configuration and operation of the voice channel facilities",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Track service availability and troubleshoot major production issues",
+        "description": "Enables track service availability and troubleshoot major production issues to support oversee the configuration and operation of the voice channel facilities",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

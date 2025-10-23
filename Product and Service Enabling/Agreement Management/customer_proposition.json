@@ -1,0 +1,35 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Agreement Management",
+  "capability": {
+    "name": "Customer Proposition",
+    "definition": "This Service Domain maintains bank and customer defined requirements spanning all products and services",
+    "role": "This Service Domain enables the bank and customer to establish and maintain product and service fulfillment preferences and requirements that span multiple products",
+    "example": "The bank determines that the significant long term value of a customer relationship should ensure that certain standard fees are waived to help retain their business and records this requirement in their proposition agreement",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CustomerProposition/12.0.0",
+    "key_features": [
+      {
+        "name": "Maintain bank defined service delivery terms",
+        "description": "Enables maintain bank defined service delivery terms to support this service domain maintains bank and customer defined requirements spanning all products and services",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Maintain customer defined service preference terms",
+        "description": "Enables maintain customer defined service preference terms to support this service domain maintains bank and customer defined requirements spanning all products and services",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

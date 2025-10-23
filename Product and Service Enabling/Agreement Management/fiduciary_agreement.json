@@ -1,0 +1,49 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Agreement Management",
+  "capability": {
+    "name": "Fiduciary Agreement",
+    "definition": "An agreement where the bank agrees to act on behalf of the customer in a financial matter and in accordance with the agreement terms",
+    "role": "Fulfillment of an arrangement (such as investment management of a trust fund) on behalf of a customer where the banks acts their trusted proxy and acts in compliance with the specific terms of the fiduciary arrangement",
+    "example": "A customer established a fiduciary arrangement with the bank to manage an investment portfolio in accordance with agreed investment guidelines",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/FiduciaryAgreement/12.0.0",
+    "key_features": [
+      {
+        "name": "Fiduciary agreement definition",
+        "description": "Enables fiduciary agreement definition to support an agreement where the bank agrees to act on behalf of the customer in a financial matter and in accordance with the agreement terms",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Fiduciary agreement execution",
+        "description": "Enables fiduciary agreement execution to support an agreement where the bank agrees to act on behalf of the customer in a financial matter and in accordance with the agreement terms",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Fiduciary agreement fee processing",
+        "description": "Enables fiduciary agreement fee processing to support an agreement where the bank agrees to act on behalf of the customer in a financial matter and in accordance with the agreement terms",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Fiduciary agreement assessment and reporting",
+        "description": "Enables fiduciary agreement assessment and reporting to support an agreement where the bank agrees to act on behalf of the customer in a financial matter and in accordance with the agreement terms",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

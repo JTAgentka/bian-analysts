@@ -1,0 +1,63 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Risk Management",
+  "capability": {
+    "name": "Gap Analysis",
+    "definition": "Gap Analysis capability maintains and tracks projected consolidated cash flows to support the evaluation and management of currency and interest rate risk positions, supporting the bank's overall liquidity risk management strategy.",
+    "role": "Maintain and track projected consolidated cash flows to support evaluation and management of currency and interest rate risk positions, the bank's overall dispositive liquidity risk",
+    "example": "A risk management unit/group treasury assembles and maintains the currency and interest rate maturity ladders for the trading function",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Consolidated cash flow tracking",
+        "description": "Enables consolidated cash flow tracking to support gap analysis capability maintains and tracks projected consolidated cash flows to support the evaluation and management of currency and interest rate risk positions, supporting the bank's overall liquidity risk management strategy",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Currency risk position management",
+        "description": "Enables currency risk position management to support gap analysis capability maintains and tracks projected consolidated cash flows to support the evaluation and management of currency and interest rate risk positions, supporting the bank's overall liquidity risk management strategy",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Interest rate risk analysis",
+        "description": "Enables interest rate risk analysis to support gap analysis capability maintains and tracks projected consolidated cash flows to support the evaluation and management of currency and interest rate risk positions, supporting the bank's overall liquidity risk management strategy",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Liquidity risk evaluation",
+        "description": "Enables liquidity risk evaluation to support gap analysis capability maintains and tracks projected consolidated cash flows to support the evaluation and management of currency and interest rate risk positions, supporting the bank's overall liquidity risk management strategy",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Maturity ladder maintenance",
+        "description": "Enables maturity ladder maintenance to support gap analysis capability maintains and tracks projected consolidated cash flows to support the evaluation and management of currency and interest rate risk positions, supporting the bank's overall liquidity risk management strategy",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Risk position analytics",
+        "description": "Enables risk position analytics to support gap analysis capability maintains and tracks projected consolidated cash flows to support the evaluation and management of currency and interest rate risk positions, supporting the bank's overall liquidity risk management strategy",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

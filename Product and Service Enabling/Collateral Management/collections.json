@@ -1,0 +1,49 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Collateral Management",
+  "capability": {
+    "name": "Collections",
+    "definition": "Handles the liquidation of assets to offset the losses for problem accounts",
+    "role": "Administer the recovery and/or liquidation of collateral against problem accounts",
+    "example": "Collateral held against a failed account is valued and submitted for liquidation to recover losses",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/Collections/12.0.0",
+    "key_features": [
+      {
+        "name": "Assess account status and determine collections approach",
+        "description": "Enables assess account status and determine collections approach to support handles the liquidation of assets to offset the losses for problem accounts",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Collateral title and valuation assessment",
+        "description": "Enables collateral title and valuation assessment to support handles the liquidation of assets to offset the losses for problem accounts",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Collateral Liquidation",
+        "description": "Enables collateral liquidation to support handles the liquidation of assets to offset the losses for problem accounts",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Account/debt factoring",
+        "description": "Enables account/debt factoring to support handles the liquidation of assets to offset the losses for problem accounts",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

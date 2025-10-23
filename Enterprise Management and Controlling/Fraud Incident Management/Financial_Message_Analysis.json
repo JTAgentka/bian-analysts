@@ -1,0 +1,35 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Fraud Incident Management",
+  "capability": {
+    "name": "Financial Message Analysis",
+    "definition": "Not provided in the source document",
+    "role": "Track and analyze financial message traffic to identify anomalies and potential fraudulent activity",
+    "example": "A pattern of financial message traffic for a major counterparty is analyzed to reveal possible fraudulent behaviors",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "**Individual Analytics**: financialNetworkGatewayAnalysisAccumulators, financialNetworkGatewayAnalysisActivityAnalysis, financialNetworkGatewayAnalysisPerformanceAnalysis, financialNetworkGatewayAnalysisTrends&Events",
+        "description": "Enables **individual analytics**: financialnetworkgatewayanalysisaccumulators, financialnetworkgatewayanalysisactivityanalysis, financialnetworkgatewayanalysisperformanceanalysis, financialnetworkgatewayanalysistrends&events to support not provided in the source document",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "**Portfolio Analytics**: financialNetworkGatewayAnalysisPortfolioActivityAnalysis, financialNetworkGatewayAnalysisPortfolioMake-UpAnalysis, financialNetworkGatewayAnalysisPortfolioPerformanceAnalysis",
+        "description": "Enables **portfolio analytics**: financialnetworkgatewayanalysisportfolioactivityanalysis, financialnetworkgatewayanalysisportfoliomake-upanalysis, financialnetworkgatewayanalysisportfolioperformanceanalysis to support not provided in the source document",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

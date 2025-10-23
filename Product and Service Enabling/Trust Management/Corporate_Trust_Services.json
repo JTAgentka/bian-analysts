@@ -1,0 +1,42 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Trust Management",
+  "capability": {
+    "name": "Corporate Trust Services",
+    "definition": "This Service Domain provides corporate trust services centered on the handling of debt instruments and escrow account support",
+    "role": "Provide corporate trust services focused on the independent/fiduciary handling of a broad range of possible corporate debt instruments with investors and supporting escrow account arrangements as necessary",
+    "example": "A corporate uses the corporate trust services of the bank to manage its investor relations for a major debt issue",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Administer financial reporting with bond investors",
+        "description": "Enables administer financial reporting with bond investors to support this service domain provides corporate trust services centered on the handling of debt instruments and escrow account support",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Resolve investor issues as an objective/independent party",
+        "description": "Enables resolve investor issues as an objective/independent party to support this service domain provides corporate trust services centered on the handling of debt instruments and escrow account support",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Establish and maintain supporting escrow accounts",
+        "description": "Enables establish and maintain supporting escrow accounts to support this service domain provides corporate trust services centered on the handling of debt instruments and escrow account support",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

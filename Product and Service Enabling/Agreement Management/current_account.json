@@ -1,0 +1,63 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Agreement Management",
+  "capability": {
+    "name": "Current Account",
+    "definition": "This service domain orchestrates a consumer checking/demand deposit account. The typical range of services and fees covers payments and deposits, standing orders, sweeps, liens, check and debit card access.",
+    "role": "The Current Account or Demand Deposit Account as it can be called is a financial facility that represents the general checking account facility at the core of the consumer and small business banking activity. There is a range of supporting features that make up the standard facility (checks/cheques, standing orders, debit cards, phone and on-line banking services etc.). The fulfillment can include a range of optional services, fees and interest payments and penalties and will often be bundled and or underlie/support other financial facilities and financial transactions",
+    "example": "A customer processes a series of services (e.g., request printed statements, initiate a transfer, set up a standing order) through the call center by accessing their current account",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CurrentAccount/12.0.0",
+    "key_features": [
+      {
+        "name": "Set-up current account facilities",
+        "description": "Enables set-up current account facilities to support this service domain orchestrates a consumer checking/demand deposit account",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Issue cards, check-books for an account",
+        "description": "Enables issue cards, check-books for an account to support this service domain orchestrates a consumer checking/demand deposit account",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Process deposits and withdrawals",
+        "description": "Enables process deposits and withdrawals to support this service domain orchestrates a consumer checking/demand deposit account",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Handle standing orders and direct debits",
+        "description": "Enables handle standing orders and direct debits to support this service domain orchestrates a consumer checking/demand deposit account",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Process fees and apply interest charges",
+        "description": "Enables process fees and apply interest charges to support this service domain orchestrates a consumer checking/demand deposit account",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Provide balance/statements and reports",
+        "description": "Enables provide balance/statements and reports to support this service domain orchestrates a consumer checking/demand deposit account",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Risk Management",
+  "capability": {
+    "name": "Underwriting",
+    "definition": "This service domain manages the underwriting decision process for products as appropriate (including many loan types and some insurance products)",
+    "role": "The underwriting decision considers the ability of the borrower to finance the loan based on their known cash flows and credit worthiness. The underwriting decision refers to specific properties of the proposed loan (amount, term, repayment schedule, collateral etc.), the income and known commitments of the borrower and their credit history with the bank. The decision may factor perceived underwriting risks into the interest rate and/or collateral requirements to obtain approval",
+    "example": "A corporate loan offer is processed and at the appropriate point an underwriting authorization is requested",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/Underwriting/12.0.0",
+    "key_features": [
+      {
+        "name": "Consolidate underwriting decision materials",
+        "description": "Enables consolidate underwriting decision materials to support this service domain manages the underwriting decision process for products as appropriate (including many loan types and some insurance products)",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Evaluate cash flow/credit position for proposal",
+        "description": "Enables evaluate cash flow/credit position for proposal to support this service domain manages the underwriting decision process for products as appropriate (including many loan types and some insurance products)",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Make (conditional if needed) underwriting determination",
+        "description": "Enables make (conditional if needed) underwriting determination to support this service domain manages the underwriting decision process for products as appropriate (including many loan types and some insurance products)",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Risk-based pricing adjustments",
+        "description": "Enables risk-based pricing adjustments to support this service domain manages the underwriting decision process for products as appropriate (including many loan types and some insurance products)",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Collateral requirement assessment",
+        "description": "Enables collateral requirement assessment to support this service domain manages the underwriting decision process for products as appropriate (including many loan types and some insurance products)",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Multiple authorization levels support",
+        "description": "Enables multiple authorization levels support to support this service domain manages the underwriting decision process for products as appropriate (including many loan types and some insurance products)",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

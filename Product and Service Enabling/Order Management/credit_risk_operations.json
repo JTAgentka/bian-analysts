@@ -1,0 +1,35 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Order Management",
+  "capability": {
+    "name": "Credit Risk Operations",
+    "definition": "This Service Domain monitors counterparty credit limits in the trading unit",
+    "role": "This Service Domain monitors the counterparty credit limits (CCL) used to govern trading activity to manage credit exposure. Note there may be regulatory requirements that determine allowed CCLs.",
+    "example": "A trading desk checks a proposed trade against trading counterparty credit limits",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CreditRiskOperations/12.0.0",
+    "key_features": [
+      {
+        "name": "Establish counterparty trading credit limits",
+        "description": "Enables establish counterparty trading credit limits to support this service domain monitors counterparty credit limits in the trading unit",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Monitor limits and raise alerts against limit breaches",
+        "description": "Enables monitor limits and raise alerts against limit breaches to support this service domain monitors counterparty credit limits in the trading unit",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

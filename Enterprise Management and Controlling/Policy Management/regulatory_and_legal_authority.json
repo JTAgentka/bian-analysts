@@ -1,0 +1,49 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Policy Management",
+  "capability": {
+    "name": "Regulatory And Legal Authority",
+    "definition": "Maintain effective relations with regulators, accounting and government agencies. Oversee interactions and reporting as necessary",
+    "role": "This service domain manages the effective relations with regulators, accounting and government agencies. It includes establishing contact, assigning relationship management responsibility, scheduling meetings and briefings as necessary and dealing with ad-hoc issues as they arise",
+    "example": "The bank's contact with regulators is leveraged to streamline the resolution of compliance issues to the bank's benefit",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/RegulatoryAndLegalAuthority/12.0.0",
+    "key_features": [
+      {
+        "name": "Identify and establish contacts",
+        "description": "Enables identify and establish contacts to support maintain effective relations with regulators, accounting and government agencies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Assign relationship managers",
+        "description": "Enables assign relationship managers to support maintain effective relations with regulators, accounting and government agencies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Schedule contacts and briefings",
+        "description": "Enables schedule contacts and briefings to support maintain effective relations with regulators, accounting and government agencies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Handle issues as they arise",
+        "description": "Enables handle issues as they arise to support maintain effective relations with regulators, accounting and government agencies",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

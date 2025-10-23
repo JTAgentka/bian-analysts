@@ -1,0 +1,63 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Risk Management",
+  "capability": {
+    "name": "Security Advisory",
+    "definition": "Security Advisory capability provides specialized security guidance and advice to support organizational security arrangements across line management and project implementations.",
+    "role": "Provide specialist security advice and guidance for line management and projects as needed to ensure security arrangements across the organization",
+    "example": "Specialist security advice is sought for a major project",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Specialist security advice provision",
+        "description": "Enables specialist security advice provision to support security advisory capability provides specialized security guidance and advice to support organizational security arrangements across line management and project implementations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Line management security guidance",
+        "description": "Enables line management security guidance to support security advisory capability provides specialized security guidance and advice to support organizational security arrangements across line management and project implementations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Project security consultation",
+        "description": "Enables project security consultation to support security advisory capability provides specialized security guidance and advice to support organizational security arrangements across line management and project implementations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Organization-wide security arrangements",
+        "description": "Enables organization-wide security arrangements to support security advisory capability provides specialized security guidance and advice to support organizational security arrangements across line management and project implementations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Security compliance procedure analytics",
+        "description": "Enables security compliance procedure analytics to support security advisory capability provides specialized security guidance and advice to support organizational security arrangements across line management and project implementations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Portfolio security analysis",
+        "description": "Enables portfolio security analysis to support security advisory capability provides specialized security guidance and advice to support organizational security arrangements across line management and project implementations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

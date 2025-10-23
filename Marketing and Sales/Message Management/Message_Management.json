@@ -1,0 +1,49 @@
+{
+  "division": "Marketing and Sales",
+  "domain": "Message Management",
+  "capability": {
+    "name": "Message Management",
+    "definition": "Develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
+    "role": "Develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
+    "example": "Press releases are developed to coincide with financial performance reporting",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Development of key corporate messages",
+        "description": "Enables development of key corporate messages to support develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Distribution of corporate communications",
+        "description": "Enables distribution of corporate communications to support develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Support for enterprise strategy",
+        "description": "Enables support for enterprise strategy to support develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Maintenance of enterprise reputation and brand",
+        "description": "Enables maintenance of enterprise reputation and brand to support develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

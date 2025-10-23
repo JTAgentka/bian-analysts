@@ -1,0 +1,42 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Agreement Management",
+  "capability": {
+    "name": "Corporate Lease",
+    "definition": "The Corporate Lease product provides corporate customers with loans to support leasing activity for property and equipment under an umbrella leasing arrangement",
+    "role": "The Service Domain provides the financing support to support corporate customers with leasing arrangements for property and equipment. The bank will take a collateral interest in the leased items to underwrite the associated loan(s)",
+    "example": "A corporate customer establishes a corporate leasing facility with the bank to acquire critical production equipment and facilities under lease",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CorporateLease/12.0.0",
+    "key_features": [
+      {
+        "name": "Establish corporate leasing facility",
+        "description": "Enables establish corporate leasing facility to support the corporate lease product provides corporate customers with loans to support leasing activity for property and equipment under an umbrella leasing arrangement",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Process leases under the facility",
+        "description": "Enables process leases under the facility to support the corporate lease product provides corporate customers with loans to support leasing activity for property and equipment under an umbrella leasing arrangement",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Report, analyze and structure leasing arrangements to optimize the customers financial position",
+        "description": "Enables report, analyze and structure leasing arrangements to optimize the customers financial position to support the corporate lease product provides corporate customers with loans to support leasing activity for property and equipment under an umbrella leasing arrangement",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

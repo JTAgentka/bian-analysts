@@ -1,0 +1,49 @@
+{
+  "division": "Customer and Distribution",
+  "domain": "Partner Management",
+  "capability": {
+    "name": "Syndicate Management",
+    "definition": "This Service Domain manages syndicate membership and compliance",
+    "role": "Manage the membership and administration of syndicates in compliance with the agreed syndicate charter and operating agreements. This combines the application of eligibility requirements to establish membership and the subsequent ensuring of compliance with performance obligations defined under the membership",
+    "example": "A major project funding initiative assembles a syndicate of investors",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/SyndicateManagement/12.0.0",
+    "key_features": [
+      {
+        "name": "Overall membership maintenance and reporting",
+        "description": "Enables overall membership maintenance and reporting to support this service domain manages syndicate membership and compliance",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Individual membership enrolment",
+        "description": "Enables individual membership enrolment to support this service domain manages syndicate membership and compliance",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Apply eligibility clauses",
+        "description": "Enables apply eligibility clauses to support this service domain manages syndicate membership and compliance",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Enforce compliance obligations",
+        "description": "Enables enforce compliance obligations to support this service domain manages syndicate membership and compliance",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

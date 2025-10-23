@@ -1,0 +1,56 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Agreement Management",
+  "capability": {
+    "name": "Syndicated Loan",
+    "definition": "Handle the processing of syndicated loans with the bank playing the lead coordination role with other syndicate bank members. Note some initial preparation may have been made through prior customer offer processing.",
+    "role": "This service domain fulfills a syndicated loan, including the coordination with syndicate members and clarification/administration of their obligations under the arrangement. It is assumed the bank is acting as the syndicate lead in this arrangement, coordinating with other lending banks in the syndicate in order to manage the transfer of funds. The syndicated loan can be for a single amount or be implemented as a more general loan facility that the customer can draw upon over its term. Note that initial customer offer processing may have covered many of these tasks informally, but once the syndicated loan initiation is made more formal syndicate arrangements must be established as an aspect of fulfillment handled here",
+    "example": "A major corporate customer obtains a syndicated loan to finance a major project and the bank arranges to distribute the loan with several other interested banks to share the loan exposure",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/SyndicatedLoan/12.0.0",
+    "key_features": [
+      {
+        "name": "Negotiate the broad terms of the loan",
+        "description": "Enables negotiate the broad terms of the loan to support handle the processing of syndicated loans with the bank playing the lead coordination role with other syndicate bank members",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Identify and build loan syndicate",
+        "description": "Enables identify and build loan syndicate to support handle the processing of syndicated loans with the bank playing the lead coordination role with other syndicate bank members",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Finalize loan terms and allocations/obligations across the syndicate",
+        "description": "Enables finalize loan terms and allocations/obligations across the syndicate to support handle the processing of syndicated loans with the bank playing the lead coordination role with other syndicate bank members",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Originate the loan in coordination across the syndicate",
+        "description": "Enables originate the loan in coordination across the syndicate to support handle the processing of syndicated loans with the bank playing the lead coordination role with other syndicate bank members",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Administer financial transfers, reporting and all other fulfilment actions over the term",
+        "description": "Enables administer financial transfers, reporting and all other fulfilment actions over the term to support handle the processing of syndicated loans with the bank playing the lead coordination role with other syndicate bank members",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

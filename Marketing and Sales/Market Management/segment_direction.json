@@ -1,0 +1,49 @@
+{
+  "division": "Marketing and Sales",
+  "domain": "Market Management",
+  "capability": {
+    "name": "Segment Direction",
+    "definition": "Define market segments and develop and assess performance against the segment plan's performance goals",
+    "role": "Define, implement, track and assess the business performance goals for defined market segments. This perspective supports a particular organizational structure where enterprise strategies and plans are aligned to market segments (often in addition to product divisions)",
+    "example": "Corporate direction notifies segment leadership of changed goals and priorities that impact their activity",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/SegmentDirection/12.0.0",
+    "key_features": [
+      {
+        "name": "Define governing policies and guidelines",
+        "description": "Enables define governing policies and guidelines to support define market segments and develop and assess performance against the segment plan's performance goals",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Define business goals",
+        "description": "Enables define business goals to support define market segments and develop and assess performance against the segment plan's performance goals",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Define supporting business development strategies",
+        "description": "Enables define supporting business development strategies to support define market segments and develop and assess performance against the segment plan's performance goals",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Track progress towards goals and direct activity",
+        "description": "Enables track progress towards goals and direct activity to support define market segments and develop and assess performance against the segment plan's performance goals",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

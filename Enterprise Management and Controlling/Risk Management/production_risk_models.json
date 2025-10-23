@@ -1,0 +1,63 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Risk Management",
+  "capability": {
+    "name": "Production Risk Models",
+    "definition": "This capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations.",
+    "role": "Develop and refine production risk models to detect possible exposures to procedural failures",
+    "example": "Financial engineers respond to an analysis of production issues and develop/refine their production risk models to better detect the root cause",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Development of production risk models",
+        "description": "Enables development of production risk models to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Refinement of existing risk models",
+        "description": "Enables refinement of existing risk models to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Detection of procedural failure exposures",
+        "description": "Enables detection of procedural failure exposures to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Root cause analysis capabilities",
+        "description": "Enables root cause analysis capabilities to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Individual and portfolio analytics",
+        "description": "Enables individual and portfolio analytics to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Performance analysis and trending",
+        "description": "Enables performance analysis and trending to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

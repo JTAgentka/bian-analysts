@@ -1,0 +1,56 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Payment Management",
+  "capability": {
+    "name": "Direct Debit",
+    "definition": "Fulfils a direct debit agreement. Handles the creditor side of direct debits.",
+    "role": "This service domain processes the creditor side of direct debit processing. Typically a creditor will submit a batch of direct debit requests. The process checks the required service mandates are in place and initiates the payment processing. It tracks payment and reports on completion or other processing issues that might arise (such as insufficient funds available).",
+    "example": "A corporate customer submits a batch of direct debit instructions for customers with accounts held at the bank",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/DirectDebit/12.0.0",
+    "key_features": [
+      {
+        "name": "Confirm direct debit mandates are in place",
+        "description": "Enables confirm direct debit mandates are in place to support fulfils a direct debit agreement",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Confirm funds available",
+        "description": "Enables confirm funds available to support fulfils a direct debit agreement",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Initiate direct debit payment",
+        "description": "Enables initiate direct debit payment to support fulfils a direct debit agreement",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Track direct debit (include customer acceptance if required)",
+        "description": "Enables track direct debit (include customer acceptance if required) to support fulfils a direct debit agreement",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Report on direct debit processing",
+        "description": "Enables report on direct debit processing to support fulfils a direct debit agreement",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

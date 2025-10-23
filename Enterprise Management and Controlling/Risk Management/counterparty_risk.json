@@ -1,0 +1,63 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Risk Management",
+  "capability": {
+    "name": "Counterparty Risk",
+    "definition": "Counterparty Risk capability maintains and administers counterparty risk ratings by tracking transaction activities and external rating details to assess and monitor credit risk exposure to counterparties.",
+    "role": "Maintain and administer a counterparty risk rating",
+    "example": "A back office function tracks transaction activity and external rating details to maintain counterparty credit ratings",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Counterparty risk rating maintenance",
+        "description": "Enables counterparty risk rating maintenance to support counterparty risk capability maintains and administers counterparty risk ratings by tracking transaction activities and external rating details to assess and monitor credit risk exposure to counterparties",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Credit risk measurement and monitoring",
+        "description": "Enables credit risk measurement and monitoring to support counterparty risk capability maintains and administers counterparty risk ratings by tracking transaction activities and external rating details to assess and monitor credit risk exposure to counterparties",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Transaction activity tracking",
+        "description": "Enables transaction activity tracking to support counterparty risk capability maintains and administers counterparty risk ratings by tracking transaction activities and external rating details to assess and monitor credit risk exposure to counterparties",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "External rating integration",
+        "description": "Enables external rating integration to support counterparty risk capability maintains and administers counterparty risk ratings by tracking transaction activities and external rating details to assess and monitor credit risk exposure to counterparties",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Risk assessment analytics",
+        "description": "Enables risk assessment analytics to support counterparty risk capability maintains and administers counterparty risk ratings by tracking transaction activities and external rating details to assess and monitor credit risk exposure to counterparties",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Portfolio risk analysis",
+        "description": "Enables portfolio risk analysis to support counterparty risk capability maintains and administers counterparty risk ratings by tracking transaction activities and external rating details to assess and monitor credit risk exposure to counterparties",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Investment Portfolio Management",
+  "capability": {
+    "name": "Investment Portfolio Planning",
+    "definition": "Agree the policies and required make-up of an investment portfolio and ensure all required bank and regulatory terms and conditions are addressed",
+    "role": "Agree the customer investment portfolio governing principles, risk appetite, management/trading guidelines and target portfolio profile. Identify any desired/target and 'out of bounds' securities/sectors. Ensure disclosures and related eligibility, suitability and other regulatory obligations are addressed and reflected in the agreement",
+    "example": "A relationship manager established the investment agreement for a customer that is setting up a managed investment portfolio",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/InvestmentPortfolioPlanning/12.0.0",
+    "key_features": [
+      {
+        "name": "Identify and agree investment portfolio properties and make-up (includes risk appetite)",
+        "description": "Enables identify and agree investment portfolio properties and make-up (includes risk appetite) to support agree the policies and required make-up of an investment portfolio and ensure all required bank and regulatory terms and conditions are addressed",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Handle regulatory and bank requirements (e.g. disclosures, suitability, eligibility)",
+        "description": "Enables handle regulatory and bank requirements (e.g. disclosures, suitability, eligibility) to support agree the policies and required make-up of an investment portfolio and ensure all required bank and regulatory terms and conditions are addressed",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Identify any target and securities to avoid",
+        "description": "Enables identify any target and securities to avoid to support agree the policies and required make-up of an investment portfolio and ensure all required bank and regulatory terms and conditions are addressed",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Agree key roles and schedules for the investment portfolio handling",
+        "description": "Enables agree key roles and schedules for the investment portfolio handling to support agree the policies and required make-up of an investment portfolio and ensure all required bank and regulatory terms and conditions are addressed",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Policy Management",
+  "capability": {
+    "name": "Management Manual",
+    "definition": "Develop, maintain and promulgate the management manual of required procedures and guidelines. Provide support in its reference and interpretation as appropriate",
+    "role": "This service domains handles the development and distribution of the enterprise management manual. The manual covers all procedures in place at the bank that are to be adopted followed in specific situations. It provides guidance on required actions, responsibilities and accountability to ensure the integrity of the banks operations",
+    "example": "Operational procedures to be followed when handling sensitive customer information are amended to reflect updated regulatory requirements",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/ManagementManual/12.0.0",
+    "key_features": [
+      {
+        "name": "Determine the required/scope or coverage of the procedures manual",
+        "description": "Enables determine the required/scope or coverage of the procedures manual to support develop, maintain and promulgate the management manual of required procedures and guidelines",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Review current procedures against prevailing best practices and refine the manual as necessary",
+        "description": "Enables review current procedures against prevailing best practices and refine the manual as necessary to support develop, maintain and promulgate the management manual of required procedures and guidelines",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Maintain procedure classification and indexing to support access",
+        "description": "Enables maintain procedure classification and indexing to support access to support develop, maintain and promulgate the management manual of required procedures and guidelines",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Clarify obligations and accountability for adopting procedures across all banking activities",
+        "description": "Enables clarify obligations and accountability for adopting procedures across all banking activities to support develop, maintain and promulgate the management manual of required procedures and guidelines",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

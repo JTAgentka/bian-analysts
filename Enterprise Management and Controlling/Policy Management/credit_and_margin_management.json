@@ -1,0 +1,20 @@
+{
+  "division": "Enterprise Management and Controlling",
+  "domain": "Policy Management",
+  "capability": {
+    "name": "Credit And Margin Management",
+    "definition": "Not explicitly provided in the document",
+    "role": "Determine and refine credit and margin directives and policies to reflect the overall risk/reward appetite of the organization and govern credit decisioning",
+    "example": "Senior policy makers interpret the financial and risk strategies of the bank to determine specific credit and margin rules and policies",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

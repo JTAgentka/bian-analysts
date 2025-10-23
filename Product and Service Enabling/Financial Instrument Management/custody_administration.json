@@ -1,0 +1,56 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Financial Instrument Management",
+  "capability": {
+    "name": "Custody Administration",
+    "definition": "A service to provide safe custody services for marketable securities for bank customers",
+    "role": "Administer the securities scrip (paper and electronic) holdings for a custodial arrangement. This includes administering the physical movements of securities, safe storage, the processing of associated dividends and interest and securities reporting",
+    "example": "A customer uses the banks custodial services to handle their investment portfolio holdings",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN3/CustodyAdministration/12.0.0",
+    "key_features": [
+      {
+        "name": "Administer securities movements",
+        "description": "Enables administer securities movements to support a service to provide safe custody services for marketable securities for bank customers",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Arrange safe storage",
+        "description": "Enables arrange safe storage to support a service to provide safe custody services for marketable securities for bank customers",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Process dividends and interest against securities",
+        "description": "Enables process dividends and interest against securities to support a service to provide safe custody services for marketable securities for bank customers",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Report on securities holdings",
+        "description": "Enables report on securities holdings to support a service to provide safe custody services for marketable securities for bank customers",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Determine and apply service fees",
+        "description": "Enables determine and apply service fees to support a service to provide safe custody services for marketable securities for bank customers",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Collateral Management",
+  "capability": {
+    "name": "Leasing Item Administration",
+    "definition": "Track the status of the assets underlying leasing agreements as they represent collateral items that could be accessed in the event of account recovery",
+    "role": "This service domain handles the oversight, administration and confirmation that any required maintenance tasks that are associated with a leased item that is the subject of a leasing agreement financed through the bank. This can include scheduled and ad-hoc item valuations, status/documentation and title checks and tracking upkeep actions that the item owner is obliged to undertake (such as obtaining certification and insurance)",
+    "example": "The bank reviews the maintenance schedule for a major piece of equipment leased by a customer with bank financing to confirm that preventative maintenance has been undertaken as required and that the equipment is being used as intended",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/LeasingItemAdministration/12.0.0",
+    "key_features": [
+      {
+        "name": "Record and classify leased items",
+        "description": "Enables record and classify leased items to support track the status of the assets underlying leasing agreements as they represent collateral items that could be accessed in the event of account recovery",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Oversee/review leased item status and valuation checks",
+        "description": "Enables oversee/review leased item status and valuation checks to support track the status of the assets underlying leasing agreements as they represent collateral items that could be accessed in the event of account recovery",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Confirm the maintenance, certification and insurance arrangements are in place",
+        "description": "Enables confirm the maintenance, certification and insurance arrangements are in place to support track the status of the assets underlying leasing agreements as they represent collateral items that could be accessed in the event of account recovery",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

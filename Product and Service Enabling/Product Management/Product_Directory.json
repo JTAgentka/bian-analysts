@@ -1,0 +1,63 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Product Management",
+  "capability": {
+    "name": "Product Directory",
+    "definition": "This service domain maintains a comprehensive directory of the bank's products and services. It can be referenced to obtain product details used to support activities including product selection, sales and marketing, on-boarding, servicing and product fulfillment.",
+    "role": "The product directory service domain provides a central service to reference product specifications and related details. The broad range of specification information available includes: product feature descriptions; pricing and eligibility requirements used in sales and on-boarding; servicing support and guidelines; and operational and production requirements",
+    "example": "A customer accesses the product directory to obtain product feature descriptions, eligibility and pricing guidelines",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Maintain product/service operational requirements",
+        "description": "Enables maintain product/service operational requirements to support this service domain maintains a comprehensive directory of the bank's products and services",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Maintain product/service sales/marketing rules and guidelines",
+        "description": "Enables maintain product/service sales/marketing rules and guidelines to support this service domain maintains a comprehensive directory of the bank's products and services",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Maintain product/service suitability and eligibility requirements",
+        "description": "Enables maintain product/service suitability and eligibility requirements to support this service domain maintains a comprehensive directory of the bank's products and services",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Maintain product/service servicing guidelines and diagnosis",
+        "description": "Enables maintain product/service servicing guidelines and diagnosis to support this service domain maintains a comprehensive directory of the bank's products and services",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Maintain product/service production requirements",
+        "description": "Enables maintain product/service production requirements to support this service domain maintains a comprehensive directory of the bank's products and services",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Provide structured access to the product directory",
+        "description": "Enables provide structured access to the product directory to support this service domain maintains a comprehensive directory of the bank's products and services",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

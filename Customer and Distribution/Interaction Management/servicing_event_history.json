@@ -1,0 +1,49 @@
+{
+  "division": "Customer and Distribution",
+  "domain": "Interaction Management",
+  "capability": {
+    "name": "Servicing Event History",
+    "definition": "This service domain captures, classifies and stores servicing activity and events to support root cause analysis",
+    "role": "The Servicing Event History service domain captures the details of servicing activity to support root cause analysis. The information captured can include summary details of the servicing activity, product access details and clickstream/voice records as necessary. The captured detail can be analyzed for staff assessment and training and to support procedural refinements",
+    "example": "A servicing contact is concluded and the contact details and result is captured. In cases the call is recorded",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Log customer servicing event activity for the representative",
+        "description": "Enables log customer servicing event activity for the representative to support this service domain captures, classifies and stores servicing activity and events to support root cause analysis",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Log servicing issues and other activity",
+        "description": "Enables log servicing issues and other activity to support this service domain captures, classifies and stores servicing activity and events to support root cause analysis",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Support servicing log data extracts",
+        "description": "Enables support servicing log data extracts to support this service domain captures, classifies and stores servicing activity and events to support root cause analysis",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Maintain activity statistics and accumulators",
+        "description": "Enables maintain activity statistics and accumulators to support this service domain captures, classifies and stores servicing activity and events to support root cause analysis",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

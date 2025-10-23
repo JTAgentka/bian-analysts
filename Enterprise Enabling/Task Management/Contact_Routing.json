@@ -1,0 +1,35 @@
+{
+  "division": "Enterprise Enabling",
+  "domain": "Task Management",
+  "capability": {
+    "name": "Contact Routing",
+    "definition": "The Contact Routing service domain tracks servicing resource availability and uses any known details about the customer contact (e.g. identity, indicated purpose of call, status of the relationship) to make an optimal routing decision. The routing selection may include matching the required product knowledge/skills to the available servicing resources.",
+    "role": "Contact Routing is called from Contact Management to identify the next available and most suited servicing resource to handle a servicing session within an active customer contact. Selection is optimized to leverage of specialized/qualified servicing resources based on any known details about the customer and the purpose of their contact with the bank.",
+    "example": "A high value customer contacts the bank. They have been flagged as a sales prospect and so are routed to the next available rep that is registered as being skilled in the specific product of interest and also experienced in sales",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/ContactRouting/12.0.0",
+    "key_features": [
+      {
+        "name": "Track the status/availability of servicing resources",
+        "description": "Enables track the status/availability of servicing resources to support the contact routing service domain tracks servicing resource availability and uses any known details about the customer contact (e",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Assign/select resources to match customer servicing needs",
+        "description": "Enables assign/select resources to match customer servicing needs to support the contact routing service domain tracks servicing resource availability and uses any known details about the customer contact (e",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

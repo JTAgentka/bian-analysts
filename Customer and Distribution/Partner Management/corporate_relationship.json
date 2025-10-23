@@ -1,0 +1,63 @@
+{
+  "division": "Customer and Distribution",
+  "domain": "Partner Management",
+  "capability": {
+    "name": "Corporate Relationship",
+    "definition": "The Corporate Relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships.",
+    "role": "Manage corporate relationships with key parties such as major clients, political and industry groups, user associations etc.",
+    "example": "A regular relationship review is scheduled with a major multinational customer to develop business opportunities",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Corporate relationship management planning",
+        "description": "Enables corporate relationship management planning to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Performance analysis and tracking",
+        "description": "Enables performance analysis and tracking to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Portfolio activity analysis",
+        "description": "Enables portfolio activity analysis to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Relationship review scheduling",
+        "description": "Enables relationship review scheduling to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Strategic partnership development",
+        "description": "Enables strategic partnership development to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Analytics and reporting capabilities",
+        "description": "Enables analytics and reporting capabilities to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

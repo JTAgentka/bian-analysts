@@ -1,0 +1,49 @@
+{
+  "division": "Customer and Distribution",
+  "domain": "Channel Management",
+  "capability": {
+    "name": "Channel Portfolio",
+    "definition": "Evaluate the coverage and relative performance of different channels with respect to the blend of service and product activity. Optimize channel use to minimize costs and enhance customer experience",
+    "role": "Evaluate the coverage and relative performance of different channels with respect to the blend of service and product activity. Optimize channel use to minimize costs and enhance customer experience",
+    "example": "Product designers review the performance of products over different channels and channel combinations to refine product designs and delivery",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Channel coverage evaluation",
+        "description": "Enables channel coverage evaluation to support evaluate the coverage and relative performance of different channels with respect to the blend of service and product activity",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Performance analysis across different channels",
+        "description": "Enables performance analysis across different channels to support evaluate the coverage and relative performance of different channels with respect to the blend of service and product activity",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Channel optimization for cost minimization",
+        "description": "Enables channel optimization for cost minimization to support evaluate the coverage and relative performance of different channels with respect to the blend of service and product activity",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Customer experience enhancement through channel optimization",
+        "description": "Enables customer experience enhancement through channel optimization to support evaluate the coverage and relative performance of different channels with respect to the blend of service and product activity",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

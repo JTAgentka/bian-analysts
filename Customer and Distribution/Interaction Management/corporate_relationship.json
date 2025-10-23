@@ -1,0 +1,49 @@
+{
+  "division": "Customer and Distribution",
+  "domain": "Interaction Management",
+  "capability": {
+    "name": "Corporate Relationship",
+    "definition": "Not explicitly provided in the document",
+    "role": "Manage corporate relationships with key parties such as major clients, political and industry groups, user associations etc.",
+    "example": "A regular relationship review is scheduled with a major multinational customer to develop business opportunities",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Manage corporate relationships with key parties",
+        "description": "Enables manage corporate relationships with key parties to support not explicitly provided in the document",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Handle major clients relationships",
+        "description": "Enables handle major clients relationships to support not explicitly provided in the document",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Manage political and industry group relationships",
+        "description": "Enables manage political and industry group relationships to support not explicitly provided in the document",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Manage user associations relationships",
+        "description": "Enables manage user associations relationships to support not explicitly provided in the document",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

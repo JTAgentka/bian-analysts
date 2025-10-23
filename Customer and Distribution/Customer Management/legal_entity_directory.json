@@ -1,0 +1,49 @@
+{
+  "division": "Customer and Distribution",
+  "domain": "Customer Management",
+  "capability": {
+    "name": "Legal Entity Directory",
+    "definition": "This service domain maintains details of the legal entity structure of the party including dependents and associations for individuals and ownership/subsidiary structures for corporations. Some financial indicators and product coverage/activity details can be included where this defines the nature of the legal entity relationship in particular for corporate entities",
+    "role": "Maintain the legal entity structure including ownership, subsidiaries and partnership details",
+    "example": "Party legal entity details are checked for the financial booking of a major loan",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/LegalEntityDirectory/12.0.0",
+    "key_features": [
+      {
+        "name": "Maintain legal entity reference details for bank customers",
+        "description": "Enables maintain legal entity reference details for bank customers to support this service domain maintains details of the legal entity structure of the party including dependents and associations for individuals and ownership/subsidiary structures for corporations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Track/update legal entity details based on market research and reports",
+        "description": "Enables track/update legal entity details based on market research and reports to support this service domain maintains details of the legal entity structure of the party including dependents and associations for individuals and ownership/subsidiary structures for corporations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Process legal entity detail updates from customers/bank sources",
+        "description": "Enables process legal entity detail updates from customers/bank sources to support this service domain maintains details of the legal entity structure of the party including dependents and associations for individuals and ownership/subsidiary structures for corporations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Confirm/provide legal entity details for transaction processing tasks",
+        "description": "Enables confirm/provide legal entity details for transaction processing tasks to support this service domain maintains details of the legal entity structure of the party including dependents and associations for individuals and ownership/subsidiary structures for corporations",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

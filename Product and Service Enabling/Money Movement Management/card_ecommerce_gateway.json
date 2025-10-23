@@ -1,0 +1,49 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Money Movement Management",
+  "capability": {
+    "name": "Card Ecommerce Gateway",
+    "definition": "This service domain orchestrates the processing of e-commerce transactions for authentication, authorization and capture of the financial transactions.",
+    "role": "This service domain is used by the Card Acquiring bank to handle the authentication, authorization and submission of a Card payment from an e-commerce merchant. It supports the \"3-D\" Secure method of authentication which routes the authentication request to the Card Issuing Bank, which may use multi-factor authentication for the authentication of the Card and the Cardholder. It also handles the routing of the authorization request through the Card Transaction Switch service domain and the routing of the submitted charges to the Card Clearing service domain.",
+    "example": "When a Card is used for making a payment on an e-commerce site of a Merchant, the Merchant initiates three steps to process the payment: 1) request authentication of the Card and the Cardholder, 2) request an authorization of the charge amount, and 3) submit the charge details to the Card Acquirer for processing and payment.",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CardeCommerceGateway/12.0.0",
+    "key_features": [
+      {
+        "name": "e-Commerce transaction capture",
+        "description": "Enables e-commerce transaction capture to support this service domain orchestrates the processing of e-commerce transactions for authentication, authorization and capture of the financial transactions",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Card holder authentication",
+        "description": "Enables card holder authentication to support this service domain orchestrates the processing of e-commerce transactions for authentication, authorization and capture of the financial transactions",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Transaction authorization",
+        "description": "Enables transaction authorization to support this service domain orchestrates the processing of e-commerce transactions for authentication, authorization and capture of the financial transactions",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "e-Commerce transaction batch submission handling",
+        "description": "Enables e-commerce transaction batch submission handling to support this service domain orchestrates the processing of e-commerce transactions for authentication, authorization and capture of the financial transactions",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

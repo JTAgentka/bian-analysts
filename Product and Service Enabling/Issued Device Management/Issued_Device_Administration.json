@@ -1,0 +1,49 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Issued Device Management",
+  "capability": {
+    "name": "Issued Device Administration",
+    "definition": "This service domain administers the issuance of authentication tokens to customers and third party service providers. Tokens here include physical devices such as cards, fobs, readers and intangible 'devices' such as passwords and secret questions. Administration includes version tracking, replacement and duration/frequency limits. Specific product/service access permissions may be associated with an issued token when appropriate",
+    "role": "This service domain administers the inventory management and allocation/issuance for all issued devices and materials (e.g. cards). This covers credit/debit cards and can include other identification/authentication devices such as keychain fobs. It also handles virtual token inventory such as passwords, secret questions and biometric records (signatures, voice/image). An aspect of the administration includes maintaining device reference details and states such as operating system release and age/duration in use. Specific product/service access permissions can be associated with an issued device",
+    "example": "A card is cancelled and a replacement card is generated and issued for a customer reporting a stolen card",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/IssuedDeviceAdministration/12.0.0",
+    "key_features": [
+      {
+        "name": "Administer the issuance/set-up/registration of authentication devices",
+        "description": "Enables administer the issuance/set-up/registration of authentication devices to support this service domain administers the issuance of authentication tokens to customers and third party service providers",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Maintain/update issued device status",
+        "description": "Enables maintain/update issued device status to support this service domain administers the issuance of authentication tokens to customers and third party service providers",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Maintain/update permissions associated with issued devices",
+        "description": "Enables maintain/update permissions associated with issued devices to support this service domain administers the issuance of authentication tokens to customers and third party service providers",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Process issued device status updates/alerts",
+        "description": "Enables process issued device status updates/alerts to support this service domain administers the issuance of authentication tokens to customers and third party service providers",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

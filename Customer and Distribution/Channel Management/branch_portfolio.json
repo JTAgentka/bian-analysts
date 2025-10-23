@@ -1,0 +1,49 @@
+{
+  "division": "Customer and Distribution",
+  "domain": "Channel Management",
+  "capability": {
+    "name": "Branch Portfolio",
+    "definition": "Evaluate coverage and relative performance of branches. Optimize product allocation and marketing activity across the available branch network",
+    "role": "Evaluate coverage and relative performance of branches. Optimize product allocation and marketing activity across the available branch network.",
+    "example": "Business strategists assemble and review the distribution and relative product performance across the network and adjust the allocation accordingly",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "",
+    "key_features": [
+      {
+        "name": "Branch network analysis and evaluation",
+        "description": "Enables branch network analysis and evaluation to support evaluate coverage and relative performance of branches",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Product allocation optimization",
+        "description": "Enables product allocation optimization to support evaluate coverage and relative performance of branches",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Marketing activity optimization across branch network",
+        "description": "Enables marketing activity optimization across branch network to support evaluate coverage and relative performance of branches",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Performance comparison and coverage assessment",
+        "description": "Enables performance comparison and coverage assessment to support evaluate coverage and relative performance of branches",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}

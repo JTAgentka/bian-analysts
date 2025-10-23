@@ -1,0 +1,49 @@
+{
+  "division": "Product and Service Enabling",
+  "domain": "Issued Device Management",
+  "capability": {
+    "name": "Bank Drafts",
+    "definition": "This Service Domain support bank guaranteed payment transactions such as bank drafts",
+    "role": "This Service Domain handles the pricing and issuance of various forms of bank guaranteed payment vehicles, including bank drafts, wire transfers, certified checks and travelers checks. The transaction combines extracting the principal amount and fees from the buyer's account and creating and registering the physical bearer document using any suitable media and security mechanisms. The bank guaranteed funds are held on a holding account pending the deposit of the draft by the payee.",
+    "example": "A customer purchases a bank draft in order to meet the requirements of a merchant from which they wish to make a major purchase",
+    "status": "Inactive",
+    "pattern": {},
+    "core_systems": [],
+    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/BankDrafts/12.0.0",
+    "key_features": [
+      {
+        "name": "Agree mechanism and terms for the bank guaranteed payment",
+        "description": "Enables agree mechanism and terms for the bank guaranteed payment to support this service domain support bank guaranteed payment transactions such as bank drafts",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Calculate and obtain payment from the payer",
+        "description": "Enables calculate and obtain payment from the payer to support this service domain support bank guaranteed payment transactions such as bank drafts",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Generate and register the bearer document",
+        "description": "Enables generate and register the bearer document to support this service domain support bank guaranteed payment transactions such as bank drafts",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      },
+      {
+        "name": "Process remittance of the bearer document",
+        "description": "Enables process remittance of the bearer document to support this service domain support bank guaranteed payment transactions such as bank drafts",
+        "type": "Manual",
+        "mode": "Active",
+        "it_mappings": []
+      }
+    ],
+    "business_objects": [],
+    "process_links": [],
+    "impact_analysis": {
+      "note": ""
+    }
+  }
+}
