@@ -1,42 +1,111 @@
 {
-  "division": "Enterprise Management and Controlling",
-  "domain": "Fraud Incident Management",
-  "capability": {
-    "name": "Fraud Diagnosis",
-    "definition": "This service domain handles the evaluation of detected possible fraud to support an appropriate response to contain the exposure",
-    "role": "Analyze suspect transaction with Customer behavior information across product portfolio, using Expert Systems/Artificial Intelligence and/or manual review, including customer contact to determine if transaction is fraudulent. Further apply Economic Model to determine transaction disposition and notify applicable Product Fulfillment SDs.",
-    "example": "Out of pattern card use is detected and the details passed for analysis. The analysis determines there is a high probability of fraud recommending appropriate containment actions",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/FraudDiagnosis/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Fraud Incident Management",
+    "area": "Enterprise Management and Controlling",
+    "knowhow": [
       {
-        "name": "Analyse activity to assess likelihood of customer fraud",
-        "description": "Enables analyse activity to assess likelihood of customer fraud to support this service domain handles the evaluation of detected possible fraud to support an appropriate response to contain the exposure",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Analyse activity to assess likelihood of merchant fraud",
-        "description": "Enables analyse activity to assess likelihood of merchant fraud to support this service domain handles the evaluation of detected possible fraud to support an appropriate response to contain the exposure",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Analyse activity to assess likelihood of intermediary fraud",
-        "description": "Enables analyse activity to assess likelihood of intermediary fraud to support this service domain handles the evaluation of detected possible fraud to support an appropriate response to contain the exposure",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Fraud Diagnosis",
+      "definition": "This service domain handles the evaluation of detected possible fraud to support an appropriate response to contain the exposure",
+      "role": "Analyze suspect transaction with Customer behavior information across product portfolio, using Expert Systems/Artificial Intelligence and/or manual review, including customer contact to determine if transaction is fraudulent. Further apply Economic Model to determine transaction disposition and notify applicable Product Fulfillment SDs.",
+      "example": "Out of pattern card use is detected and the details passed for analysis. The analysis determines there is a high probability of fraud recommending appropriate containment actions",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/FraudDiagnosis/12.0.0",
+      "key_features": [
+        {
+          "name": "Analyse activity to assess likelihood of customer fraud",
+          "description": "Enables analyse activity to assess likelihood of customer fraud to support this service domain handles the evaluation of detected possible fraud to support an appropriate response to contain the exposure",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Analyse activity to assess likelihood of merchant fraud",
+          "description": "Enables analyse activity to assess likelihood of merchant fraud to support this service domain handles the evaluation of detected possible fraud to support an appropriate response to contain the exposure",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Analyse activity to assess likelihood of intermediary fraud",
+          "description": "Enables analyse activity to assess likelihood of intermediary fraud to support this service domain handles the evaluation of detected possible fraud to support an appropriate response to contain the exposure",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

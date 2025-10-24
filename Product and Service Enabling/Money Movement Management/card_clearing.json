@@ -1,49 +1,157 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Money Movement Management",
-  "capability": {
-    "name": "Card Clearing",
-    "definition": "This service domain orchestrates the capture and consolidation of card financial transactions originating from various sources, such as POS Network, E-Commerce Gateway, ATM Network, or Card Case Management. It also handles the clearing of the transactions from the Acquirers to the Issuers through the Card Networks",
-    "role": "The behavior varies depending on the role of the participant bank/network. A card acquiring Bank consolidates all incoming transactions from Merchants, determining their routing, and transmitting to the respective Card Networks. For the Card Networks it receives and consolidates the transactions from all Acquiring Banks and to distribute and route them to the respective Card Issuing Banks. For the Card Issuing Banks it receives their cardholder transactions from the Card Networks and routes them to the instance of the Credit/Charge Card service domain which is responsible for the card used in the transaction. The transactions may include charges, refunds, and chargebacks.",
-    "example": "An Acquiring Bank receives charge transactions submitted by Merchants through Point of Sale Terminals or batch submission for recurring billing and forwards these transactions to the respective Card Issuing Banks through the Card Network (e.g. Visa, MC, AMEX, Diners, etc.). This process may take place multiple times during the day.",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CardClearing/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Money Movement Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Card transaction capture and addressing",
-        "description": "Enables card transaction capture and addressing to support this service domain orchestrates the capture and consolidation of card financial transactions originating from various sources, such as pos network, e-commerce gateway, atm network, or card case management",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "FX conversion and fee handling",
-        "description": "Enables fx conversion and fee handling to support this service domain orchestrates the capture and consolidation of card financial transactions originating from various sources, such as pos network, e-commerce gateway, atm network, or card case management",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Transaction matching and reconciliation",
-        "description": "Enables transaction matching and reconciliation to support this service domain orchestrates the capture and consolidation of card financial transactions originating from various sources, such as pos network, e-commerce gateway, atm network, or card case management",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Transaction routing",
-        "description": "Enables transaction routing to support this service domain orchestrates the capture and consolidation of card financial transactions originating from various sources, such as pos network, e-commerce gateway, atm network, or card case management",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Card Clearing",
+      "definition": "This service domain orchestrates the capture and consolidation of card financial transactions originating from various sources, such as POS Network, E-Commerce Gateway, ATM Network, or Card Case Management. It also handles the clearing of the transactions from the Acquirers to the Issuers through the Card Networks",
+      "role": "The behavior varies depending on the role of the participant bank/network. A card acquiring Bank consolidates all incoming transactions from Merchants, determining their routing, and transmitting to the respective Card Networks. For the Card Networks it receives and consolidates the transactions from all Acquiring Banks and to distribute and route them to the respective Card Issuing Banks. For the Card Issuing Banks it receives their cardholder transactions from the Card Networks and routes them to the instance of the Credit/Charge Card service domain which is responsible for the card used in the transaction. The transactions may include charges, refunds, and chargebacks.",
+      "example": "An Acquiring Bank receives charge transactions submitted by Merchants through Point of Sale Terminals or batch submission for recurring billing and forwards these transactions to the respective Card Issuing Banks through the Card Network (e.g. Visa, MC, AMEX, Diners, etc.). This process may take place multiple times during the day.",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CardClearing/12.0.0",
+      "key_features": [
+        {
+          "name": "Card transaction capture and addressing",
+          "description": "Enables card transaction capture and addressing to support this service domain orchestrates the capture and consolidation of card financial transactions originating from various sources, such as pos network, e-commerce gateway, atm network, or card case management",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FX conversion and fee handling",
+          "description": "Enables fx conversion and fee handling to support this service domain orchestrates the capture and consolidation of card financial transactions originating from various sources, such as pos network, e-commerce gateway, atm network, or card case management",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Transaction matching and reconciliation",
+          "description": "Enables transaction matching and reconciliation to support this service domain orchestrates the capture and consolidation of card financial transactions originating from various sources, such as pos network, e-commerce gateway, atm network, or card case management",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Transaction routing",
+          "description": "Enables transaction routing to support this service domain orchestrates the capture and consolidation of card financial transactions originating from various sources, such as pos network, e-commerce gateway, atm network, or card case management",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Card Clearing",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

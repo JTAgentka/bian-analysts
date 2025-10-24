@@ -97,10 +97,39 @@ def extract_key_features(content: str) -> List[str]:
     return features
 
 
+def extract_core_business_object(content: str) -> Dict[str, str]:
+    """Extract core business object name and description."""
+    obj_name = ""
+
+    # Try inline format: **Core Business Object:** ObjectName
+    match = re.search(r'\*\*Core Business Object:\*\*\s*(.+?)(?=\n|$)', content)
+    if match:
+        obj_name = match.group(1).strip()
+    else:
+        # Try section format: #### Core Business Object or #### 4. Core Business Object
+        section = extract_section_content(content, "Core Business Object")
+        if section:
+            obj_name = section.split('\n')[0].strip()
+
+    # Clean up the object name
+    if obj_name:
+        # Remove any HTML/link references like (object_25.html?object=31474)
+        obj_name = re.sub(r'\s*\([^)]*\.html[^)]*\)\s*', '', obj_name)
+        # Remove markdown formatting (**, ###, -, etc.)
+        obj_name = re.sub(r'^[#*\-\s]+', '', obj_name)
+        obj_name = re.sub(r'[*:]+$', '', obj_name)
+        obj_name = obj_name.strip()
+
+        # Check if valid
+        if obj_name and obj_name.lower() not in ['not specified', 'n/a', 'none', 'not specified in the document']:
+            return {"name": obj_name, "description": ""}
+
+    return {"name": "", "description": ""}
+
+
 def generate_feature_description(feature_name: str, definition: str, role: str) -> str:
     """Generate contextual description for a key feature."""
     # Create a concise description focused on the feature itself
-    # Extract key action verbs and context from the feature name
     feature_lower = feature_name.lower()
 
     # Simple, focused description based on the feature
@@ -126,7 +155,7 @@ def parse_md_file(file_path: Path) -> Optional[Dict[str, Any]]:
     parts = file_path.parts
     # Find where the division starts (after the root)
     division = ""
-    domain = ""
+    domain_name = ""
 
     # Go through parts to find division (top-level folder) and domain (sub-folder)
     for i, part in enumerate(parts):
@@ -135,7 +164,7 @@ def parse_md_file(file_path: Path) -> Optional[Dict[str, Any]]:
                     "Product and Service Enabling"]:
             division = part
             if i + 1 < len(parts) - 1:  # -1 because last part is the file
-                domain = parts[i + 1]
+                domain_name = parts[i + 1]
             break
 
     # Extract content sections
@@ -144,6 +173,7 @@ def parse_md_file(file_path: Path) -> Optional[Dict[str, Any]]:
     role = extract_section_content(content, "Role Definition")
     example = extract_section_content(content, "Example of Use")
     api_link = extract_api_link(content)
+    core_business_obj = extract_core_business_object(content)
 
     # Extract and process key features
     features = extract_key_features(content)
@@ -153,29 +183,85 @@ def parse_md_file(file_path: Path) -> Optional[Dict[str, Any]]:
         key_features.append({
             "name": feature,
             "description": generate_feature_description(feature, definition, role),
-            "type": "Manual",
+            "type": "Implemented",
             "mode": "Active",
-            "it_mappings": []
+            "it_mappings": [
+                {
+                    "provider_system": "",
+                    "consumer_systems": [""],
+                    "api_function": "",
+                    "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+                    "data_object": "",
+                    "implementation_status": "Active | Passive | Deprecated",
+                    "attributes": [
+                        {
+                            "name": "",
+                            "meaning": ""
+                        }
+                    ]
+                }
+            ]
         })
 
-    # Build JSON structure
+    # Build business objects list
+    business_objects = []
+    if core_business_obj["name"]:
+        business_objects.append({
+            "name": core_business_obj["name"],
+            "description": core_business_obj["description"],
+            "integration_mappings": [
+                {
+                    "provider_system": "",
+                    "consumer_systems": [""],
+                    "topic_name": "",
+                    "integration_type": "Kafka | Event Stream | Batch",
+                    "implementation_status": "Active | Passive | Deprecated",
+                    "attributes": [
+                        {
+                            "name": "",
+                            "meaning": ""
+                        }
+                    ]
+                }
+            ]
+        })
+
+    # Build JSON structure with new format
     json_data = {
-        "division": division,
-        "domain": domain,
-        "capability": {
-            "name": capability_name,
-            "definition": definition,
-            "role": role,
-            "example": example,
-            "status": "Inactive",
-            "pattern": {},
-            "core_systems": [],
-            "api_bian_link": api_link,
-            "key_features": key_features,
-            "business_objects": [],
-            "process_links": [],
-            "impact_analysis": {
-                "note": ""
+        "domain": {
+            "name": domain_name,
+            "area": division,
+            "knowhow": [
+                {
+                    "fact_id": "",
+                    "title": "",
+                    "description": "",
+                    "related_to": "",
+                    "category": ""
+                }
+            ],
+            "capability": {
+                "name": capability_name,
+                "definition": definition,
+                "role": role,
+                "example": example,
+                "status": "Inactive",
+                "pattern": {},
+                "core_systems": [],
+                "api_bian_link": api_link,
+                "key_features": key_features,
+                "business_objects": business_objects,
+                "process_links": [
+                    {
+                        "process_name": "",
+                        "execution_mode": "Manual | Semi-Automated | Automated",
+                        "step_order": 0,
+                        "avg_duration_sec": 0
+                    }
+                ],
+                "impact_analysis": {
+                    "note": ""
+                }
             }
         }
     }
@@ -189,6 +275,9 @@ def main():
 
     # Find all MD files
     md_files = list(base_dir.glob("**/*.md"))
+
+    # Exclude README.md
+    md_files = [f for f in md_files if f.name != "README.md"]
 
     print(f"Found {len(md_files)} MD files to process")
 

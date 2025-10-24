@@ -1,42 +1,133 @@
 {
-  "division": "Customer and Distribution",
-  "domain": "Partner Management",
-  "capability": {
-    "name": "Correspondent Bank Operations",
-    "definition": "This service domain fulfils correspondent banking arrangements between the bank and its correspondent banking partners. This includes handling the clearing and settlement of payments to/from the correspondent banks, typically using the SWIFT payment network.",
-    "role": "This Service Domain handles incoming and outgoing payment clearing and settlement messages to the bank's correspondent banking partners. The actual message transmission is delegated to the Financial Message Gateway service domain. Correspondent Bank administers the mirror accounting for interbank payments undertaking the underlying account reconciliation tasks.",
-    "example": "Transfer funds from a customer account with the bank to an account with another bank.",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CorrespondentBankOperations/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Partner Management",
+    "area": "Customer and Distribution",
+    "knowhow": [
       {
-        "name": "Handle correspondent payment transactions",
-        "description": "Enables handle correspondent payment transactions to support this service domain fulfils correspondent banking arrangements between the bank and its correspondent banking partners",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Maintain and reconcile shadow accounting",
-        "description": "Enables maintain and reconcile shadow accounting to support this service domain fulfils correspondent banking arrangements between the bank and its correspondent banking partners",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Generate and process SWIFT messages",
-        "description": "Enables generate and process swift messages to support this service domain fulfils correspondent banking arrangements between the bank and its correspondent banking partners",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Correspondent Bank Operations",
+      "definition": "This service domain fulfils correspondent banking arrangements between the bank and its correspondent banking partners. This includes handling the clearing and settlement of payments to/from the correspondent banks, typically using the SWIFT payment network.",
+      "role": "This Service Domain handles incoming and outgoing payment clearing and settlement messages to the bank's correspondent banking partners. The actual message transmission is delegated to the Financial Message Gateway service domain. Correspondent Bank administers the mirror accounting for interbank payments undertaking the underlying account reconciliation tasks.",
+      "example": "Transfer funds from a customer account with the bank to an account with another bank.",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CorrespondentBankOperations/12.0.0",
+      "key_features": [
+        {
+          "name": "Handle correspondent payment transactions",
+          "description": "Enables handle correspondent payment transactions to support this service domain fulfils correspondent banking arrangements between the bank and its correspondent banking partners",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintain and reconcile shadow accounting",
+          "description": "Enables maintain and reconcile shadow accounting to support this service domain fulfils correspondent banking arrangements between the bank and its correspondent banking partners",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Generate and process SWIFT messages",
+          "description": "Enables generate and process swift messages to support this service domain fulfils correspondent banking arrangements between the bank and its correspondent banking partners",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Settlement Account",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

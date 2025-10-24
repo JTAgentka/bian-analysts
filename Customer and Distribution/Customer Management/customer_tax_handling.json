@@ -1,42 +1,133 @@
 {
-  "division": "Customer and Distribution",
-  "domain": "Customer Management",
-  "capability": {
-    "name": "Customer Tax Handling",
-    "definition": "This service domain handles consumer tax reporting obligations including the consolidation and reporting of customer tax related financial activity",
-    "role": "There are different tax tracking and reporting obligations for products and services in different locations and jurisdictions. This service domain handles the consolidation and reporting of tax related activity as necessary for a customer. Note that this service domain is only responsible for the consolidation and reporting of tax related activity - other service domains will be required to handle actual tax processing obligations as may apply for certain products and services",
-    "example": "A consumer customer is provided with a year end tax report for products and services provided by the bank",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CustomerTaxHandling/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Customer Management",
+    "area": "Customer and Distribution",
+    "knowhow": [
       {
-        "name": "Maintain the customer tax reporting obligations",
-        "description": "Enables maintain the customer tax reporting obligations to support this service domain handles consumer tax reporting obligations including the consolidation and reporting of customer tax related financial activity",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Consolidate product/service tax related activity/transaction details",
-        "description": "Enables consolidate product/service tax related activity/transaction details to support this service domain handles consumer tax reporting obligations including the consolidation and reporting of customer tax related financial activity",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Analyse financial activity and assemble customer tax reports",
-        "description": "Enables analyse financial activity and assemble customer tax reports to support this service domain handles consumer tax reporting obligations including the consolidation and reporting of customer tax related financial activity",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Customer Tax Handling",
+      "definition": "This service domain handles consumer tax reporting obligations including the consolidation and reporting of customer tax related financial activity",
+      "role": "There are different tax tracking and reporting obligations for products and services in different locations and jurisdictions. This service domain handles the consolidation and reporting of tax related activity as necessary for a customer. Note that this service domain is only responsible for the consolidation and reporting of tax related activity - other service domains will be required to handle actual tax processing obligations as may apply for certain products and services",
+      "example": "A consumer customer is provided with a year end tax report for products and services provided by the bank",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CustomerTaxHandling/12.0.0",
+      "key_features": [
+        {
+          "name": "Maintain the customer tax reporting obligations",
+          "description": "Enables maintain the customer tax reporting obligations to support this service domain handles consumer tax reporting obligations including the consolidation and reporting of customer tax related financial activity",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Consolidate product/service tax related activity/transaction details",
+          "description": "Enables consolidate product/service tax related activity/transaction details to support this service domain handles consumer tax reporting obligations including the consolidation and reporting of customer tax related financial activity",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Analyse financial activity and assemble customer tax reports",
+          "description": "Enables analyse financial activity and assemble customer tax reports to support this service domain handles consumer tax reporting obligations including the consolidation and reporting of customer tax related financial activity",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Customer Tax Report",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

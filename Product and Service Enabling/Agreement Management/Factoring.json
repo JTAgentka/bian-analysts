@@ -1,56 +1,181 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Agreement Management",
-  "capability": {
-    "name": "Factoring",
-    "definition": "This Service Domain supports a factoring service for corporate customers enabling them to convert accounts receivable into immediate funds at a discount",
-    "role": "A bank offers factoring services to buy a customers' accounts receivable at a discount to provide short term liquidity. The bank will subsequently process the accounts receivable to recover purchase costs. In cases the bank may factor portions of the accounts receivable to a specialist third party",
-    "example": "The Bank buys (factors) a batch of a corporate's customer invoices at a suitable discount to provide short term liquidity to the corporate. The bank processes the subsequent customer payments",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/Factoring/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Agreement Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Evaluate the quality and make-up of the corporate's account receivable",
-        "description": "Enables evaluate the quality and make-up of the corporate's account receivable to support this service domain supports a factoring service for corporate customers enabling them to convert accounts receivable into immediate funds at a discount",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Price and negotiate the factoring transaction with the corporate",
-        "description": "Enables price and negotiate the factoring transaction with the corporate to support this service domain supports a factoring service for corporate customers enabling them to convert accounts receivable into immediate funds at a discount",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Process the factoring transaction",
-        "description": "Enables process the factoring transaction to support this service domain supports a factoring service for corporate customers enabling them to convert accounts receivable into immediate funds at a discount",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Process accounts receivable for the purchased invoices",
-        "description": "Enables process accounts receivable for the purchased invoices to support this service domain supports a factoring service for corporate customers enabling them to convert accounts receivable into immediate funds at a discount",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Factor elements of accounts receivable to specialist agencies",
-        "description": "Enables factor elements of accounts receivable to specialist agencies to support this service domain supports a factoring service for corporate customers enabling them to convert accounts receivable into immediate funds at a discount",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Factoring",
+      "definition": "This Service Domain supports a factoring service for corporate customers enabling them to convert accounts receivable into immediate funds at a discount",
+      "role": "A bank offers factoring services to buy a customers' accounts receivable at a discount to provide short term liquidity. The bank will subsequently process the accounts receivable to recover purchase costs. In cases the bank may factor portions of the accounts receivable to a specialist third party",
+      "example": "The Bank buys (factors) a batch of a corporate's customer invoices at a suitable discount to provide short term liquidity to the corporate. The bank processes the subsequent customer payments",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/Factoring/12.0.0",
+      "key_features": [
+        {
+          "name": "Evaluate the quality and make-up of the corporate's account receivable",
+          "description": "Enables evaluate the quality and make-up of the corporate's account receivable to support this service domain supports a factoring service for corporate customers enabling them to convert accounts receivable into immediate funds at a discount",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Price and negotiate the factoring transaction with the corporate",
+          "description": "Enables price and negotiate the factoring transaction with the corporate to support this service domain supports a factoring service for corporate customers enabling them to convert accounts receivable into immediate funds at a discount",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Process the factoring transaction",
+          "description": "Enables process the factoring transaction to support this service domain supports a factoring service for corporate customers enabling them to convert accounts receivable into immediate funds at a discount",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Process accounts receivable for the purchased invoices",
+          "description": "Enables process accounts receivable for the purchased invoices to support this service domain supports a factoring service for corporate customers enabling them to convert accounts receivable into immediate funds at a discount",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Factor elements of accounts receivable to specialist agencies",
+          "description": "Enables factor elements of accounts receivable to specialist agencies to support this service domain supports a factoring service for corporate customers enabling them to convert accounts receivable into immediate funds at a discount",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Factoring Fulfillment Arrangement",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

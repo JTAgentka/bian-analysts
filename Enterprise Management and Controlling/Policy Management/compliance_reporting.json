@@ -1,49 +1,157 @@
 {
-  "division": "Enterprise Management and Controlling",
-  "domain": "Policy Management",
-  "capability": {
-    "name": "Compliance Reporting",
-    "definition": "This service domain administers and orchestrates the tasks required to apply and report on internal audit control and reporting activity",
-    "role": "This service domain schedules, consolidates information and reports on internal audit and compliance activity across the bank",
-    "example": "The financial accounting procedures for a back office function are audited",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/ComplianceReporting/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Policy Management",
+    "area": "Enterprise Management and Controlling",
+    "knowhow": [
       {
-        "name": "Consolidate internal compliance/audit reporting materials and assemble reports",
-        "description": "Enables consolidate internal compliance/audit reporting materials and assemble reports to support this service domain administers and orchestrates the tasks required to apply and report on internal audit control and reporting activity",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Delivery scheduled and ad-hoc reports to internal auditors, highlighting non-compliance",
-        "description": "Enables delivery scheduled and ad-hoc reports to internal auditors, highlighting non-compliance to support this service domain administers and orchestrates the tasks required to apply and report on internal audit control and reporting activity",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Handle follow up for identified remedial actions for non-compliance",
-        "description": "Enables handle follow up for identified remedial actions for non-compliance to support this service domain administers and orchestrates the tasks required to apply and report on internal audit control and reporting activity",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Oversee on-line/production transaction regulatory reporting",
-        "description": "Enables oversee on-line/production transaction regulatory reporting to support this service domain administers and orchestrates the tasks required to apply and report on internal audit control and reporting activity",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Compliance Reporting",
+      "definition": "This service domain administers and orchestrates the tasks required to apply and report on internal audit control and reporting activity",
+      "role": "This service domain schedules, consolidates information and reports on internal audit and compliance activity across the bank",
+      "example": "The financial accounting procedures for a back office function are audited",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/ComplianceReporting/12.0.0",
+      "key_features": [
+        {
+          "name": "Consolidate internal compliance/audit reporting materials and assemble reports",
+          "description": "Enables consolidate internal compliance/audit reporting materials and assemble reports to support this service domain administers and orchestrates the tasks required to apply and report on internal audit control and reporting activity",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Delivery scheduled and ad-hoc reports to internal auditors, highlighting non-compliance",
+          "description": "Enables delivery scheduled and ad-hoc reports to internal auditors, highlighting non-compliance to support this service domain administers and orchestrates the tasks required to apply and report on internal audit control and reporting activity",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Handle follow up for identified remedial actions for non-compliance",
+          "description": "Enables handle follow up for identified remedial actions for non-compliance to support this service domain administers and orchestrates the tasks required to apply and report on internal audit control and reporting activity",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Oversee on-line/production transaction regulatory reporting",
+          "description": "Enables oversee on-line/production transaction regulatory reporting to support this service domain administers and orchestrates the tasks required to apply and report on internal audit control and reporting activity",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Compliance Reporting Administrative Plan",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

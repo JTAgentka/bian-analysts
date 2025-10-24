@@ -1,56 +1,181 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Agreement Management",
-  "capability": {
-    "name": "Leasing",
-    "definition": "The leasing products enables customers to finance equipment purchases using the leased item as collateral when necessary",
-    "role": "The Service Domain fulfills a general leasing arrangement for a single leased product or facility. The bank will take a collateral interest in the leased item to underwrite the associated loan/lease arrangement",
-    "example": "A customer requests a leasing arrangement to support the acquisition of equipment",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/Leasing/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Agreement Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Evaluate proposed leasing arrangement",
-        "description": "Enables evaluate proposed leasing arrangement to support the leasing products enables customers to finance equipment purchases using the leased item as collateral when necessary",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Review collateral value and title of leased item",
-        "description": "Enables review collateral value and title of leased item to support the leasing products enables customers to finance equipment purchases using the leased item as collateral when necessary",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Price/structure the leasing arrangement",
-        "description": "Enables price/structure the leasing arrangement to support the leasing products enables customers to finance equipment purchases using the leased item as collateral when necessary",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Negotiate and agree leasing arrangement",
-        "description": "Enables negotiate and agree leasing arrangement to support the leasing products enables customers to finance equipment purchases using the leased item as collateral when necessary",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Initiate and maintain the leasing arrangement through term",
-        "description": "Enables initiate and maintain the leasing arrangement through term to support the leasing products enables customers to finance equipment purchases using the leased item as collateral when necessary",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Leasing",
+      "definition": "The leasing products enables customers to finance equipment purchases using the leased item as collateral when necessary",
+      "role": "The Service Domain fulfills a general leasing arrangement for a single leased product or facility. The bank will take a collateral interest in the leased item to underwrite the associated loan/lease arrangement",
+      "example": "A customer requests a leasing arrangement to support the acquisition of equipment",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/Leasing/12.0.0",
+      "key_features": [
+        {
+          "name": "Evaluate proposed leasing arrangement",
+          "description": "Enables evaluate proposed leasing arrangement to support the leasing products enables customers to finance equipment purchases using the leased item as collateral when necessary",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Review collateral value and title of leased item",
+          "description": "Enables review collateral value and title of leased item to support the leasing products enables customers to finance equipment purchases using the leased item as collateral when necessary",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Price/structure the leasing arrangement",
+          "description": "Enables price/structure the leasing arrangement to support the leasing products enables customers to finance equipment purchases using the leased item as collateral when necessary",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Negotiate and agree leasing arrangement",
+          "description": "Enables negotiate and agree leasing arrangement to support the leasing products enables customers to finance equipment purchases using the leased item as collateral when necessary",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Initiate and maintain the leasing arrangement through term",
+          "description": "Enables initiate and maintain the leasing arrangement through term to support the leasing products enables customers to finance equipment purchases using the leased item as collateral when necessary",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Leasing Facility",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

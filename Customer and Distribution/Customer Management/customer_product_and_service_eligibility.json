@@ -1,35 +1,109 @@
 {
-  "division": "Customer and Distribution",
-  "domain": "Customer Management",
-  "capability": {
-    "name": "Customer Product And Service Eligibility",
-    "definition": "This Service Domain maintains a list of products and services for which a customer is eligible.",
-    "role": "This Service Domain maintains a list of products and services for which a customer is eligible. This could include products and services that the customer has had in the past. In order to update the list, periodically or at certain events, the Service Domain calls Product Matching to find additional products for which the customer is eligible. Once a customer acquires a product or a service, this is removed from the current list and added to the customer's recording in Customer Products and Services.",
-    "example": "Customer Relationship Management re-asseses the eligibility of a customer during a periodical customer analysis.",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CustomerProductAndServiceEligibility/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Customer Management",
+    "area": "Customer and Distribution",
+    "knowhow": [
       {
-        "name": "Provide a list of products and services for which a customer is eligible",
-        "description": "Enables provide a list of products and services for which a customer is eligible to support this service domain maintains a list of products and services for which a customer is eligible",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Update the list of products and services for which a customer is eligible, based on a request from customer relationship management and with the help of Product Matching",
-        "description": "Enables update the list of products and services for which a customer is eligible, based on a request from customer relationship management and with the help of product matching to support this service domain maintains a list of products and services for which a customer is eligible",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Customer Product And Service Eligibility",
+      "definition": "This Service Domain maintains a list of products and services for which a customer is eligible.",
+      "role": "This Service Domain maintains a list of products and services for which a customer is eligible. This could include products and services that the customer has had in the past. In order to update the list, periodically or at certain events, the Service Domain calls Product Matching to find additional products for which the customer is eligible. Once a customer acquires a product or a service, this is removed from the current list and added to the customer's recording in Customer Products and Services.",
+      "example": "Customer Relationship Management re-asseses the eligibility of a customer during a periodical customer analysis.",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CustomerProductAndServiceEligibility/12.0.0",
+      "key_features": [
+        {
+          "name": "Provide a list of products and services for which a customer is eligible",
+          "description": "Enables provide a list of products and services for which a customer is eligible to support this service domain maintains a list of products and services for which a customer is eligible",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Update the list of products and services for which a customer is eligible, based on a request from customer relationship management and with the help of Product Matching",
+          "description": "Enables update the list of products and services for which a customer is eligible, based on a request from customer relationship management and with the help of product matching to support this service domain maintains a list of products and services for which a customer is eligible",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Individual Analytics",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

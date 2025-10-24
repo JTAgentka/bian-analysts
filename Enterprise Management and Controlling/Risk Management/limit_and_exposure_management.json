@@ -1,63 +1,205 @@
 {
-  "division": "Enterprise Management and Controlling",
-  "domain": "Risk Management",
-  "capability": {
-    "name": "Limit And Exposure Management",
-    "definition": "Limit and Exposure Management capability provides oversight and control of corporate limits and exposures across all business activities. It ensures that business operations remain within defined risk parameters and exposure limits.",
-    "role": "Oversee corporate limits and exposures for the combined business activity",
-    "example": "Product fulfillment activity triggers limit and exposure checks",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Risk Management",
+    "area": "Enterprise Management and Controlling",
+    "knowhow": [
       {
-        "name": "Corporate limit oversight",
-        "description": "Enables corporate limit oversight to support limit and exposure management capability provides oversight and control of corporate limits and exposures across all business activities",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Exposure monitoring and management",
-        "description": "Enables exposure monitoring and management to support limit and exposure management capability provides oversight and control of corporate limits and exposures across all business activities",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Combined business activity supervision",
-        "description": "Enables combined business activity supervision to support limit and exposure management capability provides oversight and control of corporate limits and exposures across all business activities",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Limit and exposure checks triggered by business activities",
-        "description": "Enables limit and exposure checks triggered by business activities to support limit and exposure management capability provides oversight and control of corporate limits and exposures across all business activities",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Individual analytics for accumulators, activity analysis, performance analysis, and trends & events",
-        "description": "Enables individual analytics for accumulators, activity analysis, performance analysis, and trends & events to support limit and exposure management capability provides oversight and control of corporate limits and exposures across all business activities",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Portfolio analytics for activity, make-up, and performance analysis",
-        "description": "Enables portfolio analytics for activity, make-up, and performance analysis to support limit and exposure management capability provides oversight and control of corporate limits and exposures across all business activities",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Limit And Exposure Management",
+      "definition": "Limit and Exposure Management capability provides oversight and control of corporate limits and exposures across all business activities. It ensures that business operations remain within defined risk parameters and exposure limits.",
+      "role": "Oversee corporate limits and exposures for the combined business activity",
+      "example": "Product fulfillment activity triggers limit and exposure checks",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Corporate limit oversight",
+          "description": "Enables corporate limit oversight to support limit and exposure management capability provides oversight and control of corporate limits and exposures across all business activities",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Exposure monitoring and management",
+          "description": "Enables exposure monitoring and management to support limit and exposure management capability provides oversight and control of corporate limits and exposures across all business activities",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Combined business activity supervision",
+          "description": "Enables combined business activity supervision to support limit and exposure management capability provides oversight and control of corporate limits and exposures across all business activities",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Limit and exposure checks triggered by business activities",
+          "description": "Enables limit and exposure checks triggered by business activities to support limit and exposure management capability provides oversight and control of corporate limits and exposures across all business activities",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Individual analytics for accumulators, activity analysis, performance analysis, and trends & events",
+          "description": "Enables individual analytics for accumulators, activity analysis, performance analysis, and trends & events to support limit and exposure management capability provides oversight and control of corporate limits and exposures across all business activities",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Portfolio analytics for activity, make-up, and performance analysis",
+          "description": "Enables portfolio analytics for activity, make-up, and performance analysis to support limit and exposure management capability provides oversight and control of corporate limits and exposures across all business activities",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Limit And Exposure Management Plan",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

@@ -1,42 +1,111 @@
 {
-  "division": "Customer and Distribution",
-  "domain": "Partner Management",
-  "capability": {
-    "name": "Correspondent Bank Relationship Management",
-    "definition": "This Service Domain manages correspondent bank relations, ensuring reciprocity and developing business where possible",
-    "role": "Handle the negotiation, development and tracking of reciprocity with correspondent bank relationships",
-    "example": "A bank establishes and maintains a correspondent relationship for international payments and trade finance representation in a foreign country",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CorrespondentBankRelationshipManagement/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Partner Management",
+    "area": "Customer and Distribution",
+    "knowhow": [
       {
-        "name": "Track and assess correspondent bank activity for reciprocity",
-        "description": "Enables track and assess correspondent bank activity for reciprocity to support this service domain manages correspondent bank relations, ensuring reciprocity and developing business where possible",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Identify and develop business opportunities with the correspondent bank",
-        "description": "Enables identify and develop business opportunities with the correspondent bank to support this service domain manages correspondent bank relations, ensuring reciprocity and developing business where possible",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Oversee the resolution of production issues as might arise",
-        "description": "Enables oversee the resolution of production issues as might arise to support this service domain manages correspondent bank relations, ensuring reciprocity and developing business where possible",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Correspondent Bank Relationship Management",
+      "definition": "This Service Domain manages correspondent bank relations, ensuring reciprocity and developing business where possible",
+      "role": "Handle the negotiation, development and tracking of reciprocity with correspondent bank relationships",
+      "example": "A bank establishes and maintains a correspondent relationship for international payments and trade finance representation in a foreign country",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CorrespondentBankRelationshipManagement/12.0.0",
+      "key_features": [
+        {
+          "name": "Track and assess correspondent bank activity for reciprocity",
+          "description": "Enables track and assess correspondent bank activity for reciprocity to support this service domain manages correspondent bank relations, ensuring reciprocity and developing business where possible",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Identify and develop business opportunities with the correspondent bank",
+          "description": "Enables identify and develop business opportunities with the correspondent bank to support this service domain manages correspondent bank relations, ensuring reciprocity and developing business where possible",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Oversee the resolution of production issues as might arise",
+          "description": "Enables oversee the resolution of production issues as might arise to support this service domain manages correspondent bank relations, ensuring reciprocity and developing business where possible",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

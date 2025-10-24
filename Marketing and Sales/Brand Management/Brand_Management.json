@@ -1,42 +1,133 @@
 {
-  "division": "Marketing and Sales",
-  "domain": "Brand Management",
-  "capability": {
+  "domain": {
     "name": "Brand Management",
-    "definition": "Respond to events that potentially damage the brand or provide an opportunity to strengthen/leverage brand awareness",
-    "role": "Define and develop the enterprise brand, including providing advice and guidance to marketing and product/service development activities that leverage the brand. Respond to events that potentially damage the brand or provide an opportunity to strengthen/leverage brand awareness",
-    "example": "Product design seeks input from the brand management unit to factor the brand into the product marketing materials and ensure alignment",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/BrandManagement/12.0.0",
-    "key_features": [
+    "area": "Marketing and Sales",
+    "knowhow": [
       {
-        "name": "Brand definition",
-        "description": "Enables brand definition to support respond to events that potentially damage the brand or provide an opportunity to strengthen/leverage brand awareness",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Review business development impact and leverage of the brand",
-        "description": "Enables review business development impact and leverage of the brand to support respond to events that potentially damage the brand or provide an opportunity to strengthen/leverage brand awareness",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Troubleshoot production issues that might impact the brand",
-        "description": "Enables troubleshoot production issues that might impact the brand to support respond to events that potentially damage the brand or provide an opportunity to strengthen/leverage brand awareness",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Brand Management",
+      "definition": "Respond to events that potentially damage the brand or provide an opportunity to strengthen/leverage brand awareness",
+      "role": "Define and develop the enterprise brand, including providing advice and guidance to marketing and product/service development activities that leverage the brand. Respond to events that potentially damage the brand or provide an opportunity to strengthen/leverage brand awareness",
+      "example": "Product design seeks input from the brand management unit to factor the brand into the product marketing materials and ensure alignment",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/BrandManagement/12.0.0",
+      "key_features": [
+        {
+          "name": "Brand definition",
+          "description": "Enables brand definition to support respond to events that potentially damage the brand or provide an opportunity to strengthen/leverage brand awareness",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Review business development impact and leverage of the brand",
+          "description": "Enables review business development impact and leverage of the brand to support respond to events that potentially damage the brand or provide an opportunity to strengthen/leverage brand awareness",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Troubleshoot production issues that might impact the brand",
+          "description": "Enables troubleshoot production issues that might impact the brand to support respond to events that potentially damage the brand or provide an opportunity to strengthen/leverage brand awareness",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Brand",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

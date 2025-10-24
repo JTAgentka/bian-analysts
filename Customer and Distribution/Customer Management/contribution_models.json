@@ -1,49 +1,135 @@
 {
-  "division": "Customer and Distribution",
-  "domain": "Customer Management",
-  "capability": {
-    "name": "Contribution Models",
-    "definition": "Not specified in the PDF",
-    "role": "Develop and refine contribution models to detect underdeveloped business relationships and other opportunities",
-    "example": "Financial engineers evaluate the relative business performance of customers and products to identify patterns that highlight business development opportunities from increased sales, usage activity and/or pricing",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Customer Management",
+    "area": "Customer and Distribution",
+    "knowhow": [
       {
-        "name": "Develop contribution models",
-        "description": "Enables develop contribution models to support not specified in the pdf",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Refine contribution models",
-        "description": "Enables refine contribution models to support not specified in the pdf",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Detect underdeveloped business relationships",
-        "description": "Enables detect underdeveloped business relationships to support not specified in the pdf",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Identify business opportunities",
-        "description": "Enables identify business opportunities to support not specified in the pdf",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Contribution Models",
+      "definition": "Not specified in the PDF",
+      "role": "Develop and refine contribution models to detect underdeveloped business relationships and other opportunities",
+      "example": "Financial engineers evaluate the relative business performance of customers and products to identify patterns that highlight business development opportunities from increased sales, usage activity and/or pricing",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Develop contribution models",
+          "description": "Enables develop contribution models to support not specified in the pdf",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Refine contribution models",
+          "description": "Enables refine contribution models to support not specified in the pdf",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Detect underdeveloped business relationships",
+          "description": "Enables detect underdeveloped business relationships to support not specified in the pdf",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Identify business opportunities",
+          "description": "Enables identify business opportunities to support not specified in the pdf",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

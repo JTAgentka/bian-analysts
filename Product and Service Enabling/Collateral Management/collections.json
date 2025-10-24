@@ -1,49 +1,157 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Collateral Management",
-  "capability": {
-    "name": "Collections",
-    "definition": "Handles the liquidation of assets to offset the losses for problem accounts",
-    "role": "Administer the recovery and/or liquidation of collateral against problem accounts",
-    "example": "Collateral held against a failed account is valued and submitted for liquidation to recover losses",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/Collections/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Collateral Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Assess account status and determine collections approach",
-        "description": "Enables assess account status and determine collections approach to support handles the liquidation of assets to offset the losses for problem accounts",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Collateral title and valuation assessment",
-        "description": "Enables collateral title and valuation assessment to support handles the liquidation of assets to offset the losses for problem accounts",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Collateral Liquidation",
-        "description": "Enables collateral liquidation to support handles the liquidation of assets to offset the losses for problem accounts",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Account/debt factoring",
-        "description": "Enables account/debt factoring to support handles the liquidation of assets to offset the losses for problem accounts",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Collections",
+      "definition": "Handles the liquidation of assets to offset the losses for problem accounts",
+      "role": "Administer the recovery and/or liquidation of collateral against problem accounts",
+      "example": "Collateral held against a failed account is valued and submitted for liquidation to recover losses",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/Collections/12.0.0",
+      "key_features": [
+        {
+          "name": "Assess account status and determine collections approach",
+          "description": "Enables assess account status and determine collections approach to support handles the liquidation of assets to offset the losses for problem accounts",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Collateral title and valuation assessment",
+          "description": "Enables collateral title and valuation assessment to support handles the liquidation of assets to offset the losses for problem accounts",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Collateral Liquidation",
+          "description": "Enables collateral liquidation to support handles the liquidation of assets to offset the losses for problem accounts",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Account/debt factoring",
+          "description": "Enables account/debt factoring to support handles the liquidation of assets to offset the losses for problem accounts",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Collateral Asset Liquidation Procedure",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

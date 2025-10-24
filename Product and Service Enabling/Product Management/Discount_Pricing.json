@@ -1,20 +1,38 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Product Management",
-  "capability": {
-    "name": "Discount Pricing",
-    "definition": "",
-    "role": "Maintain a current price list (with ranges and optional terms) by product/customer type for exceptional pricing conditions that override standard pricing as would be derived from the standard product specification",
-    "example": "A short term discount (waived fees) is put in place for a product at selected university campus locations as part of an effort to attract new student customers",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+  "domain": {
+    "name": "Product Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
+      {
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
+      }
+    ],
+    "capability": {
+      "name": "Discount Pricing",
+      "definition": "",
+      "role": "Maintain a current price list (with ranges and optional terms) by product/customer type for exceptional pricing conditions that override standard pricing as would be derived from the standard product specification",
+      "example": "A short term discount (waived fees) is put in place for a product at selected university campus locations as part of an effort to attract new student customers",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

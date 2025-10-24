@@ -1,49 +1,157 @@
 {
-  "division": "Customer and Distribution",
-  "domain": "Customer Management",
-  "capability": {
-    "name": "Party Reference Data Directory",
-    "definition": "This service domain maintains a range of party reference information covering aspects including general reference details, contacts and associations and demographic information",
-    "role": "The party reference data directory service domain maintains a potentially wide range of party reference data that might be used in any interaction between the bank and the party including relationship development, sales/marketing, servicing and product delivery. This can include general reference and contact details, party associations, demographic details and some servicing preferences. Different information may be maintained for different party types such as individuals, corporates, partners",
-    "example": "Party reference details are accessed to pre-populate an application form for a new product opportunity with a customer",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/PartyReferenceDataDirectory/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Customer Management",
+    "area": "Customer and Distribution",
+    "knowhow": [
       {
-        "name": "Maintain party reference information",
-        "description": "Enables maintain party reference information to support this service domain maintains a range of party reference information covering aspects including general reference details, contacts and associations and demographic information",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Maintain party demographic indicators",
-        "description": "Enables maintain party demographic indicators to support this service domain maintains a range of party reference information covering aspects including general reference details, contacts and associations and demographic information",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Maintain party roles, associations and relationships",
-        "description": "Enables maintain party roles, associations and relationships to support this service domain maintains a range of party reference information covering aspects including general reference details, contacts and associations and demographic information",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Maintain customer bank contacts",
-        "description": "Enables maintain customer bank contacts to support this service domain maintains a range of party reference information covering aspects including general reference details, contacts and associations and demographic information",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Party Reference Data Directory",
+      "definition": "This service domain maintains a range of party reference information covering aspects including general reference details, contacts and associations and demographic information",
+      "role": "The party reference data directory service domain maintains a potentially wide range of party reference data that might be used in any interaction between the bank and the party including relationship development, sales/marketing, servicing and product delivery. This can include general reference and contact details, party associations, demographic details and some servicing preferences. Different information may be maintained for different party types such as individuals, corporates, partners",
+      "example": "Party reference details are accessed to pre-populate an application form for a new product opportunity with a customer",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/PartyReferenceDataDirectory/12.0.0",
+      "key_features": [
+        {
+          "name": "Maintain party reference information",
+          "description": "Enables maintain party reference information to support this service domain maintains a range of party reference information covering aspects including general reference details, contacts and associations and demographic information",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintain party demographic indicators",
+          "description": "Enables maintain party demographic indicators to support this service domain maintains a range of party reference information covering aspects including general reference details, contacts and associations and demographic information",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintain party roles, associations and relationships",
+          "description": "Enables maintain party roles, associations and relationships to support this service domain maintains a range of party reference information covering aspects including general reference details, contacts and associations and demographic information",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintain customer bank contacts",
+          "description": "Enables maintain customer bank contacts to support this service domain maintains a range of party reference information covering aspects including general reference details, contacts and associations and demographic information",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "PartyRegistryEntry",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

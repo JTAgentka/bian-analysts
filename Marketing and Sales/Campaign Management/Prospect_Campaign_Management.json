@@ -1,56 +1,181 @@
 {
-  "division": "Marketing and Sales",
-  "domain": "Campaign Management",
-  "capability": {
-    "name": "Prospect Campaign Management",
-    "definition": "Assess the coverage and impact of external/prospect campaigns and redirect campaign development and execution activity accordingly",
-    "role": "Oversee the use and assess the coverage and impact of external/prospect campaigns. Direct prospect campaign execution resources to maximize business impact and in response to any identified market opportunities and threats. Oversee campaign design and development activity.",
-    "example": "Prospect Campaign Management identifies competitor activity that is targeting an untapped market segment. Campaign design is initiated to develop a competitive acquisition campaign to address the threat",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Campaign Management",
+    "area": "Marketing and Sales",
+    "knowhow": [
       {
-        "name": "Track market/competitor activity",
-        "description": "Enables track market/competitor activity to support assess the coverage and impact of external/prospect campaigns and redirect campaign development and execution activity accordingly",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Assess customer segment performance/opportunities",
-        "description": "Enables assess customer segment performance/opportunities to support assess the coverage and impact of external/prospect campaigns and redirect campaign development and execution activity accordingly",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Assess coverage of prospect campaigns",
-        "description": "Enables assess coverage of prospect campaigns to support assess the coverage and impact of external/prospect campaigns and redirect campaign development and execution activity accordingly",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Direct the development of prospect campaigns",
-        "description": "Enables direct the development of prospect campaigns to support assess the coverage and impact of external/prospect campaigns and redirect campaign development and execution activity accordingly",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Direct the execution of prospect campaigns",
-        "description": "Enables direct the execution of prospect campaigns to support assess the coverage and impact of external/prospect campaigns and redirect campaign development and execution activity accordingly",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Prospect Campaign Management",
+      "definition": "Assess the coverage and impact of external/prospect campaigns and redirect campaign development and execution activity accordingly",
+      "role": "Oversee the use and assess the coverage and impact of external/prospect campaigns. Direct prospect campaign execution resources to maximize business impact and in response to any identified market opportunities and threats. Oversee campaign design and development activity.",
+      "example": "Prospect Campaign Management identifies competitor activity that is targeting an untapped market segment. Campaign design is initiated to develop a competitive acquisition campaign to address the threat",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Track market/competitor activity",
+          "description": "Enables track market/competitor activity to support assess the coverage and impact of external/prospect campaigns and redirect campaign development and execution activity accordingly",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Assess customer segment performance/opportunities",
+          "description": "Enables assess customer segment performance/opportunities to support assess the coverage and impact of external/prospect campaigns and redirect campaign development and execution activity accordingly",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Assess coverage of prospect campaigns",
+          "description": "Enables assess coverage of prospect campaigns to support assess the coverage and impact of external/prospect campaigns and redirect campaign development and execution activity accordingly",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Direct the development of prospect campaigns",
+          "description": "Enables direct the development of prospect campaigns to support assess the coverage and impact of external/prospect campaigns and redirect campaign development and execution activity accordingly",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Direct the execution of prospect campaigns",
+          "description": "Enables direct the execution of prospect campaigns to support assess the coverage and impact of external/prospect campaigns and redirect campaign development and execution activity accordingly",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Prospect Campaign",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

@@ -1,42 +1,133 @@
 {
-  "division": "Customer and Distribution",
-  "domain": "Partner Management",
-  "capability": {
-    "name": "Card Network Participant Facility",
-    "definition": "This service domain orchestrates the activities related to the inclusion of new Acquirers and Issuers in the Card Network, their terms and conditions and their status.",
-    "role": "Cards issued by banks are affiliated with one of many international Card Networks, such as Visa, Master Card, Diners, American Express. This service domain is used by the Card Network for setting up Acquiring and Issuing Bank accounts and their terms and conditions.",
-    "example": "The Card Network signs up Acquiring Banks for recruiting and setting up accounts for merchants and Issuing Banks for issuing cards to its customers.",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CardNetworkParticipantFacility/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Partner Management",
+    "area": "Customer and Distribution",
+    "knowhow": [
       {
-        "name": "Acquiring bank facility terms administration",
-        "description": "Enables acquiring bank facility terms administration to support this service domain orchestrates the activities related to the inclusion of new acquirers and issuers in the card network, their terms and conditions and their status",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Issuing bank facility terms administration",
-        "description": "Enables issuing bank facility terms administration to support this service domain orchestrates the activities related to the inclusion of new acquirers and issuers in the card network, their terms and conditions and their status",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Participant bank service status maintenance",
-        "description": "Enables participant bank service status maintenance to support this service domain orchestrates the activities related to the inclusion of new acquirers and issuers in the card network, their terms and conditions and their status",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Card Network Participant Facility",
+      "definition": "This service domain orchestrates the activities related to the inclusion of new Acquirers and Issuers in the Card Network, their terms and conditions and their status.",
+      "role": "Cards issued by banks are affiliated with one of many international Card Networks, such as Visa, Master Card, Diners, American Express. This service domain is used by the Card Network for setting up Acquiring and Issuing Bank accounts and their terms and conditions.",
+      "example": "The Card Network signs up Acquiring Banks for recruiting and setting up accounts for merchants and Issuing Banks for issuing cards to its customers.",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CardNetworkParticipantFacility/12.0.0",
+      "key_features": [
+        {
+          "name": "Acquiring bank facility terms administration",
+          "description": "Enables acquiring bank facility terms administration to support this service domain orchestrates the activities related to the inclusion of new acquirers and issuers in the card network, their terms and conditions and their status",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Issuing bank facility terms administration",
+          "description": "Enables issuing bank facility terms administration to support this service domain orchestrates the activities related to the inclusion of new acquirers and issuers in the card network, their terms and conditions and their status",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Participant bank service status maintenance",
+          "description": "Enables participant bank service status maintenance to support this service domain orchestrates the activities related to the inclusion of new acquirers and issuers in the card network, their terms and conditions and their status",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Card Network Participant Agreement",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

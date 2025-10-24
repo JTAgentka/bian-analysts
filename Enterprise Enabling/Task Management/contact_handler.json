@@ -1,63 +1,205 @@
 {
-  "division": "Enterprise Enabling",
-  "domain": "Task Management",
-  "capability": {
-    "name": "Contact Handler",
-    "definition": "This service domain handles a customer's interactive contact with the bank. This will typically involve launching of one or more channel/device specific dialogue sessions as necessary within the customer contact.",
-    "role": "BIAN defines a customer contact as the overarching structure handling a customer interaction from start to end. A contact can include one or more servicing dialogue 'sessions' in parallel or sequence to support different device/channel uses within the contact and to allow for the customer to be passed on to different servicing specialists as necessary during the contact. Each session is handled at a servicing position where the Contact Dialogue service domain is called to handle the specific customer interaction. Contact Handler concludes the contact, handles the authorization permissions and shares any contact information collected during the contact between sessions as necessary.",
-    "example": "A customer is self serving on the web and then requests to talk to a servicing representative directory using the VoIP capability presented on the banks web portal.",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/ContactHandler/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Task Management",
+    "area": "Enterprise Enabling",
+    "knowhow": [
       {
-        "name": "Handle customer contacts with the bank",
-        "description": "Enables handle customer contacts with the bank to support this service domain handles a customer's interactive contact with the bank",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Obtain customer identity authentication",
-        "description": "Enables obtain customer identity authentication to support this service domain handles a customer's interactive contact with the bank",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Consolidate reference information and recent contact activity details",
-        "description": "Enables consolidate reference information and recent contact activity details to support this service domain handles a customer's interactive contact with the bank",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Obtain routing decision (select optimal servicing resource)",
-        "description": "Enables obtain routing decision (select optimal servicing resource) to support this service domain handles a customer's interactive contact with the bank",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Initiate servicing sessions",
-        "description": "Enables initiate servicing sessions to support this service domain handles a customer's interactive contact with the bank",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Log contact activity",
-        "description": "Enables log contact activity to support this service domain handles a customer's interactive contact with the bank",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Contact Handler",
+      "definition": "This service domain handles a customer's interactive contact with the bank. This will typically involve launching of one or more channel/device specific dialogue sessions as necessary within the customer contact.",
+      "role": "BIAN defines a customer contact as the overarching structure handling a customer interaction from start to end. A contact can include one or more servicing dialogue 'sessions' in parallel or sequence to support different device/channel uses within the contact and to allow for the customer to be passed on to different servicing specialists as necessary during the contact. Each session is handled at a servicing position where the Contact Dialogue service domain is called to handle the specific customer interaction. Contact Handler concludes the contact, handles the authorization permissions and shares any contact information collected during the contact between sessions as necessary.",
+      "example": "A customer is self serving on the web and then requests to talk to a servicing representative directory using the VoIP capability presented on the banks web portal.",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/ContactHandler/12.0.0",
+      "key_features": [
+        {
+          "name": "Handle customer contacts with the bank",
+          "description": "Enables handle customer contacts with the bank to support this service domain handles a customer's interactive contact with the bank",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Obtain customer identity authentication",
+          "description": "Enables obtain customer identity authentication to support this service domain handles a customer's interactive contact with the bank",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Consolidate reference information and recent contact activity details",
+          "description": "Enables consolidate reference information and recent contact activity details to support this service domain handles a customer's interactive contact with the bank",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Obtain routing decision (select optimal servicing resource)",
+          "description": "Enables obtain routing decision (select optimal servicing resource) to support this service domain handles a customer's interactive contact with the bank",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Initiate servicing sessions",
+          "description": "Enables initiate servicing sessions to support this service domain handles a customer's interactive contact with the bank",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Log contact activity",
+          "description": "Enables log contact activity to support this service domain handles a customer's interactive contact with the bank",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "CustomerContactSession",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

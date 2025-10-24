@@ -1,49 +1,135 @@
 {
-  "division": "Enterprise Enabling",
-  "domain": "Task Management",
-  "capability": {
-    "name": "Customer Case",
-    "definition": "This service domain handles the initiation, tracking, resolution and reporting on customer cases (issues that typically require corrective response to some financial transaction)",
-    "role": "Case resolution tasks follow specific procedures for the type of case involved. Case resolution can be quick by applying resolution rules and obtaining additional authorization as necessary, or they can be long living activities, for example where documentation is requested and has to be retrieved from merchants or other interested parties before the disputed issue can finally be ruled upon. A wide range of case types can be expected",
-    "example": "A case resolution operator works through the resolution of a case, following the established process for the specific case - in this case a disputed charge that is below a threshold allowing the credit to be charged to the merchant",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CustomerCase/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Task Management",
+    "area": "Enterprise Enabling",
+    "knowhow": [
       {
-        "name": "Customer case capture and classification",
-        "description": "Enables customer case capture and classification to support this service domain handles the initiation, tracking, resolution and reporting on customer cases (issues that typically require corrective response to some financial transaction)",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Case related information consolidation",
-        "description": "Enables case related information consolidation to support this service domain handles the initiation, tracking, resolution and reporting on customer cases (issues that typically require corrective response to some financial transaction)",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Customer case diagnosis and decisioning",
-        "description": "Enables customer case diagnosis and decisioning to support this service domain handles the initiation, tracking, resolution and reporting on customer cases (issues that typically require corrective response to some financial transaction)",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Customer case resolution implementation",
-        "description": "Enables customer case resolution implementation to support this service domain handles the initiation, tracking, resolution and reporting on customer cases (issues that typically require corrective response to some financial transaction)",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Customer Case",
+      "definition": "This service domain handles the initiation, tracking, resolution and reporting on customer cases (issues that typically require corrective response to some financial transaction)",
+      "role": "Case resolution tasks follow specific procedures for the type of case involved. Case resolution can be quick by applying resolution rules and obtaining additional authorization as necessary, or they can be long living activities, for example where documentation is requested and has to be retrieved from merchants or other interested parties before the disputed issue can finally be ruled upon. A wide range of case types can be expected",
+      "example": "A case resolution operator works through the resolution of a case, following the established process for the specific case - in this case a disputed charge that is below a threshold allowing the credit to be charged to the merchant",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CustomerCase/12.0.0",
+      "key_features": [
+        {
+          "name": "Customer case capture and classification",
+          "description": "Enables customer case capture and classification to support this service domain handles the initiation, tracking, resolution and reporting on customer cases (issues that typically require corrective response to some financial transaction)",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Case related information consolidation",
+          "description": "Enables case related information consolidation to support this service domain handles the initiation, tracking, resolution and reporting on customer cases (issues that typically require corrective response to some financial transaction)",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Customer case diagnosis and decisioning",
+          "description": "Enables customer case diagnosis and decisioning to support this service domain handles the initiation, tracking, resolution and reporting on customer cases (issues that typically require corrective response to some financial transaction)",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Customer case resolution implementation",
+          "description": "Enables customer case resolution implementation to support this service domain handles the initiation, tracking, resolution and reporting on customer cases (issues that typically require corrective response to some financial transaction)",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

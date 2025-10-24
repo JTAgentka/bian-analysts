@@ -1,49 +1,157 @@
 {
-  "division": "Marketing and Sales",
-  "domain": "Market Management",
-  "capability": {
-    "name": "Segment Direction",
-    "definition": "Define market segments and develop and assess performance against the segment plan's performance goals",
-    "role": "Define, implement, track and assess the business performance goals for defined market segments. This perspective supports a particular organizational structure where enterprise strategies and plans are aligned to market segments (often in addition to product divisions)",
-    "example": "Corporate direction notifies segment leadership of changed goals and priorities that impact their activity",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/SegmentDirection/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Market Management",
+    "area": "Marketing and Sales",
+    "knowhow": [
       {
-        "name": "Define governing policies and guidelines",
-        "description": "Enables define governing policies and guidelines to support define market segments and develop and assess performance against the segment plan's performance goals",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Define business goals",
-        "description": "Enables define business goals to support define market segments and develop and assess performance against the segment plan's performance goals",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Define supporting business development strategies",
-        "description": "Enables define supporting business development strategies to support define market segments and develop and assess performance against the segment plan's performance goals",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Track progress towards goals and direct activity",
-        "description": "Enables track progress towards goals and direct activity to support define market segments and develop and assess performance against the segment plan's performance goals",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Segment Direction",
+      "definition": "Define market segments and develop and assess performance against the segment plan's performance goals",
+      "role": "Define, implement, track and assess the business performance goals for defined market segments. This perspective supports a particular organizational structure where enterprise strategies and plans are aligned to market segments (often in addition to product divisions)",
+      "example": "Corporate direction notifies segment leadership of changed goals and priorities that impact their activity",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/SegmentDirection/12.0.0",
+      "key_features": [
+        {
+          "name": "Define governing policies and guidelines",
+          "description": "Enables define governing policies and guidelines to support define market segments and develop and assess performance against the segment plan's performance goals",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Define business goals",
+          "description": "Enables define business goals to support define market segments and develop and assess performance against the segment plan's performance goals",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Define supporting business development strategies",
+          "description": "Enables define supporting business development strategies to support define market segments and develop and assess performance against the segment plan's performance goals",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Track progress towards goals and direct activity",
+          "description": "Enables track progress towards goals and direct activity to support define market segments and develop and assess performance against the segment plan's performance goals",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Market Segment Strategy",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

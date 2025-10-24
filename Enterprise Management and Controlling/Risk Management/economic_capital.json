@@ -1,63 +1,205 @@
 {
-  "division": "Enterprise Management and Controlling",
-  "domain": "Risk Management",
-  "capability": {
-    "name": "Economic Capital",
-    "definition": "Economic Capital capability provides comprehensive risk consolidation across different risk types to determine the bank's overall risk position. It develops and maintains sophisticated models that integrate various risk categories to provide a complete picture of the institution's risk exposure.",
-    "role": "Develop, maintain and apply models that combine the overall risk over different risk types to determine the consolidated risk position for the bank",
-    "example": "Financial engineers define and apply models that consolidate the overall risk exposure for the bank to determine a complete estimate of exposure",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Risk Management",
+    "area": "Enterprise Management and Controlling",
+    "knowhow": [
       {
-        "name": "Risk consolidation across different risk types",
-        "description": "Enables risk consolidation across different risk types to support economic capital capability provides comprehensive risk consolidation across different risk types to determine the bank's overall risk position",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Consolidated risk position determination",
-        "description": "Enables consolidated risk position determination to support economic capital capability provides comprehensive risk consolidation across different risk types to determine the bank's overall risk position",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Economic capital model development and maintenance",
-        "description": "Enables economic capital model development and maintenance to support economic capital capability provides comprehensive risk consolidation across different risk types to determine the bank's overall risk position",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Complete risk exposure estimation",
-        "description": "Enables complete risk exposure estimation to support economic capital capability provides comprehensive risk consolidation across different risk types to determine the bank's overall risk position",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Individual analytics including accumulators, activity analysis, performance analysis, and trends & events",
-        "description": "Enables individual analytics including accumulators, activity analysis, performance analysis, and trends & events to support economic capital capability provides comprehensive risk consolidation across different risk types to determine the bank's overall risk position",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Portfolio analytics for activity, make-up, and performance analysis",
-        "description": "Enables portfolio analytics for activity, make-up, and performance analysis to support economic capital capability provides comprehensive risk consolidation across different risk types to determine the bank's overall risk position",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Economic Capital",
+      "definition": "Economic Capital capability provides comprehensive risk consolidation across different risk types to determine the bank's overall risk position. It develops and maintains sophisticated models that integrate various risk categories to provide a complete picture of the institution's risk exposure.",
+      "role": "Develop, maintain and apply models that combine the overall risk over different risk types to determine the consolidated risk position for the bank",
+      "example": "Financial engineers define and apply models that consolidate the overall risk exposure for the bank to determine a complete estimate of exposure",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Risk consolidation across different risk types",
+          "description": "Enables risk consolidation across different risk types to support economic capital capability provides comprehensive risk consolidation across different risk types to determine the bank's overall risk position",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Consolidated risk position determination",
+          "description": "Enables consolidated risk position determination to support economic capital capability provides comprehensive risk consolidation across different risk types to determine the bank's overall risk position",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Economic capital model development and maintenance",
+          "description": "Enables economic capital model development and maintenance to support economic capital capability provides comprehensive risk consolidation across different risk types to determine the bank's overall risk position",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Complete risk exposure estimation",
+          "description": "Enables complete risk exposure estimation to support economic capital capability provides comprehensive risk consolidation across different risk types to determine the bank's overall risk position",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Individual analytics including accumulators, activity analysis, performance analysis, and trends & events",
+          "description": "Enables individual analytics including accumulators, activity analysis, performance analysis, and trends & events to support economic capital capability provides comprehensive risk consolidation across different risk types to determine the bank's overall risk position",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Portfolio analytics for activity, make-up, and performance analysis",
+          "description": "Enables portfolio analytics for activity, make-up, and performance analysis to support economic capital capability provides comprehensive risk consolidation across different risk types to determine the bank's overall risk position",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Economic Capital Analysis",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

@@ -1,42 +1,133 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Financial Instrument Management",
-  "capability": {
-    "name": "Financial Instrument Valuation",
-    "definition": "This Service Domain provides a range of financial asset valuation services",
-    "role": "Provide securities/asset valuation services. A wide range of valuation approaches can be applied to a range of different instrument/asset types. This Service Domain implements a process by which the most appropriate valuation method is selected and applied in the context of the valuation request and the purpose of the valuation. The fundamental pricing principle is based on an analysis of the present value of expected cash flows. This calculation involves identifying the expected cash flows, determining appropriate (range of)interest rates that might discount future cash flows and calculate the current value of future cash flows applying those interest rates",
-    "example": "The assets held in an investment portfolio are subject to valuation as part of an annual performance report",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN3/FinancialInstrumentValuation/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Financial Instrument Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Support the selection from various financial asset valuation approaches (e.g. market, income, replacement) and depending on the type of financial asset and valuation context",
-        "description": "Enables support the selection from various financial asset valuation approaches (e.g. market, income, replacement) and depending on the type of financial asset and valuation context to support this service domain provides a range of financial asset valuation services",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Consolidate information supporting the valuation assessment",
-        "description": "Enables consolidate information supporting the valuation assessment to support this service domain provides a range of financial asset valuation services",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Determine and report on the financial asset valuation",
-        "description": "Enables determine and report on the financial asset valuation to support this service domain provides a range of financial asset valuation services",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Financial Instrument Valuation",
+      "definition": "This Service Domain provides a range of financial asset valuation services",
+      "role": "Provide securities/asset valuation services. A wide range of valuation approaches can be applied to a range of different instrument/asset types. This Service Domain implements a process by which the most appropriate valuation method is selected and applied in the context of the valuation request and the purpose of the valuation. The fundamental pricing principle is based on an analysis of the present value of expected cash flows. This calculation involves identifying the expected cash flows, determining appropriate (range of)interest rates that might discount future cash flows and calculate the current value of future cash flows applying those interest rates",
+      "example": "The assets held in an investment portfolio are subject to valuation as part of an annual performance report",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN3/FinancialInstrumentValuation/12.0.0",
+      "key_features": [
+        {
+          "name": "Support the selection from various financial asset valuation approaches (e.g. market, income, replacement) and depending on the type of financial asset and valuation context",
+          "description": "Enables support the selection from various financial asset valuation approaches (e.g. market, income, replacement) and depending on the type of financial asset and valuation context to support this service domain provides a range of financial asset valuation services",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Consolidate information supporting the valuation assessment",
+          "description": "Enables consolidate information supporting the valuation assessment to support this service domain provides a range of financial asset valuation services",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Determine and report on the financial asset valuation",
+          "description": "Enables determine and report on the financial asset valuation to support this service domain provides a range of financial asset valuation services",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Market Asset Valuation Procedure",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

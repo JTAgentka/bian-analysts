@@ -1,49 +1,135 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Payment Management",
-  "capability": {
-    "name": "Payment Initiation",
-    "definition": "This service domain provides a customer payment service. It captures the payer and payee details and other key properties of the payment and orchestrates the transaction. It provides support for repeating/scheduled payments",
-    "role": "This service domain supports payment services for consumer and business customers. Payments are made to other accounts within the bank, other banks and possibly internationally using whatever payments mechanism is suited to the transaction (See Payments Order/Execution). The service domain can support single transactions, or manage repeating/scheduled payments if requested",
-    "example": "An established customer transfers an amount from their current account to an overseas account for a family member. As this is a recurring transaction, the details are maintained and updated as necessary",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/PaymentInitiation/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Payment Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Capture payment instruction details",
-        "description": "Enables capture payment instruction details to support this service domain provides a customer payment service",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Verify/validate payment transaction (check funds available)",
-        "description": "Enables verify/validate payment transaction (check funds available) to support this service domain provides a customer payment service",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Initiation payment order processing",
-        "description": "Enables initiation payment order processing to support this service domain provides a customer payment service",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Retain, apply and update repeating remittances",
-        "description": "Enables retain, apply and update repeating remittances to support this service domain provides a customer payment service",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Payment Initiation",
+      "definition": "This service domain provides a customer payment service. It captures the payer and payee details and other key properties of the payment and orchestrates the transaction. It provides support for repeating/scheduled payments",
+      "role": "This service domain supports payment services for consumer and business customers. Payments are made to other accounts within the bank, other banks and possibly internationally using whatever payments mechanism is suited to the transaction (See Payments Order/Execution). The service domain can support single transactions, or manage repeating/scheduled payments if requested",
+      "example": "An established customer transfers an amount from their current account to an overseas account for a family member. As this is a recurring transaction, the details are maintained and updated as necessary",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/PaymentInitiation/12.0.0",
+      "key_features": [
+        {
+          "name": "Capture payment instruction details",
+          "description": "Enables capture payment instruction details to support this service domain provides a customer payment service",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Verify/validate payment transaction (check funds available)",
+          "description": "Enables verify/validate payment transaction (check funds available) to support this service domain provides a customer payment service",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Initiation payment order processing",
+          "description": "Enables initiation payment order processing to support this service domain provides a customer payment service",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Retain, apply and update repeating remittances",
+          "description": "Enables retain, apply and update repeating remittances to support this service domain provides a customer payment service",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

@@ -1,49 +1,157 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Agreement Management",
-  "capability": {
-    "name": "Corporate Loan",
-    "definition": "This service domain handles the fulfillment of a corporate loan product. This includes the initial set-up of the loan facility and the completion of scheduled and ad-hoc product processing tasks",
-    "role": "The corporate loan product may include different properties/features depending on a bank's preferences and policies. The loan is targeted at corporate customers and may be associated with a type of product and may or may not be secured by collateral.",
-    "example": "A corporate customer applies for and gets a loan to purchase new equipment.",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CorporateLoan/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Agreement Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Set-up a corporate loan facility",
-        "description": "Enables set-up a corporate loan facility to support this service domain handles the fulfillment of a corporate loan product",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Handle deposits and withdrawals",
-        "description": "Enables handle deposits and withdrawals to support this service domain handles the fulfillment of a corporate loan product",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Provide statements and assessment reports on the loan",
-        "description": "Enables provide statements and assessment reports on the loan to support this service domain handles the fulfillment of a corporate loan product",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Support loan restructuring",
-        "description": "Enables support loan restructuring to support this service domain handles the fulfillment of a corporate loan product",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Corporate Loan",
+      "definition": "This service domain handles the fulfillment of a corporate loan product. This includes the initial set-up of the loan facility and the completion of scheduled and ad-hoc product processing tasks",
+      "role": "The corporate loan product may include different properties/features depending on a bank's preferences and policies. The loan is targeted at corporate customers and may be associated with a type of product and may or may not be secured by collateral.",
+      "example": "A corporate customer applies for and gets a loan to purchase new equipment.",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CorporateLoan/12.0.0",
+      "key_features": [
+        {
+          "name": "Set-up a corporate loan facility",
+          "description": "Enables set-up a corporate loan facility to support this service domain handles the fulfillment of a corporate loan product",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Handle deposits and withdrawals",
+          "description": "Enables handle deposits and withdrawals to support this service domain handles the fulfillment of a corporate loan product",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Provide statements and assessment reports on the loan",
+          "description": "Enables provide statements and assessment reports on the loan to support this service domain handles the fulfillment of a corporate loan product",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Support loan restructuring",
+          "description": "Enables support loan restructuring to support this service domain handles the fulfillment of a corporate loan product",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Loan Agreement",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

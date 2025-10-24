@@ -1,49 +1,135 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Trade Finance Management",
-  "capability": {
-    "name": "Letter Of Credit",
-    "definition": "This Service Domain handles the pricing and issuance of letters of credit to its corporate customers in support of their international trading requirements",
-    "role": "Orchestrate the pricing and issuance of Letters of Credit to bank customers guaranteeing their ability to pay sellers for goods that are to be delivered at some future date. Letters of Credit are mostly used to facilitate international trade. They can be single transaction or revolving and can also be transferable and so traded (this Service Domain only covers the issuance and processing of the LoC)",
-    "example": "A bank issues an LC to a corporate customer to enable them to make a large purchase from an overseas supplier",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Trade Finance Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Price and issue letters of credit for bank customers",
-        "description": "Enables price and issue letters of credit for bank customers to support this service domain handles the pricing and issuance of letters of credit to its corporate customers in support of their international trading requirements",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Evaluate seller claims and make payments against the letter of credit",
-        "description": "Enables evaluate seller claims and make payments against the letter of credit to support this service domain handles the pricing and issuance of letters of credit to its corporate customers in support of their international trading requirements",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Evaluate buyer delivery completion prior to releasing funds",
-        "description": "Enables evaluate buyer delivery completion prior to releasing funds to support this service domain handles the pricing and issuance of letters of credit to its corporate customers in support of their international trading requirements",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Recover buyer collateral against redeemed letters of credit where applicable",
-        "description": "Enables recover buyer collateral against redeemed letters of credit where applicable to support this service domain handles the pricing and issuance of letters of credit to its corporate customers in support of their international trading requirements",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Letter Of Credit",
+      "definition": "This Service Domain handles the pricing and issuance of letters of credit to its corporate customers in support of their international trading requirements",
+      "role": "Orchestrate the pricing and issuance of Letters of Credit to bank customers guaranteeing their ability to pay sellers for goods that are to be delivered at some future date. Letters of Credit are mostly used to facilitate international trade. They can be single transaction or revolving and can also be transferable and so traded (this Service Domain only covers the issuance and processing of the LoC)",
+      "example": "A bank issues an LC to a corporate customer to enable them to make a large purchase from an overseas supplier",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Price and issue letters of credit for bank customers",
+          "description": "Enables price and issue letters of credit for bank customers to support this service domain handles the pricing and issuance of letters of credit to its corporate customers in support of their international trading requirements",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Evaluate seller claims and make payments against the letter of credit",
+          "description": "Enables evaluate seller claims and make payments against the letter of credit to support this service domain handles the pricing and issuance of letters of credit to its corporate customers in support of their international trading requirements",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Evaluate buyer delivery completion prior to releasing funds",
+          "description": "Enables evaluate buyer delivery completion prior to releasing funds to support this service domain handles the pricing and issuance of letters of credit to its corporate customers in support of their international trading requirements",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Recover buyer collateral against redeemed letters of credit where applicable",
+          "description": "Enables recover buyer collateral against redeemed letters of credit where applicable to support this service domain handles the pricing and issuance of letters of credit to its corporate customers in support of their international trading requirements",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

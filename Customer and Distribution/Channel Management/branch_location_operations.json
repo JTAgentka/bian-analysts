@@ -1,49 +1,135 @@
 {
-  "division": "Customer and Distribution",
-  "domain": "Channel Management",
-  "capability": {
-    "name": "Branch Location Operations",
-    "definition": "The day to day administration of branch activity, including teller assignment and cash handling oversight",
-    "role": "Administer the day to day activity within the branch - allocating tellers and customer relationship managers to positions and tracking availability/performance, ensuring cash floats and product consumables are on hand and that all facilities are in working order",
-    "example": "Branch staff administration assigns teller positions and relationship management tasks to the branch workforce based on ongoing demand",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN3/BranchLocationOperations/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Channel Management",
+    "area": "Customer and Distribution",
+    "knowhow": [
       {
-        "name": "Staff assignments",
-        "description": "Enables staff assignments to support the day to day administration of branch activity, including teller assignment and cash handling oversight",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Cash and non-cash movements within the branch",
-        "description": "Enables cash and non-cash movements within the branch to support the day to day administration of branch activity, including teller assignment and cash handling oversight",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Safe custody service operation",
-        "description": "Enables safe custody service operation to support the day to day administration of branch activity, including teller assignment and cash handling oversight",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Location security operations",
-        "description": "Enables location security operations to support the day to day administration of branch activity, including teller assignment and cash handling oversight",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Branch Location Operations",
+      "definition": "The day to day administration of branch activity, including teller assignment and cash handling oversight",
+      "role": "Administer the day to day activity within the branch - allocating tellers and customer relationship managers to positions and tracking availability/performance, ensuring cash floats and product consumables are on hand and that all facilities are in working order",
+      "example": "Branch staff administration assigns teller positions and relationship management tasks to the branch workforce based on ongoing demand",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN3/BranchLocationOperations/12.0.0",
+      "key_features": [
+        {
+          "name": "Staff assignments",
+          "description": "Enables staff assignments to support the day to day administration of branch activity, including teller assignment and cash handling oversight",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cash and non-cash movements within the branch",
+          "description": "Enables cash and non-cash movements within the branch to support the day to day administration of branch activity, including teller assignment and cash handling oversight",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Safe custody service operation",
+          "description": "Enables safe custody service operation to support the day to day administration of branch activity, including teller assignment and cash handling oversight",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Location security operations",
+          "description": "Enables location security operations to support the day to day administration of branch activity, including teller assignment and cash handling oversight",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

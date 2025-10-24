@@ -1,42 +1,111 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Trade Finance Management",
-  "capability": {
-    "name": "Bank Guarantee",
-    "definition": "This Service Domain handles the pricing and issuance of a broad range of bank guarantee instruments",
-    "role": "Orchestrate the pricing, issuance and subsequent fulfillment activities for Bank Guarantees as used in corporate/correspondent trade and project finance activity",
-    "example": "A bank guarantee is provided to a corporate client to cover international trade finance deal",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Trade Finance Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Price and issue bank guarantees for bank customers",
-        "description": "Enables price and issue bank guarantees for bank customers to support this service domain handles the pricing and issuance of a broad range of bank guarantee instruments",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Evaluate claims and make payments against the guarantee",
-        "description": "Enables evaluate claims and make payments against the guarantee to support this service domain handles the pricing and issuance of a broad range of bank guarantee instruments",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Recover collateral against redeemed guarantees where applicable",
-        "description": "Enables recover collateral against redeemed guarantees where applicable to support this service domain handles the pricing and issuance of a broad range of bank guarantee instruments",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Bank Guarantee",
+      "definition": "This Service Domain handles the pricing and issuance of a broad range of bank guarantee instruments",
+      "role": "Orchestrate the pricing, issuance and subsequent fulfillment activities for Bank Guarantees as used in corporate/correspondent trade and project finance activity",
+      "example": "A bank guarantee is provided to a corporate client to cover international trade finance deal",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Price and issue bank guarantees for bank customers",
+          "description": "Enables price and issue bank guarantees for bank customers to support this service domain handles the pricing and issuance of a broad range of bank guarantee instruments",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Evaluate claims and make payments against the guarantee",
+          "description": "Enables evaluate claims and make payments against the guarantee to support this service domain handles the pricing and issuance of a broad range of bank guarantee instruments",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Recover collateral against redeemed guarantees where applicable",
+          "description": "Enables recover collateral against redeemed guarantees where applicable to support this service domain handles the pricing and issuance of a broad range of bank guarantee instruments",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

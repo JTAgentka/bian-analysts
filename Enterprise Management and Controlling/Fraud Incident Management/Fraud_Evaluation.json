@@ -1,42 +1,111 @@
 {
-  "division": "Enterprise Management and Controlling",
-  "domain": "Fraud Incident Management",
-  "capability": {
-    "name": "Fraud Evaluation",
-    "definition": "The service domain executes fraud behavioral pattern tests to detect possible fraudulent transactions/activity",
-    "role": "This service domain handles the structured execution of fraud detection tests/routines that are used to identify possible fraud by detecting out of pattern behaviors. The tests may run in-line with production or may access transaction logs as appropriate. Detected anomalies are passed for further analysis and resolution.",
-    "example": "Card transactions are subjected to an array of fraud pattern test to detect 'out of pattern' behavior - anomalies are highlighted for analysis",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/FraudEvaluation/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Fraud Incident Management",
+    "area": "Enterprise Management and Controlling",
+    "knowhow": [
       {
-        "name": "Transaction data consolidation",
-        "description": "Enables transaction data consolidation to support the service domain executes fraud behavioral pattern tests to detect possible fraudulent transactions/activity",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Fraud detection test execution",
-        "description": "Enables fraud detection test execution to support the service domain executes fraud behavioral pattern tests to detect possible fraudulent transactions/activity",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Fraud analysis/diagnosis and reporting",
-        "description": "Enables fraud analysis/diagnosis and reporting to support the service domain executes fraud behavioral pattern tests to detect possible fraudulent transactions/activity",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Fraud Evaluation",
+      "definition": "The service domain executes fraud behavioral pattern tests to detect possible fraudulent transactions/activity",
+      "role": "This service domain handles the structured execution of fraud detection tests/routines that are used to identify possible fraud by detecting out of pattern behaviors. The tests may run in-line with production or may access transaction logs as appropriate. Detected anomalies are passed for further analysis and resolution.",
+      "example": "Card transactions are subjected to an array of fraud pattern test to detect 'out of pattern' behavior - anomalies are highlighted for analysis",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/FraudEvaluation/12.0.0",
+      "key_features": [
+        {
+          "name": "Transaction data consolidation",
+          "description": "Enables transaction data consolidation to support the service domain executes fraud behavioral pattern tests to detect possible fraudulent transactions/activity",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fraud detection test execution",
+          "description": "Enables fraud detection test execution to support the service domain executes fraud behavioral pattern tests to detect possible fraudulent transactions/activity",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fraud analysis/diagnosis and reporting",
+          "description": "Enables fraud analysis/diagnosis and reporting to support the service domain executes fraud behavioral pattern tests to detect possible fraudulent transactions/activity",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

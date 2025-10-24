@@ -1,49 +1,157 @@
 {
-  "division": "Marketing and Sales",
-  "domain": "Message Management",
-  "capability": {
+  "domain": {
     "name": "Message Management",
-    "definition": "Develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
-    "role": "Develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
-    "example": "Press releases are developed to coincide with financial performance reporting",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+    "area": "Marketing and Sales",
+    "knowhow": [
       {
-        "name": "Development of key corporate messages",
-        "description": "Enables development of key corporate messages to support develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Distribution of corporate communications",
-        "description": "Enables distribution of corporate communications to support develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Support for enterprise strategy",
-        "description": "Enables support for enterprise strategy to support develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Maintenance of enterprise reputation and brand",
-        "description": "Enables maintenance of enterprise reputation and brand to support develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Message Management",
+      "definition": "Develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
+      "role": "Develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
+      "example": "Press releases are developed to coincide with financial performance reporting",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Development of key corporate messages",
+          "description": "Enables development of key corporate messages to support develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Distribution of corporate communications",
+          "description": "Enables distribution of corporate communications to support develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Support for enterprise strategy",
+          "description": "Enables support for enterprise strategy to support develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintenance of enterprise reputation and brand",
+          "description": "Enables maintenance of enterprise reputation and brand to support develop and distribute key corporate messages as needed to support the strategy and maintain the enterprise reputation and brand",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Enterprise Communication",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

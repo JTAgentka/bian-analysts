@@ -1,70 +1,229 @@
 {
-  "division": "Enterprise Management and Controlling",
-  "domain": "Risk Management",
-  "capability": {
-    "name": "Credit Risk Models",
-    "definition": "This service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
-    "role": "This service domain handles the development, maintenance and continual assessment and refinement of the collection of credit models that are deployed across the bank. This includes individual credit assessments and more complex analyses for merchants and companies/corporations. The models are used to derive credit scoring and support more involved credit analysis/insight development",
-    "example": "A credit model is used to analyze product activity in order to refine then banks credit assessment of a customer",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CreditRiskModels/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Risk Management",
+    "area": "Enterprise Management and Controlling",
+    "knowhow": [
       {
-        "name": "Determine desired type/coverage for credit analysis",
-        "description": "Enables determine desired type/coverage for credit analysis to support this service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Source, define and develop credit models",
-        "description": "Enables source, define and develop credit models to support this service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Publish, process feedback and refine/tune models",
-        "description": "Enables publish, process feedback and refine/tune models to support this service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Individual credit assessments",
-        "description": "Enables individual credit assessments to support this service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Complex analyses for merchants and companies/corporations",
-        "description": "Enables complex analyses for merchants and companies/corporations to support this service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Credit scoring derivation",
-        "description": "Enables credit scoring derivation to support this service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Credit analysis/insight development support",
-        "description": "Enables credit analysis/insight development support to support this service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Credit Risk Models",
+      "definition": "This service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
+      "role": "This service domain handles the development, maintenance and continual assessment and refinement of the collection of credit models that are deployed across the bank. This includes individual credit assessments and more complex analyses for merchants and companies/corporations. The models are used to derive credit scoring and support more involved credit analysis/insight development",
+      "example": "A credit model is used to analyze product activity in order to refine then banks credit assessment of a customer",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CreditRiskModels/12.0.0",
+      "key_features": [
+        {
+          "name": "Determine desired type/coverage for credit analysis",
+          "description": "Enables determine desired type/coverage for credit analysis to support this service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Source, define and develop credit models",
+          "description": "Enables source, define and develop credit models to support this service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Publish, process feedback and refine/tune models",
+          "description": "Enables publish, process feedback and refine/tune models to support this service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Individual credit assessments",
+          "description": "Enables individual credit assessments to support this service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Complex analyses for merchants and companies/corporations",
+          "description": "Enables complex analyses for merchants and companies/corporations to support this service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Credit scoring derivation",
+          "description": "Enables credit scoring derivation to support this service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Credit analysis/insight development support",
+          "description": "Enables credit analysis/insight development support to support this service domain handles the design and maintenance of a portfolio of credit models that are used in all aspects of customer credit assessments",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Credit Risk Model Specification",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

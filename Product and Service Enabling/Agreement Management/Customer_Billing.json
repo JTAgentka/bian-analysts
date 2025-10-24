@@ -1,42 +1,133 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Agreement Management",
-  "capability": {
-    "name": "Customer Billing",
-    "definition": "This service domains provides a central service to compose, issue and track customer billing and invoices",
-    "role": "This service domain provides a general customer billing service. The service domain is provided with the applicable fees and charges that are authorized for invoicing typically by a product or service fulfillment service domain. Processing can include verification and authorizations steps and the invoice could be issued as a single transaction or a schedule of transactions.",
-    "example": "An invoice is raised for the fees and commissions applicable to a managed investment portfolio",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CustomerBilling/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Agreement Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Process/issue customer invoices (on request from fulfillment)",
-        "description": "Enables process/issue customer invoices (on request from fulfillment) to support this service domains provides a central service to compose, issue and track customer billing and invoices",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Issue reminders against unpaid invoices",
-        "description": "Enables issue reminders against unpaid invoices to support this service domains provides a central service to compose, issue and track customer billing and invoices",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Track and report on customer payments against invoices",
-        "description": "Enables track and report on customer payments against invoices to support this service domains provides a central service to compose, issue and track customer billing and invoices",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Customer Billing",
+      "definition": "This service domains provides a central service to compose, issue and track customer billing and invoices",
+      "role": "This service domain provides a general customer billing service. The service domain is provided with the applicable fees and charges that are authorized for invoicing typically by a product or service fulfillment service domain. Processing can include verification and authorizations steps and the invoice could be issued as a single transaction or a schedule of transactions.",
+      "example": "An invoice is raised for the fees and commissions applicable to a managed investment portfolio",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CustomerBilling/12.0.0",
+      "key_features": [
+        {
+          "name": "Process/issue customer invoices (on request from fulfillment)",
+          "description": "Enables process/issue customer invoices (on request from fulfillment) to support this service domains provides a central service to compose, issue and track customer billing and invoices",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Issue reminders against unpaid invoices",
+          "description": "Enables issue reminders against unpaid invoices to support this service domains provides a central service to compose, issue and track customer billing and invoices",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Track and report on customer payments against invoices",
+          "description": "Enables track and report on customer payments against invoices to support this service domains provides a central service to compose, issue and track customer billing and invoices",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Invoice",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

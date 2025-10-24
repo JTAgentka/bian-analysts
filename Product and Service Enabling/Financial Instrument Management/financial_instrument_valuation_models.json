@@ -1,42 +1,133 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Financial Instrument Management",
-  "capability": {
-    "name": "Financial Instrument Valuation Models",
-    "definition": "Not explicitly provided in the document",
-    "role": "Develop and maintain a portfolio of valuation models considering currency, interest rate, instrument quotes, indices, commodity prices and other market, liquidity and credit risk factors. Support the use of these models in trading and pricing activity",
-    "example": "Financial engineers assess the coverage and currency of the portfolio of valuation models and update certain models accordingly",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Financial Instrument Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Develop and maintain valuation models",
-        "description": "Enables develop and maintain valuation models to support not explicitly provided in the document",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Consider various risk factors",
-        "description": "Enables consider various risk factors to support not explicitly provided in the document",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Support trading and pricing activities",
-        "description": "Enables support trading and pricing activities to support not explicitly provided in the document",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Financial Instrument Valuation Models",
+      "definition": "Not explicitly provided in the document",
+      "role": "Develop and maintain a portfolio of valuation models considering currency, interest rate, instrument quotes, indices, commodity prices and other market, liquidity and credit risk factors. Support the use of these models in trading and pricing activity",
+      "example": "Financial engineers assess the coverage and currency of the portfolio of valuation models and update certain models accordingly",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Develop and maintain valuation models",
+          "description": "Enables develop and maintain valuation models to support not explicitly provided in the document",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Consider various risk factors",
+          "description": "Enables consider various risk factors to support not explicitly provided in the document",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Support trading and pricing activities",
+          "description": "Enables support trading and pricing activities to support not explicitly provided in the document",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Market Asset Valuation Model Specification",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

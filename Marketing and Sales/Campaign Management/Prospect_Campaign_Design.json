@@ -1,49 +1,157 @@
 {
-  "division": "Marketing and Sales",
-  "domain": "Campaign Management",
-  "capability": {
-    "name": "Prospect Campaign Design",
-    "definition": "Design and refine prospect campaign specifications based on their impact",
-    "role": "This Service Domain designs and refines prospect campaigns (or integrates designs from external campaign specialists). Prospect campaigns target new customer acquisition and are typically proactive (involving prospect targeting, contact and solicitation). Version numbering is used to track the impact of changes made to campaigns over their usage.",
-    "example": "A prospect acquisition campaign is updated to provide amended/improved pricing terms that can be offered to targeted prospects poor take-up rate has been detected for the campaign",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Campaign Management",
+    "area": "Marketing and Sales",
+    "knowhow": [
       {
-        "name": "Define the target profile/impact of a campaign",
-        "description": "Enables define the target profile/impact of a campaign to support design and refine prospect campaign specifications based on their impact",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Specify a prospect campaign",
-        "description": "Enables specify a prospect campaign to support design and refine prospect campaign specifications based on their impact",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Track the impact of a campaign",
-        "description": "Enables track the impact of a campaign to support design and refine prospect campaign specifications based on their impact",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Refine/reconfigure a campaign",
-        "description": "Enables refine/reconfigure a campaign to support design and refine prospect campaign specifications based on their impact",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Prospect Campaign Design",
+      "definition": "Design and refine prospect campaign specifications based on their impact",
+      "role": "This Service Domain designs and refines prospect campaigns (or integrates designs from external campaign specialists). Prospect campaigns target new customer acquisition and are typically proactive (involving prospect targeting, contact and solicitation). Version numbering is used to track the impact of changes made to campaigns over their usage.",
+      "example": "A prospect acquisition campaign is updated to provide amended/improved pricing terms that can be offered to targeted prospects poor take-up rate has been detected for the campaign",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Define the target profile/impact of a campaign",
+          "description": "Enables define the target profile/impact of a campaign to support design and refine prospect campaign specifications based on their impact",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Specify a prospect campaign",
+          "description": "Enables specify a prospect campaign to support design and refine prospect campaign specifications based on their impact",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Track the impact of a campaign",
+          "description": "Enables track the impact of a campaign to support design and refine prospect campaign specifications based on their impact",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Refine/reconfigure a campaign",
+          "description": "Enables refine/reconfigure a campaign to support design and refine prospect campaign specifications based on their impact",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Prospect Campaign",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

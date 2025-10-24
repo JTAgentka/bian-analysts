@@ -1,49 +1,157 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Agreement Management",
-  "capability": {
-    "name": "Term Deposit",
-    "definition": "A Term Deposit is an interest bearing account into which a customer can place a fixed amount of funds for a fixed amount of time. The Service Domain handles the opening, servicing and maturity processing of a Term Deposit.",
-    "role": "A Term Deposit is an interest bearing account into which a customer can place a fixed amount of funds for a fixed amount of time. The Service Domain handles the opening, servicing and maturity processing of a Term Deposit. Early closing of a Term Deposit may be allowed by the bank, but in that case penalty interest rates and charges may be applied. NB In BIAN demand deposits are seen as Savings Accounts.",
-    "example": "A customer has excess funds available. They select a standard Term Deposit product from the bank or, in the case of a larger amount, may negotiate specific conditions for a Term Deposit and instruct the bank to transfer an amount into the new Term Deposit account.",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/TermDeposit/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Agreement Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Initiate the term deposit",
-        "description": "Enables initiate the term deposit to support a term deposit is an interest bearing account into which a customer can place a fixed amount of funds for a fixed amount of time",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Calculate and apply interest",
-        "description": "Enables calculate and apply interest to support a term deposit is an interest bearing account into which a customer can place a fixed amount of funds for a fixed amount of time",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Process maturity and rollovers",
-        "description": "Enables process maturity and rollovers to support a term deposit is an interest bearing account into which a customer can place a fixed amount of funds for a fixed amount of time",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Process early maturing",
-        "description": "Enables process early maturing to support a term deposit is an interest bearing account into which a customer can place a fixed amount of funds for a fixed amount of time",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Term Deposit",
+      "definition": "A Term Deposit is an interest bearing account into which a customer can place a fixed amount of funds for a fixed amount of time. The Service Domain handles the opening, servicing and maturity processing of a Term Deposit.",
+      "role": "A Term Deposit is an interest bearing account into which a customer can place a fixed amount of funds for a fixed amount of time. The Service Domain handles the opening, servicing and maturity processing of a Term Deposit. Early closing of a Term Deposit may be allowed by the bank, but in that case penalty interest rates and charges may be applied. NB In BIAN demand deposits are seen as Savings Accounts.",
+      "example": "A customer has excess funds available. They select a standard Term Deposit product from the bank or, in the case of a larger amount, may negotiate specific conditions for a Term Deposit and instruct the bank to transfer an amount into the new Term Deposit account.",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/TermDeposit/12.0.0",
+      "key_features": [
+        {
+          "name": "Initiate the term deposit",
+          "description": "Enables initiate the term deposit to support a term deposit is an interest bearing account into which a customer can place a fixed amount of funds for a fixed amount of time",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calculate and apply interest",
+          "description": "Enables calculate and apply interest to support a term deposit is an interest bearing account into which a customer can place a fixed amount of funds for a fixed amount of time",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Process maturity and rollovers",
+          "description": "Enables process maturity and rollovers to support a term deposit is an interest bearing account into which a customer can place a fixed amount of funds for a fixed amount of time",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Process early maturing",
+          "description": "Enables process early maturing to support a term deposit is an interest bearing account into which a customer can place a fixed amount of funds for a fixed amount of time",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Term Deposit Agreement",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

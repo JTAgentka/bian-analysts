@@ -1,49 +1,157 @@
 {
-  "division": "Marketing and Sales",
-  "domain": "Sales Plan Management",
-  "capability": {
-    "name": "Sales Planning",
-    "definition": "Plan, and assess sales activity and re-direct resources and priorities as necessary",
-    "role": "Plan, and assess sales activity and re-direct resources and priorities as necessary",
-    "example": "Sales management review quarterly performance and pipeline and set sales targets and allocations for the upcoming cycle",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Sales Plan Management",
+    "area": "Marketing and Sales",
+    "knowhow": [
       {
-        "name": "Plan sales activity",
-        "description": "Enables plan sales activity to support plan, and assess sales activity and re-direct resources and priorities as necessary",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Assess sales performance",
-        "description": "Enables assess sales performance to support plan, and assess sales activity and re-direct resources and priorities as necessary",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Re-direct resources as necessary",
-        "description": "Enables re-direct resources as necessary to support plan, and assess sales activity and re-direct resources and priorities as necessary",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Set priorities for sales activities",
-        "description": "Enables set priorities for sales activities to support plan, and assess sales activity and re-direct resources and priorities as necessary",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Sales Planning",
+      "definition": "Plan, and assess sales activity and re-direct resources and priorities as necessary",
+      "role": "Plan, and assess sales activity and re-direct resources and priorities as necessary",
+      "example": "Sales management review quarterly performance and pipeline and set sales targets and allocations for the upcoming cycle",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Plan sales activity",
+          "description": "Enables plan sales activity to support plan, and assess sales activity and re-direct resources and priorities as necessary",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Assess sales performance",
+          "description": "Enables assess sales performance to support plan, and assess sales activity and re-direct resources and priorities as necessary",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Re-direct resources as necessary",
+          "description": "Enables re-direct resources as necessary to support plan, and assess sales activity and re-direct resources and priorities as necessary",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Set priorities for sales activities",
+          "description": "Enables set priorities for sales activities to support plan, and assess sales activity and re-direct resources and priorities as necessary",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Marketing And Sales Strategy",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

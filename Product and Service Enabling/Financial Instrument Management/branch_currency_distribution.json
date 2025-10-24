@@ -1,49 +1,157 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Financial Instrument Management",
-  "capability": {
-    "name": "Branch Currency Distribution",
-    "definition": "Schedule and coordinate the secure distribution of cash inventory across the branch and ATM networks",
-    "role": "This service domain handles the scheduling and secure distribution of currency throughout the branch network (for bank branches and remote ATM locations). It ensures the required float is maintained at locations and undertakes the movement into and out of central currency holding facilities as necessary to ensure cash availability",
-    "example": "ATMs at a branch location are stocked with currency in response to anticipated customer demand",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN3/BranchCurrencyDistribution/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Financial Instrument Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Distribution vehicle fleet administration",
-        "description": "Enables distribution vehicle fleet administration to support schedule and coordinate the secure distribution of cash inventory across the branch and atm networks",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Distribution planning and scheduling",
-        "description": "Enables distribution planning and scheduling to support schedule and coordinate the secure distribution of cash inventory across the branch and atm networks",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Distribution activity monitoring and control",
-        "description": "Enables distribution activity monitoring and control to support schedule and coordinate the secure distribution of cash inventory across the branch and atm networks",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Central cash access coordination",
-        "description": "Enables central cash access coordination to support schedule and coordinate the secure distribution of cash inventory across the branch and atm networks",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Branch Currency Distribution",
+      "definition": "Schedule and coordinate the secure distribution of cash inventory across the branch and ATM networks",
+      "role": "This service domain handles the scheduling and secure distribution of currency throughout the branch network (for bank branches and remote ATM locations). It ensures the required float is maintained at locations and undertakes the movement into and out of central currency holding facilities as necessary to ensure cash availability",
+      "example": "ATMs at a branch location are stocked with currency in response to anticipated customer demand",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN3/BranchCurrencyDistribution/12.0.0",
+      "key_features": [
+        {
+          "name": "Distribution vehicle fleet administration",
+          "description": "Enables distribution vehicle fleet administration to support schedule and coordinate the secure distribution of cash inventory across the branch and atm networks",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Distribution planning and scheduling",
+          "description": "Enables distribution planning and scheduling to support schedule and coordinate the secure distribution of cash inventory across the branch and atm networks",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Distribution activity monitoring and control",
+          "description": "Enables distribution activity monitoring and control to support schedule and coordinate the secure distribution of cash inventory across the branch and atm networks",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Central cash access coordination",
+          "description": "Enables central cash access coordination to support schedule and coordinate the secure distribution of cash inventory across the branch and atm networks",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Cash Distribution Procedure",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

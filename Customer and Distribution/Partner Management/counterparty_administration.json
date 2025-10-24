@@ -1,42 +1,133 @@
 {
-  "division": "Customer and Distribution",
-  "domain": "Partner Management",
-  "capability": {
-    "name": "Counterparty Administration",
-    "definition": "This Service Domain maintains key counterparty reference information used in the clearing and settlement of wholesale trading",
-    "role": "Maintain and provide access to the counterparty reference details to support trading/payment activity. This includes SWIFT addresses, standard settlement instructions that are published. The data is typically acquired using a market feed for the default values, but the facility can support the maintenance of specific details and instructions that apply to the counterparty relationship overriding the public default",
-    "example": "Back office clearing and settlement references the counterparty details to assemble a funds transfer as part of an equity trade using the counterparty details to generate the associated SWIFT based payment exchange",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CounterpartyAdministration/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Partner Management",
+    "area": "Customer and Distribution",
+    "knowhow": [
       {
-        "name": "Consolidate counterparty market feed data",
-        "description": "Enables consolidate counterparty market feed data to support this service domain maintains key counterparty reference information used in the clearing and settlement of wholesale trading",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Qualify data and maintain counterparty directory content",
-        "description": "Enables qualify data and maintain counterparty directory content to support this service domain maintains key counterparty reference information used in the clearing and settlement of wholesale trading",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Provide access to counterparty reference records",
-        "description": "Enables provide access to counterparty reference records to support this service domain maintains key counterparty reference information used in the clearing and settlement of wholesale trading",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Counterparty Administration",
+      "definition": "This Service Domain maintains key counterparty reference information used in the clearing and settlement of wholesale trading",
+      "role": "Maintain and provide access to the counterparty reference details to support trading/payment activity. This includes SWIFT addresses, standard settlement instructions that are published. The data is typically acquired using a market feed for the default values, but the facility can support the maintenance of specific details and instructions that apply to the counterparty relationship overriding the public default",
+      "example": "Back office clearing and settlement references the counterparty details to assemble a funds transfer as part of an equity trade using the counterparty details to generate the associated SWIFT based payment exchange",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CounterpartyAdministration/12.0.0",
+      "key_features": [
+        {
+          "name": "Consolidate counterparty market feed data",
+          "description": "Enables consolidate counterparty market feed data to support this service domain maintains key counterparty reference information used in the clearing and settlement of wholesale trading",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Qualify data and maintain counterparty directory content",
+          "description": "Enables qualify data and maintain counterparty directory content to support this service domain maintains key counterparty reference information used in the clearing and settlement of wholesale trading",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Provide access to counterparty reference records",
+          "description": "Enables provide access to counterparty reference records to support this service domain maintains key counterparty reference information used in the clearing and settlement of wholesale trading",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Counterparty Administrative Plan",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

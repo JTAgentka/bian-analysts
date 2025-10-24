@@ -1,63 +1,183 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Money Movement Management",
-  "capability": {
-    "name": "Credit Card",
-    "definition": "This service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment",
-    "role": "This service domain handles both credit and charge card fulfillment. The main functional difference being the different re-payment and credit handling structures of the two types of card product. Note that unlike a current accounts, card products are typically fulfilled through specialised credit card companies using a card network that links issuing banks and merchant acquiring banks for authorization, clearing and settlement activities. Debit cards (i.e. devices to access a normal bank account) do not come under this Service Domain.",
-    "example": "An established card customer uses his or her credit card for a purchase and settles the balance of the card account at the monthly payment cycle",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CreditCard/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Money Movement Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Set-up a credit card account",
-        "description": "Enables set-up a credit card account to support this service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Process card transactions (authorizations)",
-        "description": "Enables process card transactions (authorizations) to support this service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Calculate interest and fees",
-        "description": "Enables calculate interest and fees to support this service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Initiate and track dispute resolutions",
-        "description": "Enables initiate and track dispute resolutions to support this service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Initiate customer billing",
-        "description": "Enables initiate customer billing to support this service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Process clearing and settlement",
-        "description": "Enables process clearing and settlement to support this service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Credit Card",
+      "definition": "This service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment",
+      "role": "This service domain handles both credit and charge card fulfillment. The main functional difference being the different re-payment and credit handling structures of the two types of card product. Note that unlike a current accounts, card products are typically fulfilled through specialised credit card companies using a card network that links issuing banks and merchant acquiring banks for authorization, clearing and settlement activities. Debit cards (i.e. devices to access a normal bank account) do not come under this Service Domain.",
+      "example": "An established card customer uses his or her credit card for a purchase and settles the balance of the card account at the monthly payment cycle",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CreditCard/12.0.0",
+      "key_features": [
+        {
+          "name": "Set-up a credit card account",
+          "description": "Enables set-up a credit card account to support this service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Process card transactions (authorizations)",
+          "description": "Enables process card transactions (authorizations) to support this service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calculate interest and fees",
+          "description": "Enables calculate interest and fees to support this service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Initiate and track dispute resolutions",
+          "description": "Enables initiate and track dispute resolutions to support this service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Initiate customer billing",
+          "description": "Enables initiate customer billing to support this service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Process clearing and settlement",
+          "description": "Enables process clearing and settlement to support this service domain orchestrates the scheduled maintenance and transactional activities associated with credit card product fulfillment",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

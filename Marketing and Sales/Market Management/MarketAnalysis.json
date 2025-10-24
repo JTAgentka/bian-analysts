@@ -1,56 +1,181 @@
 {
-  "division": "Marketing and Sales",
-  "domain": "Market Management",
-  "capability": {
-    "name": "Marketanalysis",
-    "definition": "This service domain analyzes internal and external market information sources as necessary to develop specific market insights. It may maintain a collection of predefined market analyses and may also offer specific ad-hoc analysis on request",
-    "role": "This service domain supports the broad range of market analysis needed to support business management decisions across the bank. It draws on external market research and internally generated business information as necessary. It is used to develop insights into market trends and potential opportunities/threats. It may also be used to evaluate key events that might impact the bank's business directly or that of important customers and customer segments. A standard set of analytical views can be defined that are maintained. Furthermore the service domain may provide ad-hoc/customized analysis services",
-    "example": "External market research is used to develop competitor analysis for bank products as input to a prospect campaign development",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/MarketAnalysis/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Market Management",
+    "area": "Marketing and Sales",
+    "knowhow": [
       {
-        "name": "Determine the range of standard market analyses reports to support",
-        "description": "Enables determine the range of standard market analyses reports to support to support this service domain analyzes internal and external market information sources as necessary to develop specific market insights",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Support ad-hoc market analysis request",
-        "description": "Enables support ad-hoc market analysis request to support this service domain analyzes internal and external market information sources as necessary to develop specific market insights",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Consolidate market research and internal information sources",
-        "description": "Enables consolidate market research and internal information sources to support this service domain analyzes internal and external market information sources as necessary to develop specific market insights",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Develop market analysis reports",
-        "description": "Enables develop market analysis reports to support this service domain analyzes internal and external market information sources as necessary to develop specific market insights",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Provide access to market analysis reports",
-        "description": "Enables provide access to market analysis reports to support this service domain analyzes internal and external market information sources as necessary to develop specific market insights",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Marketanalysis",
+      "definition": "This service domain analyzes internal and external market information sources as necessary to develop specific market insights. It may maintain a collection of predefined market analyses and may also offer specific ad-hoc analysis on request",
+      "role": "This service domain supports the broad range of market analysis needed to support business management decisions across the bank. It draws on external market research and internally generated business information as necessary. It is used to develop insights into market trends and potential opportunities/threats. It may also be used to evaluate key events that might impact the bank's business directly or that of important customers and customer segments. A standard set of analytical views can be defined that are maintained. Furthermore the service domain may provide ad-hoc/customized analysis services",
+      "example": "External market research is used to develop competitor analysis for bank products as input to a prospect campaign development",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/MarketAnalysis/12.0.0",
+      "key_features": [
+        {
+          "name": "Determine the range of standard market analyses reports to support",
+          "description": "Enables determine the range of standard market analyses reports to support to support this service domain analyzes internal and external market information sources as necessary to develop specific market insights",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Support ad-hoc market analysis request",
+          "description": "Enables support ad-hoc market analysis request to support this service domain analyzes internal and external market information sources as necessary to develop specific market insights",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Consolidate market research and internal information sources",
+          "description": "Enables consolidate market research and internal information sources to support this service domain analyzes internal and external market information sources as necessary to develop specific market insights",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Develop market analysis reports",
+          "description": "Enables develop market analysis reports to support this service domain analyzes internal and external market information sources as necessary to develop specific market insights",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Provide access to market analysis reports",
+          "description": "Enables provide access to market analysis reports to support this service domain analyzes internal and external market information sources as necessary to develop specific market insights",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Market Analysis",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

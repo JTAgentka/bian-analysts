@@ -1,42 +1,133 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Order Management",
-  "capability": {
-    "name": "Order Allocation",
-    "definition": "This Service Domain allocates partially fulfilled market trades",
-    "role": "Apply appropriate rules to allocate a completed or partially completed block order across the customers placing the constituent market orders",
-    "example": "A large market order is partly fulfilled and the pricing and allocation of the trade is allocated across the counterparties",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/OrderAllocation/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Order Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Review allocation rules for partially completed market orders",
-        "description": "Enables review allocation rules for partially completed market orders to support this service domain allocates partially fulfilled market trades",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Allocate traded securities in accordance with allocation rules",
-        "description": "Enables allocate traded securities in accordance with allocation rules to support this service domain allocates partially fulfilled market trades",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Provide allocation details as requested",
-        "description": "Enables provide allocation details as requested to support this service domain allocates partially fulfilled market trades",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Order Allocation",
+      "definition": "This Service Domain allocates partially fulfilled market trades",
+      "role": "Apply appropriate rules to allocate a completed or partially completed block order across the customers placing the constituent market orders",
+      "example": "A large market order is partly fulfilled and the pricing and allocation of the trade is allocated across the counterparties",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/OrderAllocation/12.0.0",
+      "key_features": [
+        {
+          "name": "Review allocation rules for partially completed market orders",
+          "description": "Enables review allocation rules for partially completed market orders to support this service domain allocates partially fulfilled market trades",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Allocate traded securities in accordance with allocation rules",
+          "description": "Enables allocate traded securities in accordance with allocation rules to support this service domain allocates partially fulfilled market trades",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Provide allocation details as requested",
+          "description": "Enables provide allocation details as requested to support this service domain allocates partially fulfilled market trades",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "SecuritiesAllocationTransaction",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

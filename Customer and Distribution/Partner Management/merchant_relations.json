@@ -1,42 +1,111 @@
 {
-  "division": "Customer and Distribution",
-  "domain": "Partner Management",
-  "capability": {
-    "name": "Merchant Relations",
-    "definition": "This service domain maintains the terms and conditions agreed with merchants for cards related activity",
-    "role": "The bank's merchant relationships are governed by the terms and conditions maintained by this service domain. Note this covers the application of legal, regulatory and operational terms agreed with the merchant and does not cover any more general aspect of relationship management",
-    "example": "A card charge is disputed and a case raised - the case processing process references the in-force merchant terms and conditions governing the dispute resolution",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/MerchantRelations/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Partner Management",
+    "area": "Customer and Distribution",
+    "knowhow": [
       {
-        "name": "Establish and maintain merchant terms and conditions",
-        "description": "Enables establish and maintain merchant terms and conditions to support this service domain maintains the terms and conditions agreed with merchants for cards related activity",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Determine the applicability of terms to specific situations",
-        "description": "Enables determine the applicability of terms to specific situations to support this service domain maintains the terms and conditions agreed with merchants for cards related activity",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Provide access to and explain the correct interpretation of terms",
-        "description": "Enables provide access to and explain the correct interpretation of terms to support this service domain maintains the terms and conditions agreed with merchants for cards related activity",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Merchant Relations",
+      "definition": "This service domain maintains the terms and conditions agreed with merchants for cards related activity",
+      "role": "The bank's merchant relationships are governed by the terms and conditions maintained by this service domain. Note this covers the application of legal, regulatory and operational terms agreed with the merchant and does not cover any more general aspect of relationship management",
+      "example": "A card charge is disputed and a case raised - the case processing process references the in-force merchant terms and conditions governing the dispute resolution",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/MerchantRelations/12.0.0",
+      "key_features": [
+        {
+          "name": "Establish and maintain merchant terms and conditions",
+          "description": "Enables establish and maintain merchant terms and conditions to support this service domain maintains the terms and conditions agreed with merchants for cards related activity",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Determine the applicability of terms to specific situations",
+          "description": "Enables determine the applicability of terms to specific situations to support this service domain maintains the terms and conditions agreed with merchants for cards related activity",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Provide access to and explain the correct interpretation of terms",
+          "description": "Enables provide access to and explain the correct interpretation of terms to support this service domain maintains the terms and conditions agreed with merchants for cards related activity",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

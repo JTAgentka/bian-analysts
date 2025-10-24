@@ -1,35 +1,87 @@
 {
-  "division": "Enterprise Management and Controlling",
-  "domain": "Fraud Incident Management",
-  "capability": {
-    "name": "Financial Message Analysis",
-    "definition": "Not provided in the source document",
-    "role": "Track and analyze financial message traffic to identify anomalies and potential fraudulent activity",
-    "example": "A pattern of financial message traffic for a major counterparty is analyzed to reveal possible fraudulent behaviors",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Fraud Incident Management",
+    "area": "Enterprise Management and Controlling",
+    "knowhow": [
       {
-        "name": "**Individual Analytics**: financialNetworkGatewayAnalysisAccumulators, financialNetworkGatewayAnalysisActivityAnalysis, financialNetworkGatewayAnalysisPerformanceAnalysis, financialNetworkGatewayAnalysisTrends&Events",
-        "description": "Enables **individual analytics**: financialnetworkgatewayanalysisaccumulators, financialnetworkgatewayanalysisactivityanalysis, financialnetworkgatewayanalysisperformanceanalysis, financialnetworkgatewayanalysistrends&events to support not provided in the source document",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "**Portfolio Analytics**: financialNetworkGatewayAnalysisPortfolioActivityAnalysis, financialNetworkGatewayAnalysisPortfolioMake-UpAnalysis, financialNetworkGatewayAnalysisPortfolioPerformanceAnalysis",
-        "description": "Enables **portfolio analytics**: financialnetworkgatewayanalysisportfolioactivityanalysis, financialnetworkgatewayanalysisportfoliomake-upanalysis, financialnetworkgatewayanalysisportfolioperformanceanalysis to support not provided in the source document",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Financial Message Analysis",
+      "definition": "Not provided in the source document",
+      "role": "Track and analyze financial message traffic to identify anomalies and potential fraudulent activity",
+      "example": "A pattern of financial message traffic for a major counterparty is analyzed to reveal possible fraudulent behaviors",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "**Individual Analytics**: financialNetworkGatewayAnalysisAccumulators, financialNetworkGatewayAnalysisActivityAnalysis, financialNetworkGatewayAnalysisPerformanceAnalysis, financialNetworkGatewayAnalysisTrends&Events",
+          "description": "Enables **individual analytics**: financialnetworkgatewayanalysisaccumulators, financialnetworkgatewayanalysisactivityanalysis, financialnetworkgatewayanalysisperformanceanalysis, financialnetworkgatewayanalysistrends&events to support not provided in the source document",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "**Portfolio Analytics**: financialNetworkGatewayAnalysisPortfolioActivityAnalysis, financialNetworkGatewayAnalysisPortfolioMake-UpAnalysis, financialNetworkGatewayAnalysisPortfolioPerformanceAnalysis",
+          "description": "Enables **portfolio analytics**: financialnetworkgatewayanalysisportfolioactivityanalysis, financialnetworkgatewayanalysisportfoliomake-upanalysis, financialnetworkgatewayanalysisportfolioperformanceanalysis to support not provided in the source document",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

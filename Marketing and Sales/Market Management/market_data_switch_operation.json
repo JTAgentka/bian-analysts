@@ -1,49 +1,157 @@
 {
-  "division": "Marketing and Sales",
-  "domain": "Market Management",
-  "capability": {
-    "name": "Market Data Switch Operation",
-    "definition": "This service domain operates the internal information distribution facility/switch in compliance with administered external subscription information feed service access rights. Note the content is retrieved by the Market Feed Operation service domain from the various external feed services. Internal information can also be published over the switch from various bank sources (such as bank rates provided by treasury).",
-    "role": "This facility handles the real-time operation of the market information dissemination switch that is typically used to support trading and investment functions. It references the access entitlement to services for users maintained by the Market Data Switch Administration service domain (there can be complex rules governing access to various feeds). The dissemination mechanism/switch may support composite pages of data and interactive service requests. It may also support internally published information such as bank rates defined by the bank's treasury unit",
-    "example": "A bank trader request access to a market data feed at their dealing position during a trading session",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/MarketDataSwitchOperation/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Market Management",
+    "area": "Marketing and Sales",
+    "knowhow": [
       {
-        "name": "Handle access to the information provider (IP) service content",
-        "description": "Enables handle access to the information provider (ip) service content to support this service domain operates the internal information distribution facility/switch in compliance with administered external subscription information feed service access rights",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Store and forward (IP) content over the internal switch",
-        "description": "Enables store and forward (ip) content over the internal switch to support this service domain operates the internal information distribution facility/switch in compliance with administered external subscription information feed service access rights",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Handle internal access to the IP content based on user access rights/requests",
-        "description": "Enables handle internal access to the ip content based on user access rights/requests to support this service domain operates the internal information distribution facility/switch in compliance with administered external subscription information feed service access rights",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Publish internal content over the data switch",
-        "description": "Enables publish internal content over the data switch to support this service domain operates the internal information distribution facility/switch in compliance with administered external subscription information feed service access rights",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Market Data Switch Operation",
+      "definition": "This service domain operates the internal information distribution facility/switch in compliance with administered external subscription information feed service access rights. Note the content is retrieved by the Market Feed Operation service domain from the various external feed services. Internal information can also be published over the switch from various bank sources (such as bank rates provided by treasury).",
+      "role": "This facility handles the real-time operation of the market information dissemination switch that is typically used to support trading and investment functions. It references the access entitlement to services for users maintained by the Market Data Switch Administration service domain (there can be complex rules governing access to various feeds). The dissemination mechanism/switch may support composite pages of data and interactive service requests. It may also support internally published information such as bank rates defined by the bank's treasury unit",
+      "example": "A bank trader request access to a market data feed at their dealing position during a trading session",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/MarketDataSwitchOperation/12.0.0",
+      "key_features": [
+        {
+          "name": "Handle access to the information provider (IP) service content",
+          "description": "Enables handle access to the information provider (ip) service content to support this service domain operates the internal information distribution facility/switch in compliance with administered external subscription information feed service access rights",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Store and forward (IP) content over the internal switch",
+          "description": "Enables store and forward (ip) content over the internal switch to support this service domain operates the internal information distribution facility/switch in compliance with administered external subscription information feed service access rights",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Handle internal access to the IP content based on user access rights/requests",
+          "description": "Enables handle internal access to the ip content based on user access rights/requests to support this service domain operates the internal information distribution facility/switch in compliance with administered external subscription information feed service access rights",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Publish internal content over the data switch",
+          "description": "Enables publish internal content over the data switch to support this service domain operates the internal information distribution facility/switch in compliance with administered external subscription information feed service access rights",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Market Information Switch Session",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

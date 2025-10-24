@@ -1,56 +1,181 @@
 {
-  "division": "Enterprise Management and Controlling",
-  "domain": "Policy Management",
-  "capability": {
-    "name": "Guideline Compliance",
-    "definition": "This service domain develops and applies a portfolio of guideline compliance tests to confirm adherence to bank and regulator imposed internal procedures. Tests may be made on complete transaction data or a meaningful samples as appropriate to mitigate exposure to non-compliant behaviors. Compliance checks may be in response to a schedule, a specific request as part of normal processing or may be initiated randomly as an oversight activity",
-    "role": "This service center administers the activity of specialists tasked with testing and confirming guideline compliance. Compliance tests may include document reviews, more detailed transaction analysis and may involve interactions with the unit under test to obtain additional detail/explanation. Guideline compliance is typically focused on larger value investment and loan activities, confirming transactions are executed in alignment with management guidelines and prudential policies.",
-    "example": "A loan origination process is submitted for guideline compliance checks prior to completing the origination/loan closure process",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/GuidelineCompliance/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Policy Management",
+    "area": "Enterprise Management and Controlling",
+    "knowhow": [
       {
-        "name": "Schedule/target compliance checks",
-        "description": "Enables schedule/target compliance checks to support this service domain develops and applies a portfolio of guideline compliance tests to confirm adherence to bank and regulator imposed internal procedures",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Consolidate documents/activity pertaining to compliance tests",
-        "description": "Enables consolidate documents/activity pertaining to compliance tests to support this service domain develops and applies a portfolio of guideline compliance tests to confirm adherence to bank and regulator imposed internal procedures",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Provide advice/guidance for achieving compliance",
-        "description": "Enables provide advice/guidance for achieving compliance to support this service domain develops and applies a portfolio of guideline compliance tests to confirm adherence to bank and regulator imposed internal procedures",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Evaluate and report on activity for compliance",
-        "description": "Enables evaluate and report on activity for compliance to support this service domain develops and applies a portfolio of guideline compliance tests to confirm adherence to bank and regulator imposed internal procedures",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Notify and track responses for detected compliance failures",
-        "description": "Enables notify and track responses for detected compliance failures to support this service domain develops and applies a portfolio of guideline compliance tests to confirm adherence to bank and regulator imposed internal procedures",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Guideline Compliance",
+      "definition": "This service domain develops and applies a portfolio of guideline compliance tests to confirm adherence to bank and regulator imposed internal procedures. Tests may be made on complete transaction data or a meaningful samples as appropriate to mitigate exposure to non-compliant behaviors. Compliance checks may be in response to a schedule, a specific request as part of normal processing or may be initiated randomly as an oversight activity",
+      "role": "This service center administers the activity of specialists tasked with testing and confirming guideline compliance. Compliance tests may include document reviews, more detailed transaction analysis and may involve interactions with the unit under test to obtain additional detail/explanation. Guideline compliance is typically focused on larger value investment and loan activities, confirming transactions are executed in alignment with management guidelines and prudential policies.",
+      "example": "A loan origination process is submitted for guideline compliance checks prior to completing the origination/loan closure process",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/GuidelineCompliance/12.0.0",
+      "key_features": [
+        {
+          "name": "Schedule/target compliance checks",
+          "description": "Enables schedule/target compliance checks to support this service domain develops and applies a portfolio of guideline compliance tests to confirm adherence to bank and regulator imposed internal procedures",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Consolidate documents/activity pertaining to compliance tests",
+          "description": "Enables consolidate documents/activity pertaining to compliance tests to support this service domain develops and applies a portfolio of guideline compliance tests to confirm adherence to bank and regulator imposed internal procedures",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Provide advice/guidance for achieving compliance",
+          "description": "Enables provide advice/guidance for achieving compliance to support this service domain develops and applies a portfolio of guideline compliance tests to confirm adherence to bank and regulator imposed internal procedures",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Evaluate and report on activity for compliance",
+          "description": "Enables evaluate and report on activity for compliance to support this service domain develops and applies a portfolio of guideline compliance tests to confirm adherence to bank and regulator imposed internal procedures",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Notify and track responses for detected compliance failures",
+          "description": "Enables notify and track responses for detected compliance failures to support this service domain develops and applies a portfolio of guideline compliance tests to confirm adherence to bank and regulator imposed internal procedures",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "guidelineComplianceAssessmentAccumulators",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

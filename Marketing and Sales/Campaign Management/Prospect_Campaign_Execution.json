@@ -1,42 +1,133 @@
 {
-  "division": "Marketing and Sales",
-  "domain": "Campaign Management",
-  "capability": {
-    "name": "Prospect Campaign Execution",
-    "definition": "Execute a prospect campaign (version) and track and respond to impact",
-    "role": "Handle the deployment, execution and on-going refinement of a prospect campaign. This includes many types of proactive prospect acquisition campaigns. The campaign execution process performs the initial selection and confirmation/validation of candidate lists and includes providing critical feedback on the impact of the campaign to the design unit to support re-calibration and refinement of the specification based on practical experience",
-    "example": "A bank implements a targeted take-one mailshot acquisition campaign to attract additional customers",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN3/ProspectCampaignExecution/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Campaign Management",
+    "area": "Marketing and Sales",
+    "knowhow": [
       {
-        "name": "Candidate prospect selection/identification (list development)",
-        "description": "Enables candidate prospect selection/identification (list development) to support execute a prospect campaign (version) and track and respond to impact",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Prospect interaction and response capture",
-        "description": "Enables prospect interaction and response capture to support execute a prospect campaign (version) and track and respond to impact",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Campaign performance analysis and feedback",
-        "description": "Enables campaign performance analysis and feedback to support execute a prospect campaign (version) and track and respond to impact",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Prospect Campaign Execution",
+      "definition": "Execute a prospect campaign (version) and track and respond to impact",
+      "role": "Handle the deployment, execution and on-going refinement of a prospect campaign. This includes many types of proactive prospect acquisition campaigns. The campaign execution process performs the initial selection and confirmation/validation of candidate lists and includes providing critical feedback on the impact of the campaign to the design unit to support re-calibration and refinement of the specification based on practical experience",
+      "example": "A bank implements a targeted take-one mailshot acquisition campaign to attract additional customers",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN3/ProspectCampaignExecution/12.0.0",
+      "key_features": [
+        {
+          "name": "Candidate prospect selection/identification (list development)",
+          "description": "Enables candidate prospect selection/identification (list development) to support execute a prospect campaign (version) and track and respond to impact",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Prospect interaction and response capture",
+          "description": "Enables prospect interaction and response capture to support execute a prospect campaign (version) and track and respond to impact",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Campaign performance analysis and feedback",
+          "description": "Enables campaign performance analysis and feedback to support execute a prospect campaign (version) and track and respond to impact",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Prospect Campaign",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

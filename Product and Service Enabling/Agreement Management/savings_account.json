@@ -1,70 +1,207 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Agreement Management",
-  "capability": {
-    "name": "Savings Account",
-    "definition": "This service domain orchestrates a consumer savings account. The typical range of services and fees covers payments from and scheduled and ad-hoc deposits to the account, standing orders, sweeps, and liens.",
-    "role": "The savings account product may share many features with a standard bank current account (e.g. standing orders, direct debits, payments and deposit services) with some constraints/limitations. There can be restrictions on the amount and frequency of withdrawals with an associated fee/penalty structure to offset higher interest benefits. Sweep mechanisms linked to other products (current account) can also be supported.",
-    "example": "A customer transfers money from a current account to savings account in order to obtain a better rate of interest.",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/SavingsAccount/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Agreement Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Set-up savings account facilities",
-        "description": "Enables set-up savings account facilities to support this service domain orchestrates a consumer savings account",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Issue cards, check-books, etc. for the account",
-        "description": "Enables issue cards, check-books, etc. for the account to support this service domain orchestrates a consumer savings account",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Process deposits and withdrawals",
-        "description": "Enables process deposits and withdrawals to support this service domain orchestrates a consumer savings account",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Handle sweeps/liens linked to the account",
-        "description": "Enables handle sweeps/liens linked to the account to support this service domain orchestrates a consumer savings account",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Handle standing orders and direct debits linked to the account",
-        "description": "Enables handle standing orders and direct debits linked to the account to support this service domain orchestrates a consumer savings account",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Process fees and apply interest charges",
-        "description": "Enables process fees and apply interest charges to support this service domain orchestrates a consumer savings account",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Provide balance/statements and reports",
-        "description": "Enables provide balance/statements and reports to support this service domain orchestrates a consumer savings account",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Savings Account",
+      "definition": "This service domain orchestrates a consumer savings account. The typical range of services and fees covers payments from and scheduled and ad-hoc deposits to the account, standing orders, sweeps, and liens.",
+      "role": "The savings account product may share many features with a standard bank current account (e.g. standing orders, direct debits, payments and deposit services) with some constraints/limitations. There can be restrictions on the amount and frequency of withdrawals with an associated fee/penalty structure to offset higher interest benefits. Sweep mechanisms linked to other products (current account) can also be supported.",
+      "example": "A customer transfers money from a current account to savings account in order to obtain a better rate of interest.",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/SavingsAccount/12.0.0",
+      "key_features": [
+        {
+          "name": "Set-up savings account facilities",
+          "description": "Enables set-up savings account facilities to support this service domain orchestrates a consumer savings account",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Issue cards, check-books, etc. for the account",
+          "description": "Enables issue cards, check-books, etc. for the account to support this service domain orchestrates a consumer savings account",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Process deposits and withdrawals",
+          "description": "Enables process deposits and withdrawals to support this service domain orchestrates a consumer savings account",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Handle sweeps/liens linked to the account",
+          "description": "Enables handle sweeps/liens linked to the account to support this service domain orchestrates a consumer savings account",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Handle standing orders and direct debits linked to the account",
+          "description": "Enables handle standing orders and direct debits linked to the account to support this service domain orchestrates a consumer savings account",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Process fees and apply interest charges",
+          "description": "Enables process fees and apply interest charges to support this service domain orchestrates a consumer savings account",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Provide balance/statements and reports",
+          "description": "Enables provide balance/statements and reports to support this service domain orchestrates a consumer savings account",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

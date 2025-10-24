@@ -1,56 +1,181 @@
 {
-  "division": "Marketing and Sales",
-  "domain": "Market Management",
-  "capability": {
-    "name": "Financialmarketresearch",
-    "definition": "The service domain consolidates external financial market research",
-    "role": "Consolidate financial market information from a variety of sources and optionally organize the consolidated information to align to different topics or categories for subsequent selection and analysis (see Financial Market Analysis)",
-    "example": "An investment portfolio manager obtains financial market research to support portfolio rebalancing decisions",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/FinancialMarketResearch/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Market Management",
+    "area": "Marketing and Sales",
+    "knowhow": [
       {
-        "name": "Identify and subscribe to financial market research services",
-        "description": "Enables identify and subscribe to financial market research services to support the service domain consolidates external financial market research",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Operate access to financial market research service to obtain reports",
-        "description": "Enables operate access to financial market research service to obtain reports to support the service domain consolidates external financial market research",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Consolidate, classify and maintain research",
-        "description": "Enables consolidate, classify and maintain research to support the service domain consolidates external financial market research",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Provide access to financial market research within the bank (direct and for analysis)",
-        "description": "Enables provide access to financial market research within the bank (direct and for analysis) to support the service domain consolidates external financial market research",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Support ad-hoc requests to identify and obtain financial market research",
-        "description": "Enables support ad-hoc requests to identify and obtain financial market research to support the service domain consolidates external financial market research",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Financialmarketresearch",
+      "definition": "The service domain consolidates external financial market research",
+      "role": "Consolidate financial market information from a variety of sources and optionally organize the consolidated information to align to different topics or categories for subsequent selection and analysis (see Financial Market Analysis)",
+      "example": "An investment portfolio manager obtains financial market research to support portfolio rebalancing decisions",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/FinancialMarketResearch/12.0.0",
+      "key_features": [
+        {
+          "name": "Identify and subscribe to financial market research services",
+          "description": "Enables identify and subscribe to financial market research services to support the service domain consolidates external financial market research",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Operate access to financial market research service to obtain reports",
+          "description": "Enables operate access to financial market research service to obtain reports to support the service domain consolidates external financial market research",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Consolidate, classify and maintain research",
+          "description": "Enables consolidate, classify and maintain research to support the service domain consolidates external financial market research",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Provide access to financial market research within the bank (direct and for analysis)",
+          "description": "Enables provide access to financial market research within the bank (direct and for analysis) to support the service domain consolidates external financial market research",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Support ad-hoc requests to identify and obtain financial market research",
+          "description": "Enables support ad-hoc requests to identify and obtain financial market research to support the service domain consolidates external financial market research",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Financial Market Research",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

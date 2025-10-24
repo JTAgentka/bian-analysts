@@ -1,49 +1,157 @@
 {
-  "division": "Customer and Distribution",
-  "domain": "Channel Management",
-  "capability": {
-    "name": "Ebranch Operations",
-    "definition": "This service domain operates the bank's on-line web based electronic branch capabilities - controlling access and load balancing across available communications and processing resources to optimize performance/availability",
-    "role": "This service domain operates the E-branch production systems conforming to planned service schedules. It handles customer and non-customer access checks, performs device load balancing and device failure and recovery handling - typically supporting a high performance 24/7 operation. It can include the integration of computer telephony integration (CTI) with branch and call center channels",
-    "example": "customers and non-bank customers browse the products and services available at the bank",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/eBranchOperations/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Channel Management",
+    "area": "Customer and Distribution",
+    "knowhow": [
       {
-        "name": "Operate the bank's e-branch internet platform",
-        "description": "Enables operate the bank's e-branch internet platform to support this service domain operates the bank's on-line web based electronic branch capabilities - controlling access and load balancing across available communications and processing resources to optimize performance/availability",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Support access to the bank's public website",
-        "description": "Enables support access to the bank's public website to support this service domain operates the bank's on-line web based electronic branch capabilities - controlling access and load balancing across available communications and processing resources to optimize performance/availability",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Support customer registration and log-in services",
-        "description": "Enables support customer registration and log-in services to support this service domain operates the bank's on-line web based electronic branch capabilities - controlling access and load balancing across available communications and processing resources to optimize performance/availability",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Route customer contacts for servicing",
-        "description": "Enables route customer contacts for servicing to support this service domain operates the bank's on-line web based electronic branch capabilities - controlling access and load balancing across available communications and processing resources to optimize performance/availability",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Ebranch Operations",
+      "definition": "This service domain operates the bank's on-line web based electronic branch capabilities - controlling access and load balancing across available communications and processing resources to optimize performance/availability",
+      "role": "This service domain operates the E-branch production systems conforming to planned service schedules. It handles customer and non-customer access checks, performs device load balancing and device failure and recovery handling - typically supporting a high performance 24/7 operation. It can include the integration of computer telephony integration (CTI) with branch and call center channels",
+      "example": "customers and non-bank customers browse the products and services available at the bank",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/eBranchOperations/12.0.0",
+      "key_features": [
+        {
+          "name": "Operate the bank's e-branch internet platform",
+          "description": "Enables operate the bank's e-branch internet platform to support this service domain operates the bank's on-line web based electronic branch capabilities - controlling access and load balancing across available communications and processing resources to optimize performance/availability",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Support access to the bank's public website",
+          "description": "Enables support access to the bank's public website to support this service domain operates the bank's on-line web based electronic branch capabilities - controlling access and load balancing across available communications and processing resources to optimize performance/availability",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Support customer registration and log-in services",
+          "description": "Enables support customer registration and log-in services to support this service domain operates the bank's on-line web based electronic branch capabilities - controlling access and load balancing across available communications and processing resources to optimize performance/availability",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Route customer contacts for servicing",
+          "description": "Enables route customer contacts for servicing to support this service domain operates the bank's on-line web based electronic branch capabilities - controlling access and load balancing across available communications and processing resources to optimize performance/availability",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "EBranchChannelSession",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

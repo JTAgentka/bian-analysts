@@ -1,35 +1,109 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Collateral Management",
-  "capability": {
-    "name": "Collateral Allocation Management",
-    "definition": "The Service Domain manages the allocation of party owned assets to bank issued lending and other asset products.",
-    "role": "Collateral Allocation Management oversees the allocation of a party asset when pledged as collateral to one or more loans. Specific reference details of the asset are maintained in the Party Asset Directory Service Domain. The valuation of an asset is organized by the Party Asset Directory. A valuation can be requested by the Collateral Allocation Management Service Domain. Collateral Allocation Management also determines the portion of an asset value that can be applied or can still be applied as collateral. This will depend on the asset type and specific policies of the bank.",
-    "example": "A customer transfers the fiduciary ownership of a consumer durable to the bank as security for a loan. Collateral Asset Management will do the allocation by linking the asset (as recorded in Party Asset Directory) to the loan product instance.",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CollateralAllocationManagement/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Collateral Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Allocate collateral",
-        "description": "Enables allocate collateral to support the service domain manages the allocation of party owned assets to bank issued lending and other asset products",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Maintain collateral position",
-        "description": "Enables maintain collateral position to support the service domain manages the allocation of party owned assets to bank issued lending and other asset products",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Collateral Allocation Management",
+      "definition": "The Service Domain manages the allocation of party owned assets to bank issued lending and other asset products.",
+      "role": "Collateral Allocation Management oversees the allocation of a party asset when pledged as collateral to one or more loans. Specific reference details of the asset are maintained in the Party Asset Directory Service Domain. The valuation of an asset is organized by the Party Asset Directory. A valuation can be requested by the Collateral Allocation Management Service Domain. Collateral Allocation Management also determines the portion of an asset value that can be applied or can still be applied as collateral. This will depend on the asset type and specific policies of the bank.",
+      "example": "A customer transfers the fiduciary ownership of a consumer durable to the bank as security for a loan. Collateral Asset Management will do the allocation by linking the asset (as recorded in Party Asset Directory) to the loan product instance.",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CollateralAllocationManagement/12.0.0",
+      "key_features": [
+        {
+          "name": "Allocate collateral",
+          "description": "Enables allocate collateral to support the service domain manages the allocation of party owned assets to bank issued lending and other asset products",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintain collateral position",
+          "description": "Enables maintain collateral position to support the service domain manages the allocation of party owned assets to bank issued lending and other asset products",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Collateral Asset Allocation",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

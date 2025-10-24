@@ -1,49 +1,135 @@
 {
-  "division": "Customer and Distribution",
-  "domain": "Customer Management",
-  "capability": {
-    "name": "Mergers And Acquisitions Advisory",
-    "definition": "This Service Domain handles mergers and acquisition, IPO, MBO and LBO projects with the bank acting in the lead and/or subordinate role",
-    "role": "A fee or commission based project providing advice, execution, pricing and deal coordination and placement for M&A, IPO, MBO, LBO type transactions",
-    "example": "A corporate customer engages an investment bank to lead an M&A transaction on its behalf",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Customer Management",
+    "area": "Customer and Distribution",
+    "knowhow": [
       {
-        "name": "Fee or commission based project execution",
-        "description": "Enables fee or commission based project execution to support this service domain handles mergers and acquisition, ipo, mbo and lbo projects with the bank acting in the lead and/or subordinate role",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Pricing and deal coordination",
-        "description": "Enables pricing and deal coordination to support this service domain handles mergers and acquisition, ipo, mbo and lbo projects with the bank acting in the lead and/or subordinate role",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Placement for M&A, IPO, LBO type transactions",
-        "description": "Enables placement for m&a, ipo, lbo type transactions to support this service domain handles mergers and acquisition, ipo, mbo and lbo projects with the bank acting in the lead and/or subordinate role",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Advisory services for complex transactions",
-        "description": "Enables advisory services for complex transactions to support this service domain handles mergers and acquisition, ipo, mbo and lbo projects with the bank acting in the lead and/or subordinate role",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Mergers And Acquisitions Advisory",
+      "definition": "This Service Domain handles mergers and acquisition, IPO, MBO and LBO projects with the bank acting in the lead and/or subordinate role",
+      "role": "A fee or commission based project providing advice, execution, pricing and deal coordination and placement for M&A, IPO, MBO, LBO type transactions",
+      "example": "A corporate customer engages an investment bank to lead an M&A transaction on its behalf",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Fee or commission based project execution",
+          "description": "Enables fee or commission based project execution to support this service domain handles mergers and acquisition, ipo, mbo and lbo projects with the bank acting in the lead and/or subordinate role",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pricing and deal coordination",
+          "description": "Enables pricing and deal coordination to support this service domain handles mergers and acquisition, ipo, mbo and lbo projects with the bank acting in the lead and/or subordinate role",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Placement for M&A, IPO, LBO type transactions",
+          "description": "Enables placement for m&a, ipo, lbo type transactions to support this service domain handles mergers and acquisition, ipo, mbo and lbo projects with the bank acting in the lead and/or subordinate role",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Advisory services for complex transactions",
+          "description": "Enables advisory services for complex transactions to support this service domain handles mergers and acquisition, ipo, mbo and lbo projects with the bank acting in the lead and/or subordinate role",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

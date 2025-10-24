@@ -1,56 +1,181 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Investment Portfolio Management",
-  "capability": {
-    "name": "Hedge Fund Administration",
-    "definition": "The Hedge Fund Administration Service Domain handles all aspects of the set-up and operation of a hedge fund that is offered to accredited investors within the bank's customer base",
-    "role": "Hedge funds group accredited investors as limited partners to the fund with the fund manager as the general partner. As investors are restricted to being accredited a hedge funds is free to make more aggressive investment decisions and can generate higher returns. Fund income combines management and performance fees",
-    "example": "A bank operates a hedge fund to support its accredited investment customers. The fund targets a market segment of specific interest to its investor membership",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/HedgeFundAdministration/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Investment Portfolio Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Handle the fund's accounting, tax administration and financial reporting needs",
-        "description": "Enables handle the fund's accounting, tax administration and financial reporting needs to support the hedge fund administration service domain handles all aspects of the set-up and operation of a hedge fund that is offered to accredited investors within the bank's customer base",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Manage/develop the fund, investing in alignment with fund policy",
-        "description": "Enables manage/develop the fund, investing in alignment with fund policy to support the hedge fund administration service domain handles all aspects of the set-up and operation of a hedge fund that is offered to accredited investors within the bank's customer base",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Handle investor inflows and outflow processing to the fund",
-        "description": "Enables handle investor inflows and outflow processing to the fund to support the hedge fund administration service domain handles all aspects of the set-up and operation of a hedge fund that is offered to accredited investors within the bank's customer base",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Process management and performance fees",
-        "description": "Enables process management and performance fees to support the hedge fund administration service domain handles all aspects of the set-up and operation of a hedge fund that is offered to accredited investors within the bank's customer base",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Support/oversee all general investor servicing and process middle and back office functions",
-        "description": "Enables support/oversee all general investor servicing and process middle and back office functions to support the hedge fund administration service domain handles all aspects of the set-up and operation of a hedge fund that is offered to accredited investors within the bank's customer base",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Hedge Fund Administration",
+      "definition": "The Hedge Fund Administration Service Domain handles all aspects of the set-up and operation of a hedge fund that is offered to accredited investors within the bank's customer base",
+      "role": "Hedge funds group accredited investors as limited partners to the fund with the fund manager as the general partner. As investors are restricted to being accredited a hedge funds is free to make more aggressive investment decisions and can generate higher returns. Fund income combines management and performance fees",
+      "example": "A bank operates a hedge fund to support its accredited investment customers. The fund targets a market segment of specific interest to its investor membership",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/HedgeFundAdministration/12.0.0",
+      "key_features": [
+        {
+          "name": "Handle the fund's accounting, tax administration and financial reporting needs",
+          "description": "Enables handle the fund's accounting, tax administration and financial reporting needs to support the hedge fund administration service domain handles all aspects of the set-up and operation of a hedge fund that is offered to accredited investors within the bank's customer base",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Manage/develop the fund, investing in alignment with fund policy",
+          "description": "Enables manage/develop the fund, investing in alignment with fund policy to support the hedge fund administration service domain handles all aspects of the set-up and operation of a hedge fund that is offered to accredited investors within the bank's customer base",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Handle investor inflows and outflow processing to the fund",
+          "description": "Enables handle investor inflows and outflow processing to the fund to support the hedge fund administration service domain handles all aspects of the set-up and operation of a hedge fund that is offered to accredited investors within the bank's customer base",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Process management and performance fees",
+          "description": "Enables process management and performance fees to support the hedge fund administration service domain handles all aspects of the set-up and operation of a hedge fund that is offered to accredited investors within the bank's customer base",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Support/oversee all general investor servicing and process middle and back office functions",
+          "description": "Enables support/oversee all general investor servicing and process middle and back office functions to support the hedge fund administration service domain handles all aspects of the set-up and operation of a hedge fund that is offered to accredited investors within the bank's customer base",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Not explicitly mentioned in the document",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

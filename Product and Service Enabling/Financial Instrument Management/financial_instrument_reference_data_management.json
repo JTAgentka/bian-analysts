@@ -1,49 +1,157 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Financial Instrument Management",
-  "capability": {
-    "name": "Financial Instrument Reference Data Management",
-    "definition": "This Service Domain maintains a directory of financial instrument reference data",
-    "role": "Maintain a central reference directory of market traded asset/instrument details. The details are typically captured from one or more specialist market feeds that publish market asset/instrument details. It can include the result of internal reference data processing",
-    "example": "A corporate financial advisory project references different instrument specifications when assembling a structured financial approach to the customer financing needs",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN3/FinancialInstrumentReferenceDataManagement/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Financial Instrument Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Consolidate reference data from market sources",
-        "description": "Enables consolidate reference data from market sources to support this service domain maintains a directory of financial instrument reference data",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Classify and verify reference data",
-        "description": "Enables classify and verify reference data to support this service domain maintains a directory of financial instrument reference data",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Organize reference data for ease of access",
-        "description": "Enables organize reference data for ease of access to support this service domain maintains a directory of financial instrument reference data",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Provide access to instrument reference data",
-        "description": "Enables provide access to instrument reference data to support this service domain maintains a directory of financial instrument reference data",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Financial Instrument Reference Data Management",
+      "definition": "This Service Domain maintains a directory of financial instrument reference data",
+      "role": "Maintain a central reference directory of market traded asset/instrument details. The details are typically captured from one or more specialist market feeds that publish market asset/instrument details. It can include the result of internal reference data processing",
+      "example": "A corporate financial advisory project references different instrument specifications when assembling a structured financial approach to the customer financing needs",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN3/FinancialInstrumentReferenceDataManagement/12.0.0",
+      "key_features": [
+        {
+          "name": "Consolidate reference data from market sources",
+          "description": "Enables consolidate reference data from market sources to support this service domain maintains a directory of financial instrument reference data",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Classify and verify reference data",
+          "description": "Enables classify and verify reference data to support this service domain maintains a directory of financial instrument reference data",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Organize reference data for ease of access",
+          "description": "Enables organize reference data for ease of access to support this service domain maintains a directory of financial instrument reference data",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Provide access to instrument reference data",
+          "description": "Enables provide access to instrument reference data to support this service domain maintains a directory of financial instrument reference data",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Financial Instrument Directory Entry",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

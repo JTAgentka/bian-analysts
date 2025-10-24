@@ -1,49 +1,135 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Trust Management",
-  "capability": {
-    "name": "Trust Services",
-    "definition": "This Service Domain support a range of trust management services offered to high value customers",
-    "role": "Provide trust services for high value customers, including asset maintenance, court administration, tax and expense handling, asset management and estate, inheritance and income tax processing",
-    "example": "A trust fund is set up on behalf of a parent for their offspring. The parent sets aside cash/assets for the trust. The trust handles the cash/assets until the offspring reaches a certain age.",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Trust Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Maintain and manage trust assets",
-        "description": "Enables maintain and manage trust assets to support this service domain support a range of trust management services offered to high value customers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Handle court and legal matters for the trust",
-        "description": "Enables handle court and legal matters for the trust to support this service domain support a range of trust management services offered to high value customers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Administer trust related taxation and fees",
-        "description": "Enables administer trust related taxation and fees to support this service domain support a range of trust management services offered to high value customers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Prepare estate, inheritance and income tax returns",
-        "description": "Enables prepare estate, inheritance and income tax returns to support this service domain support a range of trust management services offered to high value customers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Trust Services",
+      "definition": "This Service Domain support a range of trust management services offered to high value customers",
+      "role": "Provide trust services for high value customers, including asset maintenance, court administration, tax and expense handling, asset management and estate, inheritance and income tax processing",
+      "example": "A trust fund is set up on behalf of a parent for their offspring. The parent sets aside cash/assets for the trust. The trust handles the cash/assets until the offspring reaches a certain age.",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Maintain and manage trust assets",
+          "description": "Enables maintain and manage trust assets to support this service domain support a range of trust management services offered to high value customers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Handle court and legal matters for the trust",
+          "description": "Enables handle court and legal matters for the trust to support this service domain support a range of trust management services offered to high value customers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Administer trust related taxation and fees",
+          "description": "Enables administer trust related taxation and fees to support this service domain support a range of trust management services offered to high value customers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Prepare estate, inheritance and income tax returns",
+          "description": "Enables prepare estate, inheritance and income tax returns to support this service domain support a range of trust management services offered to high value customers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

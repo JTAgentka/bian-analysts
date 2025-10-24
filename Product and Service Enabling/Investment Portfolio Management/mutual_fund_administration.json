@@ -1,56 +1,181 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Investment Portfolio Management",
-  "capability": {
-    "name": "Mutual Fund Administration",
-    "definition": "The Mutual Fund Administration Service Domain handles all aspects of the set-up and operation of mutual funds that can be offered to the bank's general (non-accredited) customers",
-    "role": "Mutual funds provide an investment vehicle to general investors and as such are highly regulated and tend to focus on lower risk/return investments. Mutual funds are allowed to charge investors a management fee, but unlike hedge funds the mutual fund manager is not permitted to share in the fund's performance",
-    "example": "A bank operates mutual funds to offer its non accredited customers access to suitably structured investment opportunities.",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/MutualFundAdministration/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Investment Portfolio Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Handle the fund's accounting, tax administration and financial reporting needs",
-        "description": "Enables handle the fund's accounting, tax administration and financial reporting needs to support the mutual fund administration service domain handles all aspects of the set-up and operation of mutual funds that can be offered to the bank's general (non-accredited) customers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Manage/develop the fund, investing in alignment with fund policy",
-        "description": "Enables manage/develop the fund, investing in alignment with fund policy to support the mutual fund administration service domain handles all aspects of the set-up and operation of mutual funds that can be offered to the bank's general (non-accredited) customers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Handle investor inflows and outflow processing to the fund",
-        "description": "Enables handle investor inflows and outflow processing to the fund to support the mutual fund administration service domain handles all aspects of the set-up and operation of mutual funds that can be offered to the bank's general (non-accredited) customers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Process management fees",
-        "description": "Enables process management fees to support the mutual fund administration service domain handles all aspects of the set-up and operation of mutual funds that can be offered to the bank's general (non-accredited) customers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Support/oversee all general investor servicing and process middle and back office functions",
-        "description": "Enables support/oversee all general investor servicing and process middle and back office functions to support the mutual fund administration service domain handles all aspects of the set-up and operation of mutual funds that can be offered to the bank's general (non-accredited) customers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Mutual Fund Administration",
+      "definition": "The Mutual Fund Administration Service Domain handles all aspects of the set-up and operation of mutual funds that can be offered to the bank's general (non-accredited) customers",
+      "role": "Mutual funds provide an investment vehicle to general investors and as such are highly regulated and tend to focus on lower risk/return investments. Mutual funds are allowed to charge investors a management fee, but unlike hedge funds the mutual fund manager is not permitted to share in the fund's performance",
+      "example": "A bank operates mutual funds to offer its non accredited customers access to suitably structured investment opportunities.",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/MutualFundAdministration/12.0.0",
+      "key_features": [
+        {
+          "name": "Handle the fund's accounting, tax administration and financial reporting needs",
+          "description": "Enables handle the fund's accounting, tax administration and financial reporting needs to support the mutual fund administration service domain handles all aspects of the set-up and operation of mutual funds that can be offered to the bank's general (non-accredited) customers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Manage/develop the fund, investing in alignment with fund policy",
+          "description": "Enables manage/develop the fund, investing in alignment with fund policy to support the mutual fund administration service domain handles all aspects of the set-up and operation of mutual funds that can be offered to the bank's general (non-accredited) customers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Handle investor inflows and outflow processing to the fund",
+          "description": "Enables handle investor inflows and outflow processing to the fund to support the mutual fund administration service domain handles all aspects of the set-up and operation of mutual funds that can be offered to the bank's general (non-accredited) customers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Process management fees",
+          "description": "Enables process management fees to support the mutual fund administration service domain handles all aspects of the set-up and operation of mutual funds that can be offered to the bank's general (non-accredited) customers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Support/oversee all general investor servicing and process middle and back office functions",
+          "description": "Enables support/oversee all general investor servicing and process middle and back office functions to support the mutual fund administration service domain handles all aspects of the set-up and operation of mutual funds that can be offered to the bank's general (non-accredited) customers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Not explicitly mentioned in the document",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

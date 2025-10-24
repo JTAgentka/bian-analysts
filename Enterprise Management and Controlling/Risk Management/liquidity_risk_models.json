@@ -1,70 +1,229 @@
 {
-  "division": "Enterprise Management and Controlling",
-  "domain": "Risk Management",
-  "capability": {
-    "name": "Liquidity Risk Models",
-    "definition": "This capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like LaR and LVaR.",
-    "role": "Develop and maintain models for dispositive and structural liquidity risk management, including liquidity gap analysis, Liquidity at Risk (LaR) and Liquidity Value at Risk (LVaR).",
-    "example": "Financial engineers develop and refine liquidity risk management models",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Risk Management",
+    "area": "Enterprise Management and Controlling",
+    "knowhow": [
       {
-        "name": "Liquidity gap analysis",
-        "description": "Enables liquidity gap analysis to support this capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like lar and lvar",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Liquidity at Risk (LaR) modeling",
-        "description": "Enables liquidity at risk (lar) modeling to support this capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like lar and lvar",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Liquidity Value at Risk (LVaR) modeling",
-        "description": "Enables liquidity value at risk (lvar) modeling to support this capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like lar and lvar",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Dispositive liquidity risk management",
-        "description": "Enables dispositive liquidity risk management to support this capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like lar and lvar",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Structural liquidity risk management",
-        "description": "Enables structural liquidity risk management to support this capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like lar and lvar",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Individual and portfolio analytics",
-        "description": "Enables individual and portfolio analytics to support this capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like lar and lvar",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Performance analysis and trending",
-        "description": "Enables performance analysis and trending to support this capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like lar and lvar",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Liquidity Risk Models",
+      "definition": "This capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like LaR and LVaR.",
+      "role": "Develop and maintain models for dispositive and structural liquidity risk management, including liquidity gap analysis, Liquidity at Risk (LaR) and Liquidity Value at Risk (LVaR).",
+      "example": "Financial engineers develop and refine liquidity risk management models",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Liquidity gap analysis",
+          "description": "Enables liquidity gap analysis to support this capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like lar and lvar",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Liquidity at Risk (LaR) modeling",
+          "description": "Enables liquidity at risk (lar) modeling to support this capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like lar and lvar",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Liquidity Value at Risk (LVaR) modeling",
+          "description": "Enables liquidity value at risk (lvar) modeling to support this capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like lar and lvar",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dispositive liquidity risk management",
+          "description": "Enables dispositive liquidity risk management to support this capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like lar and lvar",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Structural liquidity risk management",
+          "description": "Enables structural liquidity risk management to support this capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like lar and lvar",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Individual and portfolio analytics",
+          "description": "Enables individual and portfolio analytics to support this capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like lar and lvar",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Performance analysis and trending",
+          "description": "Enables performance analysis and trending to support this capability focuses on developing and maintaining comprehensive liquidity risk models for both dispositive and structural liquidity risk management, including advanced analytics like lar and lvar",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Liquidity Risk Model Specification",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

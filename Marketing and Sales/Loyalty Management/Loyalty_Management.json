@@ -1,35 +1,109 @@
 {
-  "division": "Marketing and Sales",
-  "domain": "Loyalty Management",
-  "capability": {
+  "domain": {
     "name": "Loyalty Management",
-    "definition": "Administer the booking and remittance of rewards points",
-    "role": "Track/log the allocation and remittance of rewards points. The service domain acts as a transaction log similar where the instrument is not subject to interest considerations (as with cash) but may have a finite life-time with expiry dates on reward points",
-    "example": "A customer transaction that generates reward points is captured on the log, resulting in an increase in their available point balance",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN3/RewardPointsAccount/12.0.0",
-    "key_features": [
+    "area": "Marketing and Sales",
+    "knowhow": [
       {
-        "name": "Capture reward points awards and remittance transactions",
-        "description": "Enables capture reward points awards and remittance transactions to support administer the booking and remittance of rewards points",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Process reward point expiry terms for limited life reward points",
-        "description": "Enables process reward point expiry terms for limited life reward points to support administer the booking and remittance of rewards points",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Loyalty Management",
+      "definition": "Administer the booking and remittance of rewards points",
+      "role": "Track/log the allocation and remittance of rewards points. The service domain acts as a transaction log similar where the instrument is not subject to interest considerations (as with cash) but may have a finite life-time with expiry dates on reward points",
+      "example": "A customer transaction that generates reward points is captured on the log, resulting in an increase in their available point balance",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN3/RewardPointsAccount/12.0.0",
+      "key_features": [
+        {
+          "name": "Capture reward points awards and remittance transactions",
+          "description": "Enables capture reward points awards and remittance transactions to support administer the booking and remittance of rewards points",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Process reward point expiry terms for limited life reward points",
+          "description": "Enables process reward point expiry terms for limited life reward points to support administer the booking and remittance of rewards points",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Reward Points",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

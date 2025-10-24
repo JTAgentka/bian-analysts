@@ -1,63 +1,205 @@
 {
-  "division": "Customer and Distribution",
-  "domain": "Partner Management",
-  "capability": {
-    "name": "Corporate Relationship",
-    "definition": "The Corporate Relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships.",
-    "role": "Manage corporate relationships with key parties such as major clients, political and industry groups, user associations etc.",
-    "example": "A regular relationship review is scheduled with a major multinational customer to develop business opportunities",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Partner Management",
+    "area": "Customer and Distribution",
+    "knowhow": [
       {
-        "name": "Corporate relationship management planning",
-        "description": "Enables corporate relationship management planning to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Performance analysis and tracking",
-        "description": "Enables performance analysis and tracking to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Portfolio activity analysis",
-        "description": "Enables portfolio activity analysis to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Relationship review scheduling",
-        "description": "Enables relationship review scheduling to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Strategic partnership development",
-        "description": "Enables strategic partnership development to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Analytics and reporting capabilities",
-        "description": "Enables analytics and reporting capabilities to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Corporate Relationship",
+      "definition": "The Corporate Relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships.",
+      "role": "Manage corporate relationships with key parties such as major clients, political and industry groups, user associations etc.",
+      "example": "A regular relationship review is scheduled with a major multinational customer to develop business opportunities",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Corporate relationship management planning",
+          "description": "Enables corporate relationship management planning to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Performance analysis and tracking",
+          "description": "Enables performance analysis and tracking to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Portfolio activity analysis",
+          "description": "Enables portfolio activity analysis to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Relationship review scheduling",
+          "description": "Enables relationship review scheduling to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Strategic partnership development",
+          "description": "Enables strategic partnership development to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Analytics and reporting capabilities",
+          "description": "Enables analytics and reporting capabilities to support the corporate relationship capability manages relationships with key corporate parties including major clients, political and industry groups, and user associations to develop and maintain strategic business partnerships",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Corporate Partner Relationship Management Plan",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

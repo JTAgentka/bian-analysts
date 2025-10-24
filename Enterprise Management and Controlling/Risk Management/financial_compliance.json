@@ -1,63 +1,205 @@
 {
-  "division": "Enterprise Management and Controlling",
-  "domain": "Risk Management",
-  "capability": {
-    "name": "Financial Compliance",
-    "definition": "Financial Compliance capability tracks and manages the resolution of detected non-compliance financial activities and instances, ensuring corrective actions are properly monitored and resolved.",
-    "role": "Track the resolution of detected non compliance finance activities and instances",
-    "example": "A business unit misses its first qtr targets and reacts with corrective actions that are tracked",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Risk Management",
+    "area": "Enterprise Management and Controlling",
+    "knowhow": [
       {
-        "name": "Non-compliance detection tracking",
-        "description": "Enables non-compliance detection tracking to support financial compliance capability tracks and manages the resolution of detected non-compliance financial activities and instances, ensuring corrective actions are properly monitored and resolved",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Financial activity monitoring",
-        "description": "Enables financial activity monitoring to support financial compliance capability tracks and manages the resolution of detected non-compliance financial activities and instances, ensuring corrective actions are properly monitored and resolved",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Resolution tracking",
-        "description": "Enables resolution tracking to support financial compliance capability tracks and manages the resolution of detected non-compliance financial activities and instances, ensuring corrective actions are properly monitored and resolved",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Corrective action management",
-        "description": "Enables corrective action management to support financial compliance capability tracks and manages the resolution of detected non-compliance financial activities and instances, ensuring corrective actions are properly monitored and resolved",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Financial compliance procedure analytics",
-        "description": "Enables financial compliance procedure analytics to support financial compliance capability tracks and manages the resolution of detected non-compliance financial activities and instances, ensuring corrective actions are properly monitored and resolved",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Portfolio compliance analysis",
-        "description": "Enables portfolio compliance analysis to support financial compliance capability tracks and manages the resolution of detected non-compliance financial activities and instances, ensuring corrective actions are properly monitored and resolved",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Financial Compliance",
+      "definition": "Financial Compliance capability tracks and manages the resolution of detected non-compliance financial activities and instances, ensuring corrective actions are properly monitored and resolved.",
+      "role": "Track the resolution of detected non compliance finance activities and instances",
+      "example": "A business unit misses its first qtr targets and reacts with corrective actions that are tracked",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Non-compliance detection tracking",
+          "description": "Enables non-compliance detection tracking to support financial compliance capability tracks and manages the resolution of detected non-compliance financial activities and instances, ensuring corrective actions are properly monitored and resolved",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Financial activity monitoring",
+          "description": "Enables financial activity monitoring to support financial compliance capability tracks and manages the resolution of detected non-compliance financial activities and instances, ensuring corrective actions are properly monitored and resolved",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Resolution tracking",
+          "description": "Enables resolution tracking to support financial compliance capability tracks and manages the resolution of detected non-compliance financial activities and instances, ensuring corrective actions are properly monitored and resolved",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Corrective action management",
+          "description": "Enables corrective action management to support financial compliance capability tracks and manages the resolution of detected non-compliance financial activities and instances, ensuring corrective actions are properly monitored and resolved",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Financial compliance procedure analytics",
+          "description": "Enables financial compliance procedure analytics to support financial compliance capability tracks and manages the resolution of detected non-compliance financial activities and instances, ensuring corrective actions are properly monitored and resolved",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Portfolio compliance analysis",
+          "description": "Enables portfolio compliance analysis to support financial compliance capability tracks and manages the resolution of detected non-compliance financial activities and instances, ensuring corrective actions are properly monitored and resolved",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Financial Compliance Procedure",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

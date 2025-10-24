@@ -1,42 +1,133 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Investment Portfolio Management",
-  "capability": {
+  "domain": {
     "name": "Investment Portfolio Management",
-    "definition": "Manage an investment portfolio, initiating trading to leverage market opportunities, remaining within portfolio trading policies",
-    "role": "Orchestrate the investment/ rebalancing of an investment portfolio to optimize gains remaining within the terms of the portfolio 'charter' or agreement",
-    "example": "An investment manager monitoring the markets determines that an identified opportunity can be exploited for the portfolio, remaining in line with the portfolio policies",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/InvestmentPortfolioManagement/12.0.0",
-    "key_features": [
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Monitor market for opportunities/threats",
-        "description": "Enables monitor market for opportunities/threats to support manage an investment portfolio, initiating trading to leverage market opportunities, remaining within portfolio trading policies",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Match identified trading opportunity to investment portfolio policies",
-        "description": "Enables match identified trading opportunity to investment portfolio policies to support manage an investment portfolio, initiating trading to leverage market opportunities, remaining within portfolio trading policies",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Initiate market trades to rebalance/improve portfolio make-up",
-        "description": "Enables initiate market trades to rebalance/improve portfolio make-up to support manage an investment portfolio, initiating trading to leverage market opportunities, remaining within portfolio trading policies",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Investment Portfolio Management",
+      "definition": "Manage an investment portfolio, initiating trading to leverage market opportunities, remaining within portfolio trading policies",
+      "role": "Orchestrate the investment/ rebalancing of an investment portfolio to optimize gains remaining within the terms of the portfolio 'charter' or agreement",
+      "example": "An investment manager monitoring the markets determines that an identified opportunity can be exploited for the portfolio, remaining in line with the portfolio policies",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/InvestmentPortfolioManagement/12.0.0",
+      "key_features": [
+        {
+          "name": "Monitor market for opportunities/threats",
+          "description": "Enables monitor market for opportunities/threats to support manage an investment portfolio, initiating trading to leverage market opportunities, remaining within portfolio trading policies",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Match identified trading opportunity to investment portfolio policies",
+          "description": "Enables match identified trading opportunity to investment portfolio policies to support manage an investment portfolio, initiating trading to leverage market opportunities, remaining within portfolio trading policies",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Initiate market trades to rebalance/improve portfolio make-up",
+          "description": "Enables initiate market trades to rebalance/improve portfolio make-up to support manage an investment portfolio, initiating trading to leverage market opportunities, remaining within portfolio trading policies",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Investment Portfolio",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

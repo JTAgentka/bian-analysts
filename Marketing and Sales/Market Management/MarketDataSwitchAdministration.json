@@ -1,49 +1,157 @@
 {
-  "division": "Marketing and Sales",
-  "domain": "Market Management",
-  "capability": {
-    "name": "Marketdataswitchadministration",
-    "definition": "This service domain administers the internal information distribution system with external market information feeds and associated employee access rights, including brokering information access on a first-come-first-serve basis for limited user feeds",
-    "role": "Administer the internal information distribution 'switch' with external and external market information feeds and associated employee access rights. Note this can include 'brokering' information access on a first come first serve basis for limited active user number feed services",
-    "example": "A new employee is provided with the standard access to information feed at their trading desk",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Market Management",
+    "area": "Marketing and Sales",
+    "knowhow": [
       {
-        "name": "Administer internal information distribution switch",
-        "description": "Enables administer internal information distribution switch to support this service domain administers the internal information distribution system with external market information feeds and associated employee access rights, including brokering information access on a first-come-first-serve basis for limited user feeds",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Manage external market information feeds",
-        "description": "Enables manage external market information feeds to support this service domain administers the internal information distribution system with external market information feeds and associated employee access rights, including brokering information access on a first-come-first-serve basis for limited user feeds",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Control employee access rights",
-        "description": "Enables control employee access rights to support this service domain administers the internal information distribution system with external market information feeds and associated employee access rights, including brokering information access on a first-come-first-serve basis for limited user feeds",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Broker information access for limited user feeds",
-        "description": "Enables broker information access for limited user feeds to support this service domain administers the internal information distribution system with external market information feeds and associated employee access rights, including brokering information access on a first-come-first-serve basis for limited user feeds",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Marketdataswitchadministration",
+      "definition": "This service domain administers the internal information distribution system with external market information feeds and associated employee access rights, including brokering information access on a first-come-first-serve basis for limited user feeds",
+      "role": "Administer the internal information distribution 'switch' with external and external market information feeds and associated employee access rights. Note this can include 'brokering' information access on a first come first serve basis for limited active user number feed services",
+      "example": "A new employee is provided with the standard access to information feed at their trading desk",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Administer internal information distribution switch",
+          "description": "Enables administer internal information distribution switch to support this service domain administers the internal information distribution system with external market information feeds and associated employee access rights, including brokering information access on a first-come-first-serve basis for limited user feeds",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Manage external market information feeds",
+          "description": "Enables manage external market information feeds to support this service domain administers the internal information distribution system with external market information feeds and associated employee access rights, including brokering information access on a first-come-first-serve basis for limited user feeds",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Control employee access rights",
+          "description": "Enables control employee access rights to support this service domain administers the internal information distribution system with external market information feeds and associated employee access rights, including brokering information access on a first-come-first-serve basis for limited user feeds",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Broker information access for limited user feeds",
+          "description": "Enables broker information access for limited user feeds to support this service domain administers the internal information distribution system with external market information feeds and associated employee access rights, including brokering information access on a first-come-first-serve basis for limited user feeds",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Information Feed Switch Administrative Plan",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

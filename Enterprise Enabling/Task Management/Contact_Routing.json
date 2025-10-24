@@ -1,35 +1,109 @@
 {
-  "division": "Enterprise Enabling",
-  "domain": "Task Management",
-  "capability": {
-    "name": "Contact Routing",
-    "definition": "The Contact Routing service domain tracks servicing resource availability and uses any known details about the customer contact (e.g. identity, indicated purpose of call, status of the relationship) to make an optimal routing decision. The routing selection may include matching the required product knowledge/skills to the available servicing resources.",
-    "role": "Contact Routing is called from Contact Management to identify the next available and most suited servicing resource to handle a servicing session within an active customer contact. Selection is optimized to leverage of specialized/qualified servicing resources based on any known details about the customer and the purpose of their contact with the bank.",
-    "example": "A high value customer contacts the bank. They have been flagged as a sales prospect and so are routed to the next available rep that is registered as being skilled in the specific product of interest and also experienced in sales",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/ContactRouting/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Task Management",
+    "area": "Enterprise Enabling",
+    "knowhow": [
       {
-        "name": "Track the status/availability of servicing resources",
-        "description": "Enables track the status/availability of servicing resources to support the contact routing service domain tracks servicing resource availability and uses any known details about the customer contact (e",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Assign/select resources to match customer servicing needs",
-        "description": "Enables assign/select resources to match customer servicing needs to support the contact routing service domain tracks servicing resource availability and uses any known details about the customer contact (e",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Contact Routing",
+      "definition": "The Contact Routing service domain tracks servicing resource availability and uses any known details about the customer contact (e.g. identity, indicated purpose of call, status of the relationship) to make an optimal routing decision. The routing selection may include matching the required product knowledge/skills to the available servicing resources.",
+      "role": "Contact Routing is called from Contact Management to identify the next available and most suited servicing resource to handle a servicing session within an active customer contact. Selection is optimized to leverage of specialized/qualified servicing resources based on any known details about the customer and the purpose of their contact with the bank.",
+      "example": "A high value customer contacts the bank. They have been flagged as a sales prospect and so are routed to the next available rep that is registered as being skilled in the specific product of interest and also experienced in sales",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/ContactRouting/12.0.0",
+      "key_features": [
+        {
+          "name": "Track the status/availability of servicing resources",
+          "description": "Enables track the status/availability of servicing resources to support the contact routing service domain tracks servicing resource availability and uses any known details about the customer contact (e",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Assign/select resources to match customer servicing needs",
+          "description": "Enables assign/select resources to match customer servicing needs to support the contact routing service domain tracks servicing resource availability and uses any known details about the customer contact (e",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Individual Analytics",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

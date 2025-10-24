@@ -1,70 +1,229 @@
 {
-  "division": "Enterprise Management and Controlling",
-  "domain": "Risk Management",
-  "capability": {
-    "name": "Security Assurance",
-    "definition": "Security Assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate. It maintains a portfolio of security checks and performs targeted assurance testing across multiple threat categories.",
-    "role": "Maintain and apply a portfolio of security assurance checks, target selective assurance tests to ensure security countermeasures are in place and appropriate",
-    "example": "A security check of a new product operation is performed considering multiple threat categories",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Risk Management",
+    "area": "Enterprise Management and Controlling",
+    "knowhow": [
       {
-        "name": "Portfolio of security assurance checks",
-        "description": "Enables portfolio of security assurance checks to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Selective assurance testing",
-        "description": "Enables selective assurance testing to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Security countermeasure validation",
-        "description": "Enables security countermeasure validation to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Multiple threat category assessment",
-        "description": "Enables multiple threat category assessment to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Security compliance assessment analytics",
-        "description": "Enables security compliance assessment analytics to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Individual analytics including accumulators, activity analysis, performance analysis, and trends & events",
-        "description": "Enables individual analytics including accumulators, activity analysis, performance analysis, and trends & events to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Portfolio analytics for activity, make-up, and performance analysis",
-        "description": "Enables portfolio analytics for activity, make-up, and performance analysis to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Security Assurance",
+      "definition": "Security Assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate. It maintains a portfolio of security checks and performs targeted assurance testing across multiple threat categories.",
+      "role": "Maintain and apply a portfolio of security assurance checks, target selective assurance tests to ensure security countermeasures are in place and appropriate",
+      "example": "A security check of a new product operation is performed considering multiple threat categories",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Portfolio of security assurance checks",
+          "description": "Enables portfolio of security assurance checks to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Selective assurance testing",
+          "description": "Enables selective assurance testing to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Security countermeasure validation",
+          "description": "Enables security countermeasure validation to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Multiple threat category assessment",
+          "description": "Enables multiple threat category assessment to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Security compliance assessment analytics",
+          "description": "Enables security compliance assessment analytics to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Individual analytics including accumulators, activity analysis, performance analysis, and trends & events",
+          "description": "Enables individual analytics including accumulators, activity analysis, performance analysis, and trends & events to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Portfolio analytics for activity, make-up, and performance analysis",
+          "description": "Enables portfolio analytics for activity, make-up, and performance analysis to support security assurance capability provides comprehensive security testing and validation services to ensure organizational security countermeasures are effective and appropriate",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Security Compliance Assessment",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

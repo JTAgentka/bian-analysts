@@ -1,63 +1,183 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Agreement Management",
-  "capability": {
-    "name": "Corporate Current Account",
-    "definition": "This service domain orchestrates a corporate checking/demand deposit account. The typical range of services and fees covers payments and deposits, standing orders, sweeps, liens, check and debit card access.",
-    "role": "The Corporate Current Account is a financial facility that represents the general checking account facility at the core of corporate banking activity. There is a range of supporting features that make up the standard facility (checks/cheques, standing orders, debit cards, phone and on-line banking services etc.). The fulfillment can include a range of optional services, fees and interest payments and penalties and will often be bundled and or underlie/support other financial facilities and financial transactions",
-    "example": "A corporate customer established a corporate current account with the bank and requests a series of services (e.g., request printed statements, initiate a transfer, set up a standing order)",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CorporateCurrentAccount/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Agreement Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Set-up corporate current account facilities",
-        "description": "Enables set-up corporate current account facilities to support this service domain orchestrates a corporate checking/demand deposit account",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Issue cards, check-books for an account",
-        "description": "Enables issue cards, check-books for an account to support this service domain orchestrates a corporate checking/demand deposit account",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Process deposits and withdrawals",
-        "description": "Enables process deposits and withdrawals to support this service domain orchestrates a corporate checking/demand deposit account",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Handle standing orders and direct debits",
-        "description": "Enables handle standing orders and direct debits to support this service domain orchestrates a corporate checking/demand deposit account",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Process fees and apply interest charges",
-        "description": "Enables process fees and apply interest charges to support this service domain orchestrates a corporate checking/demand deposit account",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Provide balance/statements and reports",
-        "description": "Enables provide balance/statements and reports to support this service domain orchestrates a corporate checking/demand deposit account",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Corporate Current Account",
+      "definition": "This service domain orchestrates a corporate checking/demand deposit account. The typical range of services and fees covers payments and deposits, standing orders, sweeps, liens, check and debit card access.",
+      "role": "The Corporate Current Account is a financial facility that represents the general checking account facility at the core of corporate banking activity. There is a range of supporting features that make up the standard facility (checks/cheques, standing orders, debit cards, phone and on-line banking services etc.). The fulfillment can include a range of optional services, fees and interest payments and penalties and will often be bundled and or underlie/support other financial facilities and financial transactions",
+      "example": "A corporate customer established a corporate current account with the bank and requests a series of services (e.g., request printed statements, initiate a transfer, set up a standing order)",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CorporateCurrentAccount/12.0.0",
+      "key_features": [
+        {
+          "name": "Set-up corporate current account facilities",
+          "description": "Enables set-up corporate current account facilities to support this service domain orchestrates a corporate checking/demand deposit account",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Issue cards, check-books for an account",
+          "description": "Enables issue cards, check-books for an account to support this service domain orchestrates a corporate checking/demand deposit account",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Process deposits and withdrawals",
+          "description": "Enables process deposits and withdrawals to support this service domain orchestrates a corporate checking/demand deposit account",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Handle standing orders and direct debits",
+          "description": "Enables handle standing orders and direct debits to support this service domain orchestrates a corporate checking/demand deposit account",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Process fees and apply interest charges",
+          "description": "Enables process fees and apply interest charges to support this service domain orchestrates a corporate checking/demand deposit account",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Provide balance/statements and reports",
+          "description": "Enables provide balance/statements and reports to support this service domain orchestrates a corporate checking/demand deposit account",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

@@ -1,49 +1,157 @@
 {
-  "division": "Customer and Distribution",
-  "domain": "Channel Management",
-  "capability": {
-    "name": "Interactive Help",
-    "definition": "Operate the automated facility that provides interactive context sensitive servicing guidance to employees and self-serve customers",
-    "role": "Operate the automated facility that provides interactive help and guidance for servicing to employees and self-service customers. The facility automatically determines the context for the help request and selects stored guidance that is presented to the user. The initial selection can be dynamically refined by the user to focus in on specific requirements as necessary. User feedback as to the content and coverage of the guidance can be captured",
-    "example": "A new customer servicing representative obtains guidance for a product fulfillment issue raised during a customer contact",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/InteractiveHelp/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Channel Management",
+    "area": "Customer and Distribution",
+    "knowhow": [
       {
-        "name": "Maintain context specific guidance",
-        "description": "Enables maintain context specific guidance to support operate the automated facility that provides interactive context sensitive servicing guidance to employees and self-serve customers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Select and present context specific guidance",
-        "description": "Enables select and present context specific guidance to support operate the automated facility that provides interactive context sensitive servicing guidance to employees and self-serve customers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Refine guidance selection criteria",
-        "description": "Enables refine guidance selection criteria to support operate the automated facility that provides interactive context sensitive servicing guidance to employees and self-serve customers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Capture feedback with regard to guidance coverage and usability/quality",
-        "description": "Enables capture feedback with regard to guidance coverage and usability/quality to support operate the automated facility that provides interactive context sensitive servicing guidance to employees and self-serve customers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Interactive Help",
+      "definition": "Operate the automated facility that provides interactive context sensitive servicing guidance to employees and self-serve customers",
+      "role": "Operate the automated facility that provides interactive help and guidance for servicing to employees and self-service customers. The facility automatically determines the context for the help request and selects stored guidance that is presented to the user. The initial selection can be dynamically refined by the user to focus in on specific requirements as necessary. User feedback as to the content and coverage of the guidance can be captured",
+      "example": "A new customer servicing representative obtains guidance for a product fulfillment issue raised during a customer contact",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/InteractiveHelp/12.0.0",
+      "key_features": [
+        {
+          "name": "Maintain context specific guidance",
+          "description": "Enables maintain context specific guidance to support operate the automated facility that provides interactive context sensitive servicing guidance to employees and self-serve customers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select and present context specific guidance",
+          "description": "Enables select and present context specific guidance to support operate the automated facility that provides interactive context sensitive servicing guidance to employees and self-serve customers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Refine guidance selection criteria",
+          "description": "Enables refine guidance selection criteria to support operate the automated facility that provides interactive context sensitive servicing guidance to employees and self-serve customers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Capture feedback with regard to guidance coverage and usability/quality",
+          "description": "Enables capture feedback with regard to guidance coverage and usability/quality to support operate the automated facility that provides interactive context sensitive servicing guidance to employees and self-serve customers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Interactive Help Service",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

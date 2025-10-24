@@ -1,20 +1,38 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Financial Instrument Management",
-  "capability": {
-    "name": "Corporate Action",
-    "definition": "",
-    "role": "",
-    "example": "",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+  "domain": {
+    "name": "Financial Instrument Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
+      {
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
+      }
+    ],
+    "capability": {
+      "name": "Corporate Action",
+      "definition": "",
+      "role": "",
+      "example": "",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

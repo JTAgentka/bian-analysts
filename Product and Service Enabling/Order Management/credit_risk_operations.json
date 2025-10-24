@@ -1,35 +1,109 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Order Management",
-  "capability": {
-    "name": "Credit Risk Operations",
-    "definition": "This Service Domain monitors counterparty credit limits in the trading unit",
-    "role": "This Service Domain monitors the counterparty credit limits (CCL) used to govern trading activity to manage credit exposure. Note there may be regulatory requirements that determine allowed CCLs.",
-    "example": "A trading desk checks a proposed trade against trading counterparty credit limits",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CreditRiskOperations/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Order Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Establish counterparty trading credit limits",
-        "description": "Enables establish counterparty trading credit limits to support this service domain monitors counterparty credit limits in the trading unit",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Monitor limits and raise alerts against limit breaches",
-        "description": "Enables monitor limits and raise alerts against limit breaches to support this service domain monitors counterparty credit limits in the trading unit",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Credit Risk Operations",
+      "definition": "This Service Domain monitors counterparty credit limits in the trading unit",
+      "role": "This Service Domain monitors the counterparty credit limits (CCL) used to govern trading activity to manage credit exposure. Note there may be regulatory requirements that determine allowed CCLs.",
+      "example": "A trading desk checks a proposed trade against trading counterparty credit limits",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/CreditRiskOperations/12.0.0",
+      "key_features": [
+        {
+          "name": "Establish counterparty trading credit limits",
+          "description": "Enables establish counterparty trading credit limits to support this service domain monitors counterparty credit limits in the trading unit",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Monitor limits and raise alerts against limit breaches",
+          "description": "Enables monitor limits and raise alerts against limit breaches to support this service domain monitors counterparty credit limits in the trading unit",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "TradingCreditPositionMeasurement",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

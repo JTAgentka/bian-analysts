@@ -1,56 +1,181 @@
 {
-  "division": "Enterprise Management and Controlling",
-  "domain": "Policy Management",
-  "capability": {
-    "name": "Internal Audit",
-    "definition": "Maintain and portfolio of internal audit checks. Select and execute a meaningful sample of checks and identify and resolve non-compliance",
-    "role": "This service domain administers the scheduled and ad-hoc application of internal audit and compliance reviews. This includes interpreting the banks policies and procedures that guide all aspects the bank's operations and determining which guidelines apply in specific circumstances across the enterprise. Support for interpreting guidelines are provided to activities in the bank that are subject to audit and scheduled and ad-hoc checks performed to confirm compliance",
-    "example": "A periodic audit of a processing unit is undertaken and remedial corrections to procedures recommended to improve compliance",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/InternalAudit/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Policy Management",
+    "area": "Enterprise Management and Controlling",
+    "knowhow": [
       {
-        "name": "Schedule/target internal audit reviews",
-        "description": "Enables schedule/target internal audit reviews to support maintain and portfolio of internal audit checks",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Consolidate documents/activity pertaining to the audit",
-        "description": "Enables consolidate documents/activity pertaining to the audit to support maintain and portfolio of internal audit checks",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Provide advice/guidance for achieving guideline/policy compliance",
-        "description": "Enables provide advice/guidance for achieving guideline/policy compliance to support maintain and portfolio of internal audit checks",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Evaluate and report on activity for regulatory compliance",
-        "description": "Enables evaluate and report on activity for regulatory compliance to support maintain and portfolio of internal audit checks",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Notify and track responses for detected procedural failures",
-        "description": "Enables notify and track responses for detected procedural failures to support maintain and portfolio of internal audit checks",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Internal Audit",
+      "definition": "Maintain and portfolio of internal audit checks. Select and execute a meaningful sample of checks and identify and resolve non-compliance",
+      "role": "This service domain administers the scheduled and ad-hoc application of internal audit and compliance reviews. This includes interpreting the banks policies and procedures that guide all aspects the bank's operations and determining which guidelines apply in specific circumstances across the enterprise. Support for interpreting guidelines are provided to activities in the bank that are subject to audit and scheduled and ad-hoc checks performed to confirm compliance",
+      "example": "A periodic audit of a processing unit is undertaken and remedial corrections to procedures recommended to improve compliance",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/InternalAudit/12.0.0",
+      "key_features": [
+        {
+          "name": "Schedule/target internal audit reviews",
+          "description": "Enables schedule/target internal audit reviews to support maintain and portfolio of internal audit checks",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Consolidate documents/activity pertaining to the audit",
+          "description": "Enables consolidate documents/activity pertaining to the audit to support maintain and portfolio of internal audit checks",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Provide advice/guidance for achieving guideline/policy compliance",
+          "description": "Enables provide advice/guidance for achieving guideline/policy compliance to support maintain and portfolio of internal audit checks",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Evaluate and report on activity for regulatory compliance",
+          "description": "Enables evaluate and report on activity for regulatory compliance to support maintain and portfolio of internal audit checks",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Notify and track responses for detected procedural failures",
+          "description": "Enables notify and track responses for detected procedural failures to support maintain and portfolio of internal audit checks",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Internal Audit Assessment",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

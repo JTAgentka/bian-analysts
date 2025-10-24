@@ -1,63 +1,205 @@
 {
-  "division": "Enterprise Management and Controlling",
-  "domain": "Risk Management",
-  "capability": {
-    "name": "Operational Risk Models",
-    "definition": "Operational Risk Models capability focuses on developing, maintaining, and refining models that detect potential operational failures and exposures. It provides comprehensive analysis of operational breaches and issues to ensure effective risk detection and mitigation.",
-    "role": "Develop and refine operational risk models to detect possible exposures to operational failures",
-    "example": "Financial engineers evaluate the history of operational breaches and issues to determine how well existing operational risk models cover the detection of exposures",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Risk Management",
+    "area": "Enterprise Management and Controlling",
+    "knowhow": [
       {
-        "name": "Operational risk model development and refinement",
-        "description": "Enables operational risk model development and refinement to support operational risk models capability focuses on developing, maintaining, and refining models that detect potential operational failures and exposures",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Detection of operational failure exposures",
-        "description": "Enables detection of operational failure exposures to support operational risk models capability focuses on developing, maintaining, and refining models that detect potential operational failures and exposures",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Historical breach analysis",
-        "description": "Enables historical breach analysis to support operational risk models capability focuses on developing, maintaining, and refining models that detect potential operational failures and exposures",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Model effectiveness evaluation",
-        "description": "Enables model effectiveness evaluation to support operational risk models capability focuses on developing, maintaining, and refining models that detect potential operational failures and exposures",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Individual analytics including accumulators, activity analysis, performance analysis, and trends & events",
-        "description": "Enables individual analytics including accumulators, activity analysis, performance analysis, and trends & events to support operational risk models capability focuses on developing, maintaining, and refining models that detect potential operational failures and exposures",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Portfolio analytics for activity, make-up, and performance analysis",
-        "description": "Enables portfolio analytics for activity, make-up, and performance analysis to support operational risk models capability focuses on developing, maintaining, and refining models that detect potential operational failures and exposures",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Operational Risk Models",
+      "definition": "Operational Risk Models capability focuses on developing, maintaining, and refining models that detect potential operational failures and exposures. It provides comprehensive analysis of operational breaches and issues to ensure effective risk detection and mitigation.",
+      "role": "Develop and refine operational risk models to detect possible exposures to operational failures",
+      "example": "Financial engineers evaluate the history of operational breaches and issues to determine how well existing operational risk models cover the detection of exposures",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Operational risk model development and refinement",
+          "description": "Enables operational risk model development and refinement to support operational risk models capability focuses on developing, maintaining, and refining models that detect potential operational failures and exposures",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Detection of operational failure exposures",
+          "description": "Enables detection of operational failure exposures to support operational risk models capability focuses on developing, maintaining, and refining models that detect potential operational failures and exposures",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Historical breach analysis",
+          "description": "Enables historical breach analysis to support operational risk models capability focuses on developing, maintaining, and refining models that detect potential operational failures and exposures",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Model effectiveness evaluation",
+          "description": "Enables model effectiveness evaluation to support operational risk models capability focuses on developing, maintaining, and refining models that detect potential operational failures and exposures",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Individual analytics including accumulators, activity analysis, performance analysis, and trends & events",
+          "description": "Enables individual analytics including accumulators, activity analysis, performance analysis, and trends & events to support operational risk models capability focuses on developing, maintaining, and refining models that detect potential operational failures and exposures",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Portfolio analytics for activity, make-up, and performance analysis",
+          "description": "Enables portfolio analytics for activity, make-up, and performance analysis to support operational risk models capability focuses on developing, maintaining, and refining models that detect potential operational failures and exposures",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Operational Risk Model Specification",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

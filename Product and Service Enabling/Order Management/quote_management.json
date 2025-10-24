@@ -1,49 +1,157 @@
 {
-  "division": "Product and Service Enabling",
-  "domain": "Order Management",
-  "capability": {
-    "name": "Quote Management",
-    "definition": "This service domain handles the procedure used by traders to obtain and selecting quotes from market makers",
-    "role": "Quote management handles the process by which a trader obtains quotes from multiple market makers in order to select the bank to execute a trade with. Recent trade prices reported to the exchange can be compared with trade activity for the different quoting banks in order to make the selection",
-    "example": "A trader obtains quotes from multiple market makers prior to executing an agency trade for a corporate investor customer",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/QuoteManagement/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Order Management",
+    "area": "Product and Service Enabling",
+    "knowhow": [
       {
-        "name": "Review recent market trade prices for the selected security",
-        "description": "Enables review recent market trade prices for the selected security to support this service domain handles the procedure used by traders to obtain and selecting quotes from market makers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Obtain quotes from available market makers in the security",
-        "description": "Enables obtain quotes from available market makers in the security to support this service domain handles the procedure used by traders to obtain and selecting quotes from market makers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Review recent trade activity for the market makers as appropriate",
-        "description": "Enables review recent trade activity for the market makers as appropriate to support this service domain handles the procedure used by traders to obtain and selecting quotes from market makers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Select preferred market bid offer quote",
-        "description": "Enables select preferred market bid offer quote to support this service domain handles the procedure used by traders to obtain and selecting quotes from market makers",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Quote Management",
+      "definition": "This service domain handles the procedure used by traders to obtain and selecting quotes from market makers",
+      "role": "Quote management handles the process by which a trader obtains quotes from multiple market makers in order to select the bank to execute a trade with. Recent trade prices reported to the exchange can be compared with trade activity for the different quoting banks in order to make the selection",
+      "example": "A trader obtains quotes from multiple market makers prior to executing an agency trade for a corporate investor customer",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/QuoteManagement/12.0.0",
+      "key_features": [
+        {
+          "name": "Review recent market trade prices for the selected security",
+          "description": "Enables review recent market trade prices for the selected security to support this service domain handles the procedure used by traders to obtain and selecting quotes from market makers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Obtain quotes from available market makers in the security",
+          "description": "Enables obtain quotes from available market makers in the security to support this service domain handles the procedure used by traders to obtain and selecting quotes from market makers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Review recent trade activity for the market makers as appropriate",
+          "description": "Enables review recent trade activity for the market makers as appropriate to support this service domain handles the procedure used by traders to obtain and selecting quotes from market makers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select preferred market bid offer quote",
+          "description": "Enables select preferred market bid offer quote to support this service domain handles the procedure used by traders to obtain and selecting quotes from market makers",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "QuotationProcedure",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

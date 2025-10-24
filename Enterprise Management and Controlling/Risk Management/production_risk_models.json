@@ -1,63 +1,205 @@
 {
-  "division": "Enterprise Management and Controlling",
-  "domain": "Risk Management",
-  "capability": {
-    "name": "Production Risk Models",
-    "definition": "This capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations.",
-    "role": "Develop and refine production risk models to detect possible exposures to procedural failures",
-    "example": "Financial engineers respond to an analysis of production issues and develop/refine their production risk models to better detect the root cause",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "",
-    "key_features": [
+  "domain": {
+    "name": "Risk Management",
+    "area": "Enterprise Management and Controlling",
+    "knowhow": [
       {
-        "name": "Development of production risk models",
-        "description": "Enables development of production risk models to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Refinement of existing risk models",
-        "description": "Enables refinement of existing risk models to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Detection of procedural failure exposures",
-        "description": "Enables detection of procedural failure exposures to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Root cause analysis capabilities",
-        "description": "Enables root cause analysis capabilities to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Individual and portfolio analytics",
-        "description": "Enables individual and portfolio analytics to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Performance analysis and trending",
-        "description": "Enables performance analysis and trending to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Production Risk Models",
+      "definition": "This capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations.",
+      "role": "Develop and refine production risk models to detect possible exposures to procedural failures",
+      "example": "Financial engineers respond to an analysis of production issues and develop/refine their production risk models to better detect the root cause",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "",
+      "key_features": [
+        {
+          "name": "Development of production risk models",
+          "description": "Enables development of production risk models to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Refinement of existing risk models",
+          "description": "Enables refinement of existing risk models to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Detection of procedural failure exposures",
+          "description": "Enables detection of procedural failure exposures to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Root cause analysis capabilities",
+          "description": "Enables root cause analysis capabilities to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Individual and portfolio analytics",
+          "description": "Enables individual and portfolio analytics to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Performance analysis and trending",
+          "description": "Enables performance analysis and trending to support this capability focuses on developing and refining production risk models to identify and detect potential exposures to procedural failures in business operations",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [
+        {
+          "name": "Production Risk Model Specification",
+          "description": "",
+          "integration_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "topic_name": "",
+              "integration_type": "Kafka | Event Stream | Batch",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }

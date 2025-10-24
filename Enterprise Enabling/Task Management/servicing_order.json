@@ -1,49 +1,135 @@
 {
-  "division": "Enterprise Enabling",
-  "domain": "Task Management",
-  "capability": {
-    "name": "Servicing Order",
-    "definition": "This service domain handles the processing of a customer servicing request as a predefined procedure. A range of standard servicing requests can be supported. The process can include a check of permissions when the request is made by a third party/service provider",
-    "role": "The Servicing Order service domain handles the processing of a request that may impact multiple products and services and may involve processing cycles/steps and possibly have associated fees/charges. There can be several types of standard 'servicing order' defined for selection as appropriate. A servicing order can be initiated by a customer directly or may be requested on their behalf by an authorized third party service provider. If the request is made by a third party service provider on behalf of a customer the process can include a check that the associated permissions/mandates are in place",
-    "example": "A customer changes address and requests that all of their product and service arrangements are updated",
-    "status": "Inactive",
-    "pattern": {},
-    "core_systems": [],
-    "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/ServicingOrder/12.0.0",
-    "key_features": [
+  "domain": {
+    "name": "Task Management",
+    "area": "Enterprise Enabling",
+    "knowhow": [
       {
-        "name": "Support the selection of predefined servicing order",
-        "description": "Enables support the selection of predefined servicing order to support this service domain handles the processing of a customer servicing request as a predefined procedure",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Confirm the associated permissions/mandates are in place",
-        "description": "Enables confirm the associated permissions/mandates are in place to support this service domain handles the processing of a customer servicing request as a predefined procedure",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Orchestrate the work steps/tasks in the servicing order",
-        "description": "Enables orchestrate the work steps/tasks in the servicing order to support this service domain handles the processing of a customer servicing request as a predefined procedure",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
-      },
-      {
-        "name": "Track and report on servicing order activities",
-        "description": "Enables track and report on servicing order activities to support this service domain handles the processing of a customer servicing request as a predefined procedure",
-        "type": "Manual",
-        "mode": "Active",
-        "it_mappings": []
+        "fact_id": "",
+        "title": "",
+        "description": "",
+        "related_to": "",
+        "category": ""
       }
     ],
-    "business_objects": [],
-    "process_links": [],
-    "impact_analysis": {
-      "note": ""
+    "capability": {
+      "name": "Servicing Order",
+      "definition": "This service domain handles the processing of a customer servicing request as a predefined procedure. A range of standard servicing requests can be supported. The process can include a check of permissions when the request is made by a third party/service provider",
+      "role": "The Servicing Order service domain handles the processing of a request that may impact multiple products and services and may involve processing cycles/steps and possibly have associated fees/charges. There can be several types of standard 'servicing order' defined for selection as appropriate. A servicing order can be initiated by a customer directly or may be requested on their behalf by an authorized third party service provider. If the request is made by a third party service provider on behalf of a customer the process can include a check that the associated permissions/mandates are in place",
+      "example": "A customer changes address and requests that all of their product and service arrangements are updated",
+      "status": "Inactive",
+      "pattern": {},
+      "core_systems": [],
+      "api_bian_link": "https://app.swaggerhub.com/apis/BIAN-3/ServicingOrder/12.0.0",
+      "key_features": [
+        {
+          "name": "Support the selection of predefined servicing order",
+          "description": "Enables support the selection of predefined servicing order to support this service domain handles the processing of a customer servicing request as a predefined procedure",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Confirm the associated permissions/mandates are in place",
+          "description": "Enables confirm the associated permissions/mandates are in place to support this service domain handles the processing of a customer servicing request as a predefined procedure",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Orchestrate the work steps/tasks in the servicing order",
+          "description": "Enables orchestrate the work steps/tasks in the servicing order to support this service domain handles the processing of a customer servicing request as a predefined procedure",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Track and report on servicing order activities",
+          "description": "Enables track and report on servicing order activities to support this service domain handles the processing of a customer servicing request as a predefined procedure",
+          "type": "Implemented",
+          "mode": "Active",
+          "it_mappings": [
+            {
+              "provider_system": "",
+              "consumer_systems": [
+                ""
+              ],
+              "api_function": "",
+              "integration_type": "REST | GraphQL | SOAP | Event | Batch",
+              "data_object": "",
+              "implementation_status": "Active | Passive | Deprecated",
+              "attributes": [
+                {
+                  "name": "",
+                  "meaning": ""
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "business_objects": [],
+      "process_links": [
+        {
+          "process_name": "",
+          "execution_mode": "Manual | Semi-Automated | Automated",
+          "step_order": 0,
+          "avg_duration_sec": 0
+        }
+      ],
+      "impact_analysis": {
+        "note": ""
+      }
     }
   }
 }
